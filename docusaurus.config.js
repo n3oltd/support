@@ -133,6 +133,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: '2RALWS9ZRW',
+        indexName: 'docusaurus',
+        apiKey: 'bbdf883eeb031be77d78ae03ab19942e'
+      }
     }),
 };
 
