@@ -4,7 +4,7 @@
   <ShortName>N3O Support</ShortName>
   <Description>Search N3O Support</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://support.n3o.ltd/img/favicon.ico</Image>
+  <Image width="16" height="16" type="image/x-icon">https://support.n3o.ltd/favicon.ico</Image>
   <Url type="text/html" method="get" template="https://support.n3o.ltd/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://support.n3o.ltd/opensearch.xml" />
   <moz:SearchForm>https://support.n3o.ltd/</moz:SearchForm>
