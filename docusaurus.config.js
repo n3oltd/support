@@ -7,49 +7,38 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'N3O Support',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
+  tagline: "We're here to help",
+  favicon: 'favicon.ico',
   url: 'https://support.n3o.ltd',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'n3oltd', // Usually your GitHub org/user name.
-  projectName: 'support', // Usually your repo name.
-
+  organizationName: 'n3oltd',
+  projectName: 'support',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'guides',
+          routeBasePath: 'guides',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/n3oltd/support/tree/main/guides/',
         },
         blog: {
+          path: 'release-notes',
+          routeBasePath: 'release-notes',
+          blogTitle: 'Release Notes',
+          blogDescription: 'Release notes',
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/n3oltd/support/tree/main/release-notes/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,22 +53,34 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'N3O Support',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'N3O',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'guidesSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guides',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/videos', label: 'Videos', position: 'left'},
+          {to: '/release-notes', label: 'Release Notes', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://status.n3o.ltd',
+            label: 'System Status',
+            position: 'left',
+          },
+          {
+            href: 'https://app.loopedin.io/n3o',
+            label: 'N3O Loop',
+            position: 'left',
+          },
+          {to: '/contact-us', label: 'Contact Us', position: 'left'},
+          {
+            href: 'https://n3o.cloud',
+            label: 'N3O Cloud',
             position: 'right',
           },
         ],
@@ -88,28 +89,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Guides',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Getting Started',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Engage',
+                to: '/docs/intro',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Websites',
+                to: '/docs/intro',
               },
             ],
           },
@@ -117,17 +109,51 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Release Notes',
+                to: '/release-notes',
+              },
+              {
+                label: 'Roadmap & Ideas Board',
+                href: 'https://app.loopedin.io/n3o',
+              },
+              {
+                label: 'System Status',
+                href: 'https://status.n3o.ltd',
+              },
+            ],
+          },
+          {
+            title: 'Contact Us',
+            items: [
+              {
+                label: 'Get In Touch',
+                href: '/contact-us',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'N3O Cloud Login',
+                to: 'https://n3o.cloud/',
+              },
+              {
+                label: 'N3O Website',
+                to: 'https://n3o.ltd/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/n3oltd',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} N3O. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -139,6 +165,19 @@ const config = {
         apiKey: 'bbdf883eeb031be77d78ae03ab19942e'
       }
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-ideal-image',
+        {
+          quality: 70,
+          max: 1030,
+          min: 640,
+          steps: 2,
+          disableInDev: false,
+        },
+      ],
+    ]
 };
 
 module.exports = config;
