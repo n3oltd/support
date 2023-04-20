@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Guides',
     buttonText: 'Browse Guides',
     buttonColor: '#EB3569',
-    buttonUrl: '/docs/intro',
+    buttonUrl: '/guides/intro',
     Svg: guides,
     description: (
       <>

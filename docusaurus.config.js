@@ -93,15 +93,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/guides/intro',
               },
               {
                 label: 'Engage',
-                to: '/docs/intro',
+                to: '/guides/intro',
               },
               {
                 label: 'Websites',
-                to: '/docs/intro',
+                to: '/guides/intro',
               },
             ],
           },
