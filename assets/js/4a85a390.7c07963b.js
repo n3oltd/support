@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[878],{5837:e=>{e.exports=JSON.parse('{"label":"tally","permalink":"/release-notes/tags/tally","allTagsPath":"/release-notes/tags","count":1}')}}]);

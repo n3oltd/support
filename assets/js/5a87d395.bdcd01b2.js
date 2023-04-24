@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[815],{9986:e=>{e.exports=JSON.parse('{"permalink":"/release-notes/tags/forms","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Release notes","blogTitle":"Release Notes"}')}}]);
