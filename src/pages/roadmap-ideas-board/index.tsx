@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 
 const style = {
-    "minHeight" : "100vh"
-}
+  "minHeight" : "100vh"
+};
 
 export default function Content(): JSX.Element {
     return (
