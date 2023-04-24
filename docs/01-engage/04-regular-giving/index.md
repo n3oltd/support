@@ -1,6 +1,6 @@
 ---
-title: Introduction
-sidebar_position: 1
+title: Regular Giving
+sidebar_position: 4
 ---
 
 Migration in progress
