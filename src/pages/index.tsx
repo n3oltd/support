@@ -27,7 +27,7 @@ export default function Home(): JSX.Element {
             description="We're here to help">
             <HomepageHeader/>
             <main>
-                <div className="row margin-top--lg">
+                <div className="margin-top--lg">
                     <div className="col col--6 col--offset-3">
                         <div className="alert alert--info" role="alert">
                             Welcome to the <strong>brand new N3O support site</strong>. Our team are still busy migrating
