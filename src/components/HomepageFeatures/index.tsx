@@ -4,7 +4,7 @@ import Image from '@theme/IdealImage';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import docs from './docs.svg';
-import videos from './videos.svg';
+import videoTutorials from './video-tutorials.svg';
 import releaseNotes from './product-updates.svg';
 import systemStatus from './system-status.svg';
 import loop from './loop.svg';
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
         title: 'Documentation',
         buttonText: 'Browse Topics',
         buttonColor: '#EB3569',
-        buttonUrl: '/docs/intro',
+        buttonUrl: '/docs',
         Svg: docs,
         description: (
             <>
@@ -33,11 +33,11 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Videos ',
+        title: 'Video Tutorials ',
         buttonText: 'Watch Videos',
         buttonColor: '#2196F3',
-        buttonUrl: '/videos',
-        Svg: videos,
+        buttonUrl: '/video-tutorials',
+        Svg: videoTutorials,
         description: (
             <>
                 Watch and learn with our free video tutorials available on YouTube.

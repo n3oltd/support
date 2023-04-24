@@ -24,10 +24,9 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
-                    id: 'help',
-                    path: 'help',
-                    routeBasePath: 'help',
-                    sidebarPath: require.resolve('./help-sidebars.js'),
+                    path: 'docs',
+                    routeBasePath: 'docs',
+                    sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/n3oltd/support/tree/main/'
                 },
                 blog: {
@@ -63,21 +62,13 @@ const config = {
                 items: [
                     {
                         type: 'docSidebar',
-                        sidebarId: 'helpSidebar',
+                        sidebarId: 'docsSidebar',
                         position: 'left',
-                        label: 'Help',
-                        docsPluginId: 'help',
+                        label: 'Documentation'
                     },
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'guidesSidebar',
-                        position: 'left',
-                        label: 'Guides',
-                        docsPluginId: 'guides',
-                    },
-                    {
-                        to: '/videos',
-                        label: 'Videos',
+                        to: '/video-tutorials',
+                        label: 'Video Tutorials',
                         position: 'left'
                     },
                     {
@@ -113,8 +104,8 @@ const config = {
                                 to: '/docs',
                             },
                             {
-                                label: 'Videos',
-                                to: '/videos',
+                                label: 'Video Tutorials',
+                                to: '/video-tutorials',
                             },
                             {
                                 label: 'Contact Us',
