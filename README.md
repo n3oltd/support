@@ -1,41 +1,23 @@
-# Website
+# N3O Support Centre
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Deploy to GitHub Pages](https://github.com/n3oltd/support/actions/workflows/deploy.yml/badge.svg)](https://github.com/n3oltd/support/actions/workflows/deploy.yml)
+[![License](https://img.shields.io/github/license/n3oltd/N3O.Umbraco)](LICENSE.md)
 
-### Installation
+This repo contains the source code and content for the [N3O Support Centre](https://support.n3o.ltd/).
 
-```
-$ yarn
-```
+## Contributing
 
-### Local Development
+We gladly welcome contributions to improve the support centre. You can contribute by improving or editing documentation directly and creating a pull request, or open an issue if you'd like to suggest an improvement.
 
-```
-$ yarn start
-```
+## Thanks
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- [Docusaurus](https://docusaurus.io/)
+- [GitHub Pages](https://pages.github.com/)
 
-### Build
+## Questions & Support
 
-```
-$ yarn build
-```
+For questions and support please visit the [N3O Support Centre](https://support.n3o.ltd/).
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## License
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+All code and content is licensed under the [MIT](LICENSE.md) license unless otherwise specified.

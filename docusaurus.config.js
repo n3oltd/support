@@ -48,8 +48,6 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            // Replace with your project's social card
-            image: 'img/docusaurus-social-card.jpg',
             docs: {
                 sidebar: {
                     autoCollapseCategories: true,
@@ -181,16 +179,6 @@ const config = {
         }),
 
     plugins: [
-        [
-            '@docusaurus/plugin-content-docs',
-            {
-                id: 'guides',
-                path: 'guides',
-                routeBasePath: 'guides',
-                sidebarPath: require.resolve('./guides-sidebars.js'),
-                editUrl: 'https://github.com/n3oltd/support/tree/main/'
-            }
-        ],
         [
             '@docusaurus/plugin-ideal-image',
             {
