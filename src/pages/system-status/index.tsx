@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-export default function Videos(): JSX.Element {
+export default function Content(): JSX.Element {
     return (
         <Layout
             title="System Status"
