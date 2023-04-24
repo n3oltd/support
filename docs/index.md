@@ -51,35 +51,35 @@ Aimed at advanced users, our system guides help you configure and maintain your 
    <article class="col col--6 margin-bottom--lg">
       <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/category/administrators">
          <h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Administrators">🔧️ Administrators</h2>
-         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...">Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...</p>
+         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Documentation aimed at system administrators">Documentation aimed at system administrators</p>
       </a>
    </article>
 
    <article class="col col--6 margin-bottom--lg">
       <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/category/developers--designers">
          <h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Developers & Designers">📄️ Developers & Designers</h2>
-         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Docusaurus supports Markdown and a few additional features.">Docusaurus supports Markdown and a few additional features.</p>
+         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Technical specifics and in-depth guides">Technical specifics and in-depth guides</p>
       </a>
    </article>
 
    <article class="col col--6 margin-bottom--lg">
       <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/category/integration-guides">
          <h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Integration Guides">🧭️ Integration Guides</h2>
-         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Documents are groups of pages connected through:">Documents are groups of pages connected through:</p>
+         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Guides covering the integration of third party platforms">Guides covering the integration of third party platforms</p>
       </a>
    </article>
 
    <article class="col col--6 margin-bottom--lg">
       <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/category/best-practices">
          <h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Best Practices">🛟️ Best Practices</h2>
-         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Add Markdown or React files to src/pages to create a standalone page:">Add Markdown or React files to src/pages to create a standalone page:</p>
+         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Our recommendations for getting the most from the platform">Our recommendations for getting the most from the platform</p>
       </a>
    </article>
 
    <article class="col col--6 margin-bottom--lg">
       <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/category/migrating-to-n3o">
          <h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Deploy your site">🧳 Migrating to N3O</h2>
-         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Docusaurus is a static-site-generator (also called Jamstack).">Docusaurus is a static-site-generator (also called Jamstack).</p>
+         <p class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" title="Guidance on bringing existing data across">Guidance on bringing existing data across</p>
       </a>
    </article>
 </section>
