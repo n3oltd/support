@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Main Branch CI
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  job1:
+    name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build website
+      - name: Build
         run: yarn build
 
       - name: Deploy to GitHub Pages
@@ -36,12 +36,12 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Sleep for 60 seconds
-        run: sleep 60s
+#      - name: Sleep for 60 seconds
+#        run: sleep 60s
 
-      - name: Push indices to Algolia
-        uses: signcl/docsearch-scraper-action@master
-        env:
-          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          CONFIG: ${{ steps.algolia_config.outputs.config }}
+#      - name: Run Algolia scraper
+#        uses: signcl/docsearch-scraper-action@master
+#        env:
+#          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+#          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+#          CONFIG: ${{ steps.algolia_config.outputs.config }}
