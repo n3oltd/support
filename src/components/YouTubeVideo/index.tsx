@@ -21,13 +21,13 @@ const VideoPlayer = ({ videoId, apiKey }) => {
                     const description = video.snippet.description;
 
                     // Extract timestamps from the video description
-                    const timestampRegex = /(\d{1,2}):(\d{2})/g;
+                    const timestampRegex = /(\d{1,2}):(\d{2}) - .*/g;
                     const extractedTimestamps = description.match(timestampRegex);
 
                     if (extractedTimestamps) {
                         // Convert timestamps to an array of objects with time and label
                         const formattedTimestamps = extractedTimestamps.map((timestamp) => {
-                            const [minutes, seconds] = timestamp.split(':');
+                            const [minutes, seconds] = timestamp.split(' ')[0].split(':');
                             return {
                                 time: parseInt(minutes, 10) * 60 + parseInt(seconds, 10),
                                 label: timestamp,
