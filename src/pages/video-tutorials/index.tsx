@@ -2,8 +2,13 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import YouTubePlaylist from "@codesweetly/react-youtube-playlist";
 import Link from "@docusaurus/Link";
+import VideoPlayer from '../../components/YouTubeVideo/index'
 
 export default function Content(): JSX.Element {
+    
+    const VideoId = 'jC9l2mhQnVw';
+    const ApiKey = 'AIzaSyArOkt18m34mq51xDzTcDqduiXdKnxfvew';
+    
   return (
     <Layout
       title="Videos"
@@ -16,6 +21,11 @@ export default function Content(): JSX.Element {
                     apiKey="AIzaSyArOkt18m34mq51xDzTcDqduiXdKnxfvew"
                     playlistId="PLECYHpJjW4jD4BCwdyT67Xk72H9v-HhLp"
                     uniqueName="videos"
+                />
+                <h2>Getting Started with Timestamps</h2>
+                <VideoPlayer 
+                    apiKey= {ApiKey}
+                    videoId={VideoId}
                 />
             </div>
         </div>
