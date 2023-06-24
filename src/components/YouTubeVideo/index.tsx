@@ -4,8 +4,7 @@ import axios from 'axios';
 import '../../css/custom.css';
 
 const VideoPlayer = ({ videoId, apiKey }) => {
-    const [timestamps, setTimestamps] = useState([]);
-
+    const [timestamps, setTimestamps] = useState([]);    
     const playerRef = useRef(null);
     
     useEffect(() => {
@@ -25,7 +24,7 @@ const VideoPlayer = ({ videoId, apiKey }) => {
                     const timestampRegex = /(\d{1,2}):(\d{2}) - .*/g;
                     const extractedTimestamps = description.match(timestampRegex);
 
-                    if (extractedTimestamps) {
+                    if (extractedTimestamps) {                        
                         // Convert timestamps to an array of objects with time and label
                         const formattedTimestamps = extractedTimestamps.map((timestamp) => {
                             const [minutes, seconds] = timestamp.split(' ')[0].split(':');
@@ -62,16 +61,18 @@ const VideoPlayer = ({ videoId, apiKey }) => {
 
     return (
         <div>
-            <YouTube
-                id="youtube-player"
-                videoId={videoId}
-                opts={{
-                    height: '390',
-                    width: '700',
-                }}
-                ref={playerRef}
-            />
-
+            <div>
+                <YouTube
+                    id="youtube-player"
+                    videoId={videoId}
+                    opts={{
+                        height: '460px',
+                        width: '100%',
+                    }}
+                    ref={playerRef}
+                />    
+            </div>
+            { timestamps.length > 0 ? (<h3>Timestamps:</h3>) : "" }            
             <ul>
                 {timestamps.map((timestamp, index) => (
                     <li key={index}>
@@ -81,6 +82,7 @@ const VideoPlayer = ({ videoId, apiKey }) => {
                     </li>
                 ))}
             </ul>
+            <br/>
         </div>
     );
 };
