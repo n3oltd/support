@@ -22,7 +22,7 @@ export default function Content(): JSX.Element {
                     playlistId="PLECYHpJjW4jD4BCwdyT67Xk72H9v-HhLp"
                     uniqueName="videos"
                 />
-                <h2>Getting Started with Timestamps</h2>
+                <h2>Engage CRM - Overview video</h2>
                 <VideoPlayer 
                     apiKey= {ApiKey}
                     videoId={VideoId}

@@ -50,3 +50,24 @@
 .cardDescription {
   font-size: .8rem
 }
+
+.buttonTimestamp {
+  background-color: #EB3569;
+
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.buttonTimestamp:hover {
+  background-color: #B7831C;
+}

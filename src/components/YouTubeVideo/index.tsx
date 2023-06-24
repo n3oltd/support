@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import YouTube from 'react-youtube';
 import axios from 'axios';
+import '../../css/custom.css';
 
 const VideoPlayer = ({ videoId, apiKey }) => {
     const [timestamps, setTimestamps] = useState([]);
@@ -66,7 +67,7 @@ const VideoPlayer = ({ videoId, apiKey }) => {
                 videoId={videoId}
                 opts={{
                     height: '390',
-                    width: '640',
+                    width: '700',
                 }}
                 ref={playerRef}
             />
@@ -74,7 +75,7 @@ const VideoPlayer = ({ videoId, apiKey }) => {
             <ul>
                 {timestamps.map((timestamp, index) => (
                     <li key={index}>
-                        <button onClick={() => handleTimestampClick(timestamp)}>
+                        <button className="buttonTimestamp" onClick={() => handleTimestampClick(timestamp)}>
                             {timestamp.label} 
                         </button>
                     </li>
