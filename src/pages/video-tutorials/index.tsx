@@ -39,6 +39,12 @@ export default function Content(): JSX.Element {
                         apiKey= {ApiKey}
                         videoId="V2EJbGnBkCI"
                     />
+
+                    <h2>Walkthrough - Accounts management</h2>
+                    <VideoPlayer
+                        apiKey= {ApiKey}
+                        videoId="Bu1O_fzjL98"
+                    />
                 </div>
             </div>
     
