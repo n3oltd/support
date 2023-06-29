@@ -10,11 +10,11 @@ export default function Content(): JSX.Element {
       description="N3O training videos">
         <div className="row margin-top--lg">
             <div className="col col--6 col--offset-3">
-                <h2>Getting Started</h2>
+                <h2>Walkthroughs</h2>
 
                 <YouTubePlaylist
                     apiKey="AIzaSyArOkt18m34mq51xDzTcDqduiXdKnxfvew"
-                    playlistId="PLECYHpJjW4jD4BCwdyT67Xk72H9v-HhLp"
+                    playlistId="PLECYHpJjW4jBuKnnYGrmWLb1lY4tbEmLr"
                     uniqueName="videos"
                 />
             </div>
