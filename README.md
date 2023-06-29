@@ -1,6 +1,6 @@
 # N3O Support Centre
 
-[![Deploy to GitHub Pages](https://github.com/n3oltd/support/actions/workflows/deploy.yml/badge.svg)](https://github.com/n3oltd/support/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/n3oltd/support/actions/workflows/main-ci.yml/badge.svg)](https://github.com/n3oltd/support/actions/workflows/main-ci.yml)
 [![License](https://img.shields.io/github/license/n3oltd/N3O.Umbraco)](LICENSE.md)
 
 This repo contains the source code and content for the [N3O Support Centre](https://support.n3o.ltd/).
