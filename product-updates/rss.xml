@@ -4,17 +4,19 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Fri, 30 Jun 2023 12:27:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jun 2023 22:10:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[April 2023 Update]]></title>
-            <link>https://support.n3o.ltd/product-updates/2023-04-update</link>
-            <guid>https://support.n3o.ltd/product-updates/2023-04-update</guid>
-            <pubDate>Fri, 30 Jun 2023 12:27:27 GMT</pubDate>
-            <description><![CDATA[We are please to announce the new release of Engage, Tally and Forms.]]></description>
-            <content:encoded><![CDATA[<p>We are please to announce the new release of Engage, Tally and Forms.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2>]]></content:encoded>
+            <title><![CDATA[July 2023 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2023-07-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2023-07-update</guid>
+            <pubDate>Fri, 30 Jun 2023 22:10:27 GMT</pubDate>
+            <description><![CDATA[We are pleased to announce the latest updates on Engage, Tally and Forms.]]></description>
+            <content:encoded><![CDATA[<p>We are pleased to announce the latest updates on Engage, Tally and Forms.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Reserve beneficiaries on Umbraco</li><li>View sponsorship annual report from Engage</li><li>Import pictures (jpegs) in bulk into Umbraco</li><li>Grace period for sponsorships increased to 60 days for some clients
+</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Default beneficiary stuck during new sponsorship selection</li><li>Fixed: Timeout of annual report PDF downloads</li><li>Fixed: Beneficiaries published on Umbraco not populating on Engage</li><li>Fixed: Transform rules error for some clients</li><li>Fixed: List XLS/ CSV files not opening
+</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>New Feature: Call Centre.</li><li>New Feature: Deactivate beneficaries with unpublish reasons</li></ul>]]></content:encoded>
             <category>update</category>
             <category>engage</category>
             <category>tally</category>
