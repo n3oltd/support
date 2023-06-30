@@ -155,7 +155,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} N3O. All rights reserved.`,
+                copyright: `Copyright ${new Date().getFullYear()} N3O. All rights reserved.`,
             },
             prism: {
                 theme: lightCodeTheme,
