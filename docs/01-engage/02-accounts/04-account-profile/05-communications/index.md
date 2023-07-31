@@ -1,6 +1,6 @@
 ---
 title: View Communications in an Account's Profile
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 An account owner can view all the communication methods that they used in the form of a list in their respective profile. Select *Communications* from the profile menu and view the results on the right-hand side. Each communication has:

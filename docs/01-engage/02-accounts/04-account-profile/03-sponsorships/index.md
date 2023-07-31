@@ -1,6 +1,6 @@
 ---
 title: View Collective Sponsorships in an Account's Profile
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 An account owner can view all the sponsorships sponsored collectively in their account profile. Simply, select **Sponsorships** from the profile menu and get started!

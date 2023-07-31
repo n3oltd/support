@@ -1,6 +1,6 @@
 ---
 title: Attachments
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 In the context of charity funding, an attachment may refer to a digital file, such as a document, image, video, or any other electronic media, that is added or included along with a donation or funding submission to a charity organization. Individuals or organizations might be required to submit additional supporting documents to complete the funding process. 

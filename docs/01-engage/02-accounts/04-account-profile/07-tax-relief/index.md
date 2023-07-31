@@ -1,6 +1,6 @@
 ---
 title: Tax Relief
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 Migration in progress

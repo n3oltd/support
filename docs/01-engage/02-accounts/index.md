@@ -1,5 +1,5 @@
 ---
-title: Accounts
-sidebar_position: 2
+title: Accounts Section
+sidebar_position: 1
 ---
 

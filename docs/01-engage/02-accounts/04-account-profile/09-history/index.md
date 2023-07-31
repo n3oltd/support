@@ -1,6 +1,6 @@
 ---
 title: View History of Account
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 In ENGAGE, you can view the history of your account in the account's profile page. History here, basically means all the previous actions that have been taken on a certain account. Search for any account via any search method(link) and click on *History* in the profile menu.

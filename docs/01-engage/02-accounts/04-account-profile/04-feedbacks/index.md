@@ -1,6 +1,6 @@
 ---
 title: View Feedbacks in an Account's Profile
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 An account owner can view all the records of feedbacks made throughout in the form of a list in their profile via the **Feedbacks** option. 

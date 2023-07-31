@@ -1,6 +1,6 @@
 ---
 title: View Giving in an Account's Profile
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 To view all the donations and pledges made by the account, simply click on the **Giving** section in the profile menu. To read more about donations and givings, go to the Donations Documentation(link).
