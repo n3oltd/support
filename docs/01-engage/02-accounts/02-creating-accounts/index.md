@@ -86,8 +86,9 @@ You can select two categories at one time by using the **Opt-In** and **Opt-Out*
 
 ## Create an Organizational Account
 
-> **Important**
-> **Gift Aid** is not eligible for an organizational account.
+:::note Important
+**Gift Aid** is not eligible for an organizational account.
+:::
 
 To create an individual account, click **organization** on the toggle in the right-hand side.
 
