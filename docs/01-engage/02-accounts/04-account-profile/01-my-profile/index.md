@@ -77,5 +77,5 @@ The **gift aid** section shows the eligibility status of the account owner which
 
 ## Tasks Bar
 
-The end of the profile screen depicts a task bar section, that shows a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. Each task contains a name and date and can be illustrated in detail via clicking on the task itself.
+The end of the profile screen depicts a task bar section, that shows a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. Each task contains a name and date and can be illustrated in detail via clicking on the task itself. To learn more, go to the Tasks Section().
 

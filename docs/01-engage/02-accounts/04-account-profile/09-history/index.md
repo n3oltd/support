@@ -16,11 +16,11 @@ The *History* page shows certain sections that are:
 
 ## Created By
 
-This section shows the **name** of the account owner i.e. the one who originally made the account. 
+This section shows the **name** of the user i.e. the one who originally made the account. 
 
 ## Last Modified By
 
-This information box indicates the **last current change** made by another account owner on this particular account. For example donor B made a change in donor A's account.
+This information box indicates the **last current change** made by another account owner (user) on a particular account. For example donor B made a change in donor A's account.
 
 ## Total Changes Made
 
@@ -30,7 +30,7 @@ This section depicts the **total number of changes** made by various account own
 
 This section shows a list of all the changes made by different account owners on a certain account. The list includes three headings:
 
-1. **Modified By:** The name of the account modifier who made the change.
+1. **Modified By:** The name of the user who made the change.
 2. **Date:** The date when the change was made.
 3. **Changes:** The total number of changes made.
 
