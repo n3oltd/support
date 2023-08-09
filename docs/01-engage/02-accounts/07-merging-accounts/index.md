@@ -3,11 +3,11 @@ title: Merging Accounts
 sidebar_position: 7
 ---
 
-Whenever two records are identical and serve a common purpose, it is likely to merge them together. For example, a donor has donated a certain sum via the website with two different addresses, hence making two different accounts. Therefore, ENGAGE merges such accounts altogether that are found as having duplicate entries. It allows you to preserve the account that is *merged into* and remove the account that is *merged from*.
+Whenever two records are identical and serve a common purpose, it is likely to merge them together. For example, a donor has donated a certain sum via the website with two different addresses, hence making two different accounts. Therefore, Engage merges such accounts altogether that are found as having duplicate entries. This allows to preserve the account that is *merged into* and remove the account that is *merged from*.
 
 ## Merging Duplicate Accounts
 
-1. From the [ENGAGE dashboard](https://beta.n3o.cloud/eu1/engage/dashboard), use any search method and choose the account you wish to merge from.
+1. From the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, use any search method and choose the account you wish to merge from.
 
 ![Search Account Video](../01-searching-accounts/search-account-video.gif)
 

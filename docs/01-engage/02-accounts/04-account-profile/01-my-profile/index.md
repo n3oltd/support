@@ -3,9 +3,9 @@ title: My Profile
 sidebar_position: 1
 ---
 
-A profile page is a section or webpage that provides information about an individual or entity. It serves as a summary or snapshot of someone's identity, background, or characteristics. Profile pages are commonly found on social media platforms, professional networking websites, forums, and other online platforms including charity funding.
+A profile page is a section or webpage that provides information about an individual or entity. It serves as a summary or snapshot of someone's identity, background, or characteristics. Profile pages are commonly found on social media platforms, professional networking websites, and other online platforms including charity funding.
 
-In **ENGAGE**, whenever a user makes an account, their profile is made on the basis of the information they want to share to other team member accounts. This profile is managed solely by the account user themselves and contains several parts including:
+In Engage, whenever a user makes an account, their profile is made on the basis of the information they added. This profile is managed solely by the account user themselves and contains several parts including:
 
 - Quick Insights
 - Name
@@ -77,5 +77,5 @@ The **gift aid** section shows the eligibility status of the account owner which
 
 ## Tasks Bar
 
-The end of the profile screen depicts a task bar section, that shows a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. Each task contains a name and date and can be illustrated in detail via clicking on the task itself. To learn more, go to the Tasks Section().
+The end of the profile screen depicts a task bar section, that shows a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. Each task contains a name and date and can be illustrated in detail via clicking on the task itself. To learn more, go to the Tasks Section(link).
 

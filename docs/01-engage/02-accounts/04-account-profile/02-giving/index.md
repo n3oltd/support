@@ -18,7 +18,7 @@ This section gives details about all the regular giving donation plans that the 
 5. Account owners name along with the payment method
 6. Date of previous and next donations to be made
 
-You can edit this information via the **blue pen icon** in the top corner. Update any donation type's *credentials*, *commitment* or *allocations* respectively and *Save Changes*. You can also view a *donations record list* for each type. 
+You can edit this information via the **pen icon** in the top corner. Update any donation type's *credentials*, *commitment* or *allocations* respectively and *Save Changes*. You can also view a *donations record list* for each type. 
 
 ## Pledges
 
@@ -30,7 +30,7 @@ This section gives information about all the pledges an account owner created. Y
 
 ![Pledge Information](./pledge-info.png)
 
-You can view and edit any pledge's information via the **blue pen icon** in the top corner. Update a pledge's *name, date and allocations* respectively and **Update**. You can view the *balance allocated and ledger list* also.
+You can view and edit any pledge's information via the **pen icon** in the top corner. Update a pledge's *name, date and allocations* respectively and **Update**. You can view the *balance allocated and ledger list* also.
 
 Similarly, you can donate more to this pledge via **Donate to this Pledge** option. For more detail, view the Enter Donation documentation(link). Also, you can perform other functions via the **three(...) dots** option like:
 

@@ -3,54 +3,65 @@ title: Searching Accounts
 sidebar_position: 1
 ---
 
-ENGAGE allows you to search for multiple pieces of complete information for accounts, sponsorships, and donations etc via two methods.
+Searching for accounts is one of the most common actions in a CRM. **Engage** makes this quite easier via:
 
-- **Global Search** 
-- **Advanced Search**
+- A **quick search box** available in the header at all times allowing you to quickly search for an account by *reference, name, address, email and telephone number*.
 
-Let's have a look on how to search for a particular account already made by an individual or organization using these methods.
+- A dedicated **advanced search screen** for advanced searches, such as recently modified accounts or with more complex criteria.
+
+Let's have a look at how to search for existing accounts irrespective of whether they are individual or organization.
 
 ## Using Global Search
 
-1. On the [ENGAGE dashboard](https://beta.n3o.cloud/eu1/engage/dashboard), click the *Quick Search* bar on the top.
+1. On the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, click the **quick search box** in the header. If the search scope is not already set to **Accounts**, change this from the dropdown on the right.
 
-![Quick Search](./search-account-quick.png)
+![Search Account Video](search-account-video.gif)
 
-2. Select your type of search from the drop-down, in this case *Accounts*.
+2. Input the search query and select the desired search result. For example, type the reference of an account.
 
-![Search Drop down](./search-account-dropdown.png)
+To search more with different options, look at the table below. 
 
-3. Input the search query. For example, type the reference of any individual account. You can skip the *AC prefix* in the reference number while searching. Select the desired search result and begin using the account.  
+| Search Type | Search Description |
+| ----------- | ------------------ |
+| Reference | You can either search by the primary reference assigned to the account or any secondary references (from merging or importing accounts) for e.g. skipping the *AC prefix* in the reference number. |
+| Name | You can search via the *first name, last name* or the *full name*. Including the *title* while searching is not necessary. | 
+| Telephone | You can search without the country code for e.g. telephone numbers like *+44777712398* can be searched with *0777712398*.  |
+| Email | You can search with the full email address. |
 
-:::note
-You can also use secondary references like *name, email, phone and address* of an account. 
+:::note Important
+- By default, quick search allows 1 or 2 characters to be different, and they still match (similar matching). This helps with spelling variants like "Muhammad" vs "Mohammad". 
+- If no results are found for a certain search input, it could be because the account does not exist, you may have searched by email and the account doesn't have that email, or the person might have moved. Try searching for other information, or ask account for previous address etc. before proceeding to create.
 :::
-
-![Search Account Video](./search-account-video.gif)
-
 
 ## Using Advanced Search
 
-The advanced search function is a detailed search option which allows you to search for any data through certain input parameters respective to each type. You can search for accounts that are recently updated or any specific account via a certain parameter among those having similar names.     
+The advanced search function is a detailed search option which gives you the leverage to search for any specific type of account. You can search for accounts that are last updated or any specific first or last name of an account. Also, you can search for accounts having similar names through other parameters like "date of account creation" or "account email". 
 
-1. On the [ENGAGE dashboard](https://beta.n3o.cloud/eu1/engage/dashboard), click the **Search** button next to **Create**. Choose any data you wish to search for, in this case, **Accounts**.
+The advanced search screen is made up of a **Filters** panel on the left which you can collapse, and a **results** panel on the right.
 
-![Search Advanced](./search-account-advanced-1.png)
+1. On the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, click the **Search** button next to **Create**. Choose the type of search you wish to perform, in this case, **Accounts**.
 
-2. The **Search Accounts** screen will display a list of all the accounts saved in ENGAGE and a search **Filters** section.
+![Search Advanced GIF](search-account-advanced-video.gif)
 
-![Accounts List](./search-account-list.png)
-
-3. In the **Filters** section, you can modify the search by specifying input parameters accordingly. For example, click the **+** icon next to *Account*. You will see a list of parameters including: 
+2. In the **Filters** panel, you can modify the search by specifying input parameters accordingly. For example, click the **+** icon next to *Account*. You will see a list of parameters including: 
 
     1. **Account Type:** Choose the account type.
-    2. **Name:** Input the account holders name.
+    2. **Name:** Input the account holders name. This appears specific to the account type chosen.
     3. **Account Status:** Select the account status. 
 
-        ![Search Advanced](./search-account-advanced-4.png)
+        ![Search Advanced](search-account-advanced-4.png)
 
-    Similarly, you can perform the same actions for **Contact** (email or phone), **Address** (address line, country, postal code, locality) and **Created/Updated** (dates). 
+    Similarly, you can perform the same actions for **Contact** (email or phone), **Address** (address line, country, postal code, locality) and **Created/Updated** (dates). For the *Created At* option, you can specify only the *From Date* or the *To Date* and do not need to specify both. For example, *From Date: 1 hour ago* with *To Date: nothing* would show accounts created in the last hour only. 
 
-4. Click the **Search** button and the results will appear on the right. Now select the account you were looking for. If you wish to remove the search input for all parameters and start all over again, use the **Reset All** option. 
+:::note
+The dates/times in the **Created/Updated** section are relative to the time the user has set on their account, e.g. account A is set to GMT/London and B to GMT+5/Islamabad. Therefore, when B searches for accounts created since 4AM, that's relative to B's timezone and only those accounts will appear in the result list.
+:::
 
-![Search Advanced](./search-account-advanced-5.png)
+:::tip
+- If you wish to remove the search input for all parameters and start all over again, use the **Reset All** option. 
+- If you need a list of all the accounts in a specific city or name (rather than looking for a specific account) use the lists function(link).
+- If a duplicate account appears in the search results, it can be because they have duplicate data in their system. To tackle with this, merge the duplicate accounts(link), or to ask your system administrator to do this for you as it is necessary to have only one account per person or company.
+:::
+
+4. Click the **Search** button and the results are loaded *"one page"* at a time on the right. To get further results, use a **Load More** button at the bottom of the result list.
+

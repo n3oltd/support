@@ -3,11 +3,11 @@ title: Deleting Accounts
 sidebar_position: 8
 ---
 
-Deleting an account in ENGAGE is quite quick and simple. But if you want to come back and create an account(link), your always welcome!
+Deleting an account in Engage is quite quick and simple. But you can always come back to create an account(link) again. 
 
 ## Close your Account
 
-1. From the [ENGAGE dashboard](https://beta.n3o.cloud/eu1/engage/dashboard), click the **Quick Search** bar and search the account you wish to delete.
+1. From the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, click the **quick search box** in the header and search for the account you wish to delete.
 
 ![Search Account Video](../01-searching-accounts/search-account-video.gif)
 

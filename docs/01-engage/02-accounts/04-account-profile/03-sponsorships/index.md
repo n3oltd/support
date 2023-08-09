@@ -33,7 +33,7 @@ Each sponsorship viewed contains:
 
 ## Observing a Sponsorship
 
-To envision a sponsorship in detail, click the **View Sponsorship**(link) button. You will see all the details of the **sponsor**, **beneficiary**, the **sponsorship**, **scheme's** and **ledger**. For example, the scheme used contains information such as *components, date for renewal, location and theme* etc.
+To envision a sponsorship in detail, click the **View Sponsorship** button. You will see all the details of the **sponsor**, **beneficiary**, the **sponsorship**, **scheme's** and **ledger**. For example, the scheme used contains information such as *components, date for renewal, location and theme* etc.
 
 ![Sponsorship Detail](./sponsorship-detail.png)
 
