@@ -71,7 +71,7 @@ For incorrect and incomplete phone numbers, a **validation pop-up error message*
 
 4. In the *Email Address* section, input the accounts email. Most of the time the system will be able to detect if the email is *work or personal*, but if not, set it manually. The first email will become the primary email which is the one used by automated processes in the system. You can also add extra email addresses with **+ Add Email Address** and remove them with the **Remove** button.
 
-![Create Account Email](create-account-4.png)
+![Create Account Email](create-account-4.png)   
 
 5. For the *Contact Preferences* section, select the way you want to receive communication i.e. via **Email**, **Post**, **SMS** or **Telephone**. For details, refer to the Contact Preferences(link to page).
 
