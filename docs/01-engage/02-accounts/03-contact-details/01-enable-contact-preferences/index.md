@@ -3,22 +3,28 @@ title: Enable Contact Preferences
 sidebar_position: 1
 ---
 
-Contact is simply a way that involves meeting or communicating with anyone. So, when a contact wants to receive communication by any means, whether it is by telephone or email we call it a **contact preference**. This is important in terms of knowing and maintaining a valuable relationship with the donor or sponsor (the one you are contacting). 
+# Enable Contact Preferences
 
-## Contact Preferences in ENGAGE
+Contact preferences track the different ways of communicating with someone (telephone, post, email, SMS) called *channels*, for different purposes (fundraising, marketing, administration etc.) called *categories*. Both of these can be configured by your system administrator to meet your organization's specific needs.
 
-ENGAGE allows you to prioritize your contact preferences while creating an account, be it individual or by an organization. There are in total four different types of preferences that ENGAGE provides:
+Maintaining accurate contact preferences is essential not only to ensure a valuable relationship with the supporters, such as opting them out of postal mailers if they have requested, but is also important in many countries for complying with data protection laws.
+
+## Contact Preferences in Engage
+
+Engage allows you to easily manage contact preferences which are shown grouped by channels of communication like:
 
 - Telephone
 - Email
 - SMS
 - Post
 
-Each preference contains options that clarify if a contact wants to be contacted for a specific purpose or not.
+Each channel contains one or more categories of communication. Common categories are **Marketing**, **Administration**, **Events** etc. but the exact list can be configured by your system administration.
 
-### Unspecified
+For each specific way and purpose of communication, Engage is able to record whether the account has opted in to such communication, opted out, or if the preference is unspecified (e.g. unknown).
 
-This implies that the account owner does not know exactly what they want. For example, the donor might engage themselves in communication methods in the future.
+## Manage Preferences with Presets
+
+Presets provide a quick way of setting up individual preferences and contain different options explained below. Moreover, these presets can be configured, so they might appear different for a subscription.
 
 ### Admin Only
 
@@ -38,38 +44,32 @@ This means that the account owner does not want any sort of communication.
 
 ## How to Add a Contact Preference
 
-You can easily enable any contact preference in ENGAGE by clicking on each respective button. For example, if you want to receive emails for fundraising only, then click **Fundraising Only**. 
-
-But, if you want to be contacted via *Email* for both administrative and fundraising purposes then ENGAGE provides it via another way. Click on the **+** icon next to each preference, and the three options stated below designated for each preference will appear. 
+You can enable any contact preference in Engage while creating an account. For example, if you want to receive emails for fundraising only, then click **Fundraising Only**, but, if you want for both administrative and fundraising purposes then Engage provides it via another way. Click on the **+** icon next to each channel, and you will see each preference purpose containing the 3 options explained. 
 
 - **No Response**: This implies that you do not want to be contacted for a specific preference.  
 - **Opt-In**: This means that along with the original preference you additionally want to enable for another one along with it.
 - **Opt-Out**: This defines that either one of the preference will be enabled.
 
-:::note
-*Email and Post* contains *Administration* and *Marketing*, but *SMS and Telephone* contains *Marketing* only.
-:::
+![Contact Preference Video](contact-preference-video.gif)
 
-![Contact Preference Video](./contact-preference-video.gif)
-
-## How to Add Additional Information
+## Additional Information
 
 ### Consented Date
 
 This refers to an official date selected which confirms that you would like to be contacted by a certain contact preference ahead.
 
-![Consent Date](./consent-date.png)
+![Consent Date](consent-date.png)
 
 ### Consented Via
 
-This option marks your consent to be contacted via a certain preference as yes. ENGAGE consent requirements can be configured in the admin section(link) to obey any data protection regulations. You can select any method through *Consented Via*. Click the **down arrow**. This opens up a drop-down list which includes **Email**, **In Person**, and **Letter** etc.
+This option marks your consent to be contacted via a certain preference as yes. Engage consent requirements can be configured in the admin section(link) to obey any data protection regulations. You can select any method through *Consented Via*. Click the **down arrow**. This opens up a drop-down list including **Email**, **In Person**, and **Letter** etc.
 
-![Consented Via](./consented-via.png)
+![Consented Via](consented-via.png)
 
 You can add any extra notes related to the topic, if any, in the **Add Note** section and add any consent or approval form, if wanted, via the **+ Add File(s)** option.
 
-![Add Note](./add-note.png)
+![Add Note](add-note.png)
 
-Furthermore, ENGAGE provides the account owners leverage to read the privacy statement which includes the organizational practices of handling the users personal information regarding user contact. Click the **Read Privacy Statement** button to do so.     
+Furthermore, Engage provides the account owners leverage to read the privacy statement which includes the organizational practices of handling the users personal information regarding user contact. Click the **Read Privacy Statement** button.     
 
-![Privacy Statement](./privacy-statement.png)
+![Privacy Statement](privacy-statement.png)
