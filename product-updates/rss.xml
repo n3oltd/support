@@ -4,7 +4,7 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Mon, 03 Jul 2023 09:10:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Aug 2023 15:54:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[June 2023 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2023-06-update</link>
             <guid>https://support.n3o.ltd/product-updates/2023-06-update</guid>
-            <pubDate>Mon, 03 Jul 2023 09:10:45 GMT</pubDate>
+            <pubDate>Thu, 10 Aug 2023 15:54:05 GMT</pubDate>
             <description><![CDATA[June sees new releases of Engage, Tally and Forms with a wide mix of features and bug fixes. The highly anticipated call centre and beneficiary deactivation features also moved very close to public beta.]]></description>
             <content:encoded><![CDATA[<p>June sees new releases of Engage, Tally and Forms with a wide mix of features and bug fixes. The highly anticipated call centre and beneficiary deactivation features also moved very close to public beta.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Added the ability to reserve sponsorship of a beneficiary</li><li>Better management UI for touchpoints</li><li>Added webhooks for feedback lifecycle</li><li>Added JSON webhook filters</li><li>Added support for SendGrid newsletters to N3O sites
 </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Timeout of annual report PDF downloads</li><li>Fixed: Published beneficiaries not appearing in Engage</li><li>Fixed: Transform rules error during data import</li><li>Fixed: CSV list exports sometimes fail
