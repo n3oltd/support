@@ -3,11 +3,9 @@ title: Introduction
 sidebar_position: 1
 ---
 
-Begin using an account in **Engage** as soon as it gets created. Start donating, creating sponsorships, pledges etc. and avail all other features immediately. 
-
 ### Get Started with Accounts in Engage
 
-<br />
+Begin using an account in **Engage** as soon as it gets created. 
 
 <section class="row list">
    <article class="col col--6 margin-bottom--lg">
@@ -25,29 +23,20 @@ Begin using an account in **Engage** as soon as it gets created. Start donating,
    </article>
 
    <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
+      <a class="card padding--lg cardContainer" href="/docs/engage/accounts/account-profile">
          <h2 class="text--truncate cardTitle" title="View an Account's Complete Profile">View an Account's Profile</h2>
          <p class="text--truncate cardDescription" title="Observe an account's complete profile right after creation">Observe an account's complete profile right after creation</p>
       </a>
    </article>
 
 <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
+      <a class="card padding--lg cardContainer" href="/docs/engage/accounts/merging-accounts">
          <h2 class="text--truncate cardTitle" title="Merge Account">Merge Account</h2>
          <p class="text--truncate cardDescription" title="Get rid of duplicate accounts via merging them together">Get rid of duplicate accounts via merging them together</p>
       </a>
    </article>
-
-<br /> <br /> <br />
-
-   <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
-         <h2 class="text--truncate cardTitle" title="Delete Account">Delete Account</h2>
-         <p class="text--truncate cardDescription" title="Delete an account with the delete functionality">Delete an account with the delete functionality</p>
-      </a>
-   </article>
-
 </section>
+
 
 
 
