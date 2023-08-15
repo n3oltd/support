@@ -1,19 +1,19 @@
 ---
-title: View Collective Sponsorships in an Account's Profile
+title: Sponsorships
 sidebar_position: 3
 ---
 
-An account owner can view all the sponsorships sponsored collectively in their account profile. Simply, select **Sponsorships** from the profile menu and get started!
+An account can view all the sponsorships sponsored collectively in their account profile via **Sponsorships** from the profile menu.
 
 ## Create a New Sponsorship
 
-You can create a new sponsorship via the **Add New Sponsorship** option. For more details, go to the Create Sponsorship Section(link).
+You can create a new sponsorship via the **Add New Sponsorship** option. For more details, go to the Create Sponsorship Documentation.
 
 ![Create Sponsorship](./create-sponsorship-button.png)
 
-## Using Filters
+## Filters
 
-You can either search for a certain sponsorship or apply any filter to view the exact sponsorship you want to via the **Show Filters** button. The filters include:
+You can either search for a certain sponsorship or apply any filter to view the exact sponsorship via the **Show Filters** button. The filters include:
 
 - **Commitment Date:** The start and end date for a particular sponsorship.
 - **Sponsorship Status:** The status of a particular sponsorship like *Active, Ended or All*.
@@ -39,15 +39,15 @@ To envision a sponsorship in detail, click the **View Sponsorship** button. You 
 
 Also, each sponsorship contains other *options* which can be used via the **down arrow** in the top right corner of the box. Those options include:
 
-- **Create a New Task:** This creates a new task(link) for a sponsorship.
-- **Regenerate Profile PDF:** This regenerates the profile of a beneficiary with the updated details if any as a PDF.
-- **Download Profile PDF:** This downloads the whole profile of a beneficiary as a PDF.
-- **View All Reports:** This shows all the reports of a beneficiary.
-- **End:** This ends the sponsorship.
-- **Move:** This moves the beneficiary to a different or anonymous sponsor account.
-- **Transfer Sponsorship:** This transfers the sponsorship to a new beneficiary.
-- **Turn Reminders off:** This turns off the reminders of all notifications received by the sponsor.
-- **Update Fund Dimensions:** This updates fund dimensions for the scheme used.
-- **Donate:** This creates more donation(link) for the beneficiary. 
+- **Create a New Task:** Creates a new task for a sponsorship.
+- **Regenerate Profile PDF:** Regenerates the profile of a beneficiary with the updated details if any as a PDF.
+- **Download Profile PDF:** Downloads the whole profile of a beneficiary as a PDF.
+- **View All Reports:** Shows all the reports of a beneficiary.
+- **End:** Ends the sponsorship.
+- **Move:** Moves the beneficiary to a different or anonymous sponsor account.
+- **Transfer Sponsorship:** Transfers the sponsorship to a new beneficiary.
+- **Turn Reminders off:** Turns off the reminders of all notifications received by the sponsor.
+- **Update Fund Dimensions:** Updates fund dimensions for the scheme used.
+- **Donate:** Adds more donation for the beneficiary. 
 
 ![Down Arrow Options](./down-arrow-options.png)
