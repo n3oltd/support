@@ -1,14 +1,14 @@
 ---
-title: View History of Account
+title: History
 sidebar_position: 9
 ---
 
-In Engage, you can view all the previous actions that have been taken on a certain account under the history section. Search for any account(link) and click on *History* in the profile menu which shows:
+In Engage, you can view all previous actions that have taken place on a certain account under the history section. Search for any account(link) and click on *History* in the profile menu which shows:
 
-1. Created By
-2. Last Modified By
-3. Total Changes Made
-4. List of All Modifications Made
+- Created By
+- Last Modified By
+- Total Changes Made
+- List of All Modifications Made
 
 ![History Page](./history-1.png)
 
@@ -34,6 +34,6 @@ This section shows a list of all the changes made by different accounts on a cer
 
 ![History List](./history-list.png)
 
-To view each change in detail, click the **+** icon on the end of each row. When the icon expands, it shows the **Title** and **Description** of each change. For example donor A made a change by adding an *interaction* called *Winter call center campaign on 14-03-2023*.
+To view each change in detail, click the **+** icon on the end of each row. When the icon expands, it shows the **Title** and **Description** of each change. For example donor A made a change by updating a certain *contact preference category*.
 
 ![History Detail](./history-detail.png)

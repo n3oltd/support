@@ -3,7 +3,7 @@ title: Attachments
 sidebar_position: 8
 ---
 
-In the context of charity funding, an attachment may refer to a digital file, such as a document, image etc. that is added or included along with a donation or funding submission to a charity organization. Individuals or organizations might be required to submit additional supporting documents to complete the funding process. 
+In charity funding, an attachment may refer to a digital file, such as a document, image etc. that is added or included along with a donation or funding submission to a charity organization. 
 
 Attachments can be relevant in cases like:
 
@@ -19,7 +19,7 @@ Attachments can be relevant in cases like:
 The list of attachment types is managed by your system administrator. 
 :::
 
-You can view the attachments of each account in the respective accounts profile in Engage. The attachments' page shows a list of all the attachments that you have added with each having:
+You can view the attachments of each account in the accounts profile. The attachments' page shows a list of all the attachments with each having:
 
 1. **Reference Number:** Number specifying each attachment type.
 2. **Type of Attachment:** The kind of each attachment uploaded.
