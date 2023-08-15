@@ -1,11 +1,11 @@
 ---
-title: View Calls in Account's Profile
+title: Calls
 sidebar_position: 6
 ---
 
-Engage provides a call center functionality to facilitate verbal communications. To get a deep insight, view the Call Center Documentation(link). Similarly, an account owner can view the records of all the calls made in their profile via the **Calls** option.
+Engage provides a call center functionality to facilitate verbal communications. To get a deep insight, view the Call Center Documentation(link). Similarly, an account can view records of all the calls made in the profile via the **Calls** option.
 
-The *Calls* section includes information:
+The Calls page includes:
 
 - **Last Date and Time Contacted:** This shows the date and time of the last recent call made.
 - **Total Calls:** This shows the total number of calls made to the account. 
@@ -14,7 +14,7 @@ The *Calls* section includes information:
 
 ![Calls Upper Section](./calls-upper-section.png)
 
-## Observe Call List in Detail
+## Observing Call List in Detail
 
 The call record list contains:
 
@@ -26,9 +26,9 @@ The call record list contains:
 
 You can view the description of each call via the **+** button at the end of each call row.
 
-## Applying Filters 
+### Applying Filters 
 
-You can either search or apply different filters on two parameters of the list, *Direction* and *Status*, to view a specific call. The filters include:
+You can either search or apply different filters on two parameters of the list, *Direction* and *Status*, to view a specific call.
 
 1. **Direction**
     - Inbound: Incoming calls

@@ -1,19 +1,19 @@
 ---
-title: View Feedbacks in an Account's Profile
+title: Feedbacks
 sidebar_position: 4
 ---
 
-An account owner can view all the records of feedbacks made throughout in the form of a list in their profile via the **Feedbacks** option. 
+An account can view all the records of feedbacks made throughout in the form of a list via the **Feedbacks** option in the profile. 
 
 ## Create a New Feedback
 
-You can create a new feedback via the **Add New Feedback** option. For more details, go to the Create Feedback Section(link).
+You can create a new feedback(link) via the **Add New Feedback** option.
 
 ![Create Feedback](./add-button.png)
 
-## Explaining Feedback Record List
+## Feedback Record List
 
-The record list of all the feedbacks contain:
+The record list of all feedbacks contains multiple parameters. You can view the name and description of each feedback by clicking the **+** option.
 
 1. **Reference Number:** Individual identification number of each feedback.  
 2. **Date:** The date when feedback was created.
@@ -25,17 +25,15 @@ The record list of all the feedbacks contain:
 
 ## Viewing each Feedback in Detail
 
-You can view each feedback created by clicking on its *reference number*. This opens up another page to look at every part in detail. Starting with the date and name of person who created the feedback, you can also see the status of payment as *completed* or *awaiting*.
+You can view each feedback created by clicking on its *reference number*. Each feedback in detail includes:
 
-Next, you can engross the details of the feedback including the scheme *name, location and theme* and its specific reports and ledger. 
+- Date and name of person who created the feedback
+- Status of payment as *completed* or *awaiting*. 
+- Details section including the feedback scheme name, location and theme etc.
+- Specific reports and ledger section. 
+- History of all the actions made on the feedback, via *View Log*. This option opens up a side panel indicating a timeline of all the events/actions that were made by the account along with the dates and description.
 
-You can move a certain feedback to a different or anonymous account and cancel it altogether through the three(...) dots in the top corner of the page.
+You can move a certain feedback to a different or anonymous account, cancel if the feedback is in awaiting payment status, or delete through the **three(...) dots** in the top corner of the page.
 
 ![Move Button](./move-button.png)
-
-![Move Feedback](./move-feedback.png)
-
-You can view the name and description of each feedback by clicking the **+** option.
-
-Lastly, you can view the whole log meaning history of all the actions made on the feedback, via the **View Log** button. This option opens up a side panel indicating a timeline of all the events/actions that were made by the account owner along with the dates and description.
 
