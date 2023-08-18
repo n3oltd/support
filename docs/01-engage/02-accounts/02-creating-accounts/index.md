@@ -59,7 +59,7 @@ The list of titles is maintained by your system administrator.
 
 ![Create Account Address](create-account-2.png)
 
-3. Moving forward, in the *Phone Number* section, enter the accounts phone number in the format "+44 (country code) (phone number)" for e.g. *+447884424343* is a UK phone number with 10 digits saved in the system. Most of the time the system will be able to detect if the number is a *fixed line or mobile*, but if not, set it manually. 
+3. Moving forward, in the *Phone Number* section, enter the accounts phone number in the format "(country code) (phone number)" for e.g. *+447884424343* is a UK phone number with 10 digits saved in the system. Most of the time the system will be able to detect if the number is a *fixed line or mobile*, but if not, set it manually. 
 
 The first number will become the primary number which is the one used by automated processes in the system. You can also add extra phone numbers with **+ Add Phone Number** and remove them with the **Remove** button. 
 
