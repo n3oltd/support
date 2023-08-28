@@ -3,21 +3,19 @@ title: Creating Accounts
 sidebar_position: 2
 ---
 
-# Create a New Account
-
 In **Engage**, an account represents an individual or organization (business, school, community group etc.) which interacts with your organization and keeps track of contact details, preferences, donations, sponsorships, etc. in a single place.
 
 Accounts are either individual or organization and are kept separate due to the difference between them regarding tax relief, data protection and many other areas in various locations. Also, Engage advises not to create a household account for a couple or family. In most locations, tax relief and consent options are specific to an individual and will not work as expected if individual accounts are combined. Instead, accounts can be grouped into households after exporting if you wish to do so for purposes such as a postal mailing. 
 
-:::note
-To avoid any duplicate account and their problems, first search for an account(link) within Engage.
-:::
-
 This article will walk you through creating a new account within Engage.
+
+:::note
+To avoid any duplicate account and their problems, first search for an account within Engage.
+:::
 
 ## Option 1: Create an Account from the Dashboard using Create
 
-- On the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, click the **Create** button. A bar containing different icons will be shown.
+- On the <K2Link route="dashboard" text="Engage dashboard" isEngage />, click the **Create** button. A bar containing different icons will be shown.
 
 ![Create Account Dashboard Video](create-account-dashboard.gif)
 
@@ -25,7 +23,7 @@ This article will walk you through creating a new account within Engage.
 
 ## Option 2: Create an Account from the Dashboard using Quick Navigation
 
-- On the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, navigate to **quick navigation**.
+- On the <K2Link route="dashboard" text="Engage dashboard" isEngage />, navigate to **quick navigation**.
 
 ![Create Account Quick Navigation](create-account-quick-navigation.png)
 
@@ -39,7 +37,9 @@ Each individual and organization account has its own information that is needed 
 
 :::note Important  
 - By default, create new account screen always opens for an individual account.
-- Sometimes, while entering account information, background search might show previously entered accounts with a similar input.   
+- Sometimes, when entering account information while creating an account, e.g. *name, address*, background search may show previously existing accounts with a similar input. A task named as *Possible duplicates found* will appear.
+
+![Background Search Gif](background-search.gif)
 :::
 
 1. In the *Name* section, specify the **Title**, **First Name** and **Last Name**.
@@ -73,7 +73,7 @@ For incorrect and incomplete phone numbers, a **validation pop-up error message*
 
 ![Create Account Email](create-account-4.png)   
 
-5. For the *Contact Preferences* section, select the way you want to receive communication i.e. via **Email**, **Post**, **SMS** or **Telephone**. For details, refer to the Contact Preferences(link to page).
+5. For the *Contact Preferences* section, select the way you want to receive communication i.e. via **Email**, **Post**, **SMS** or **Telephone**. For details, refer to the Contact Preferences documentation.
 
 :::note Important
 You can select two categories at one time by using the **Opt-In** and **Opt-Out** options.
@@ -81,11 +81,11 @@ You can select two categories at one time by using the **Opt-In** and **Opt-Out*
 
 ![Create Account Contact Preferences](create-account-6.png)
 
-6. You can also specify **tax relief preferences** associated with the account. For details, refer to Gift Aid Section(link).
+6. You can also specify **tax relief preferences** associated with the account. For details, refer to Gift Aid documentation.
 
 ![Create Account Gift Aid](create-account-7.png)
 
-7. If you wish to track the source of the account for analytics purposes you can do that by assigning an **initial touchpoint** to the account. If unsure, leave this blank. For more information, go to Interactions Section(link).  
+7. If you wish to track the source of the account for analytics purposes you can do that by assigning an **initial touchpoint** to the account. If unsure, leave this blank. For more information, go to Interactions documentation.  
 
 ![Create Account Interactions](create-account-8.png)
 
