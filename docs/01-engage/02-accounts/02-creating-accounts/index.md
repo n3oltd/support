@@ -39,7 +39,7 @@ Each individual and organization account has its own information that is needed 
 - By default, create new account screen always opens for an individual account.
 - Sometimes, when entering account information while creating an account, e.g. *name, address*, background search may show previously existing accounts with a similar input. A task named as *Possible duplicates found* will appear.
 
-![Background Search Gif](background-search.gif)
+![Background Search Gif](1.gif)
 :::
 
 1. In the *Name* section, specify the **Title**, **First Name** and **Last Name**.
