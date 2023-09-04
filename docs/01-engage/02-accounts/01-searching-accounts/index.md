@@ -13,7 +13,7 @@ Let's have a look at how to search for existing accounts irrespective of whether
 
 ## Using Global Search
 
-1. On the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, click the **quick search box** in the header. If the search scope is not already set to **Accounts**, change this from the dropdown on the right.
+1. On the <K2Link route="dashboard" text="Engage dashboard" isEngage />, click the **quick search box** in the header. If the search scope is not already set to **Accounts**, change this from the dropdown on the right.
 
 ![Search Account Video](search-account-video.gif)
 
@@ -49,7 +49,7 @@ The advanced search screen is made up of a **Filters** panel on the left which y
     2. **Name:** Input the account holders name. This appears specific to the account type chosen.
     3. **Account Status:** Select the account status. 
 
-        ![Search Advanced](search-account-advanced-4.png)
+        ![Search Advanced](new.png)
 
     Similarly, you can perform the same actions for **Contact** (email or phone), **Address** (address line, country, postal code, locality) and **Created/Updated** (dates). For the *Created At* option, you can specify only the *From Date* or the *To Date* and do not need to specify both. For example, *From Date: 1 hour ago* with *To Date: nothing* would show accounts created in the last hour only. 
 
