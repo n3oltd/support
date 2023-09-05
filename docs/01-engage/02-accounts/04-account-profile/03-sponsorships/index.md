@@ -3,7 +3,7 @@ title: Sponsorships
 sidebar_position: 3
 ---
 
-An account can view all the sponsorships sponsored collectively in their account profile via **Sponsorships** from the profile menu.
+An account can view all the sponsorships sponsored collectively in the account profile via **Sponsorships** from the profile menu.
 
 ## Create a New Sponsorship
 
@@ -49,5 +49,3 @@ Also, each sponsorship contains other *options* which can be used via the **down
 - **Turn Reminders off:** Turns off the reminders of all notifications received by the sponsor.
 - **Update Fund Dimensions:** Updates fund dimensions for the scheme used.
 - **Donate:** Adds more donation for the beneficiary. 
-
-![Down Arrow Options](./down-arrow-options.png)
