@@ -3,7 +3,7 @@ title: History
 sidebar_position: 9
 ---
 
-In Engage, you can view all previous actions that have taken place on a certain account under the history section. Search for any account(link) and click on *History* in the profile menu which shows:
+In Engage, you can view all previous actions that have taken place on a certain account under the history section. Search for any account and click on *History* in the profile menu which shows:
 
 - Created By
 - Last Modified By
