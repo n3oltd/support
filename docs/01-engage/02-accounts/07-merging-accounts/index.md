@@ -7,7 +7,7 @@ Whenever two records are identical and serve a common purpose, it is likely to m
 
 ## Merging Duplicate Accounts
 
-1. From the <K2Link route="dashboard" text="Engage Dashboard" isEngage />, use any search method and choose the account you wish to merge from.
+1. From the <K2Link route="dashboard" text="Engage dashboard" isEngage />, use any search method and choose the account you wish to merge from.
 
 ![Search Account Video](../01-searching-accounts/search-account-video.gif)
 
