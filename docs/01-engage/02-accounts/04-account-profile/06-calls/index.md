@@ -3,7 +3,7 @@ title: Calls
 sidebar_position: 6
 ---
 
-Engage provides a call center functionality to facilitate verbal communications. To get a deep insight, view the Call Center Documentation(link). Similarly, an account can view records of all the calls made in the profile via the **Calls** option.
+Engage provides a call center functionality to facilitate verbal communications. To get a deep insight, view the Call Center Documentation. Similarly, an account can view records of all the calls made in the account profile via the **Calls** option.
 
 The Calls page includes:
 
