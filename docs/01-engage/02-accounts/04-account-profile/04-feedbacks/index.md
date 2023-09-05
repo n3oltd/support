@@ -3,7 +3,7 @@ title: Feedbacks
 sidebar_position: 4
 ---
 
-An account can view all the records of feedbacks made throughout in the form of a list via the **Feedbacks** option in the profile. 
+An account can view all the records of feedbacks made in the form of a list via the **Feedbacks** option in the account profile. 
 
 ## Create a New Feedback
 
