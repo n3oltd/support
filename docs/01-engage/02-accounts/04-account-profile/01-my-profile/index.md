@@ -51,7 +51,7 @@ This section reveals the phone number and email address of the account. You can 
 
 ## Online Presence
 
-The **online presence** section shows the online platform that the account owner is visible through, for example, *Facebook*. You can also edit and add any existing by clicking the **pencil icon**.
+The **online presence** section shows the online platform that the account owner is visible through, for example, *LinkedIn*. You can also edit and add any existing by clicking the **pencil icon**.
 
 ![Online Presence](./online-presence.png)
 
