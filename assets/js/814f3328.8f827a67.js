@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"June 2023 Update","permalink":"/product-updates/2023-06-update"},{"title":"July 2023 Update","permalink":"/product-updates/2023-07-update"},{"title":"August 2023 Update","permalink":"/product-updates/2023-08-update"}]}')}}]);
