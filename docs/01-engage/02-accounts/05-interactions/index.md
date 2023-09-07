@@ -63,4 +63,3 @@ For the above example, the attributions dedicated to a certain touchpoint could 
 
 - **Platform**
     - Google Ads: 50 pounds
-
