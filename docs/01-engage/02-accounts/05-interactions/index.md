@@ -1,6 +1,6 @@
 ---
 title: Interactions
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 Migration in progress
