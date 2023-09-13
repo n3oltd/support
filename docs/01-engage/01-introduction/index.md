@@ -3,39 +3,21 @@ title: Introduction
 sidebar_position: 1
 ---
 
-### Get Started with Accounts in Engage
+**Engage** is a CRM built exclusively for charities and non-profit organizations (NGOs) to help manage donations, donor relationships, and streamlined operations etc. With its feature-rich enhanced design, Engage helps to maintain and enhance every aspect of a charity by collecting funds, growing fundraising and staying flexible.
 
-Begin using an account in **Engage** as soon as it gets created. 
+Engage comes with a wide variety of features including:
 
-<section class="row list">
-   <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
-         <h2 class="text--truncate cardTitle" title="Search Account">Search Account</h2>
-         <p class="text--truncate cardDescription" title="Search for any existing account using different methods">Search for any existing account using different methods</p>
-      </a>
-   </article>
+1. Donations
+2. Payments
+3. Sponsorships
+4. Analytics & Reporting
+5. Call Center
+6. Communications
 
-  <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
-         <h2 class="text--truncate cardTitle" title="Create Account">Create Account</h2>
-         <p class="text--truncate cardDescription" title="Create a new individual or organization account in Engage">Create a new individual or organization account</p>
-      </a>
-   </article>
 
-   <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
-         <h2 class="text--truncate cardTitle" title="View an Account's Complete Profile">View an Account's Profile</h2>
-         <p class="text--truncate cardDescription" title="Observe an account's complete profile right after creation">Observe an account's complete profile right after creation</p>
-      </a>
-   </article>
 
-<article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="">
-         <h2 class="text--truncate cardTitle" title="Merge Account">Merge Account</h2>
-         <p class="text--truncate cardDescription" title="Get rid of duplicate accounts via merging them together">Get rid of duplicate accounts via merging them together</p>
-      </a>
-   </article>
-</section>
+
+
 
 
 
