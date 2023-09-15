@@ -1,6 +1,6 @@
 ---
 title: Payments
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Migration in progress
