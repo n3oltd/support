@@ -18,7 +18,7 @@ Failed payments refer to payment transactions that were attempted but did not su
 Payments in Engage can be in the awaiting, declined, failed, cancelled, complete, draft or pending status. Any single or regular donation payment which was unable to process for completion comes with a *payment failed* status. 
 
 :::note
-To land onto a specific payment page, you can either directly search for a payment itself or <K2Link route="docs/engage/accounts/searching-payments/" text="search for an account" isInternal /> and look at the payment created for each donation by the account individually.  
+To land onto a specific payment page, you can either directly search for a payment itself or <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal /> and look at the payment created for each donation by the account individually.  
 :::
 
 In this article, let's observe the record of all donations and their payments made by a specific account in the *Giving profile* page. 
