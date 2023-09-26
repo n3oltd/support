@@ -1,6 +1,6 @@
 ---
 title: Searching Payments
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 In Engage, an account can search for all types of payments made while making single or regular giving donations via the **advanced search** option. 

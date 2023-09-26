@@ -18,12 +18,10 @@ Failed payments refer to payment transactions that were attempted but did not su
 Payments in Engage can be in the awaiting, declined, failed, cancelled, complete, draft or pending status. Any single or regular donation payment which was unable to process for completion comes with a *payment failed* status. 
 
 :::note
-To land onto a specific payment page, you can either directly search for a payment itself or <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal /> and look at the payment created for each donation by the account individually.  
+To land onto a specific payment page, you can either directly search for a payment itself or search for an account and look at the payment created for each donation by the account individually.  
 :::
 
 In this article, let's observe the record of all donations and their payments made by a specific account in the *Giving profile* page. 
-
-1. Click on the *donation reference number* to view a donation with the payment failed status. This will take you to the *donation details* page.
 
 :::tip
 You can easily filter out failed payments for donations using the *Status filter*. Click the filter icon and select *Payment Failed* check box. All donations related to payment failed status will appear in the list.
@@ -31,7 +29,9 @@ You can easily filter out failed payments for donations using the *Status filter
 ![Status filter GIF](./status-filter.gif)
 ::: 
 
-2. Under the *Payments* section, the *error* or *decline* status payment made related to that particular donation will appear. Click the payment reference number to view the payment details. 
+1. On the *Giving profile page*, filter out the payments for donations with a *failed* status. Click on the *donation reference number* to view a donation with the payment failed status. This will take you to the *donation details* page.
+
+2. Scroll down to the *Payments* section and the *error* or *decline* status payment made related to that particular donation can be seen. Click the payment reference number to view the payment details. 
 
 ![Payment section](./payment-section.png)
 
@@ -40,7 +40,7 @@ You can easily filter out failed payments for donations using the *Status filter
 - Failed payment donation has the total payment amount as the *outstanding balance*.  
 :::
 
-3. A page appears showing the particular payments *details* and *logs*. Logs include all the error detail messages due to which the payment failed or declined. 
+3. You will see a page showing the particular payments *details* and *logs*. Logs include all the error detail messages due to which the payment failed or declined. 
 
 ![Payment Details and Logs](./payment-log-details.png)
 
