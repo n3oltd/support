@@ -21,7 +21,7 @@ You can also create and assign a task to a specific account. Just search for the
 | **Set Due Date** | The *date* by which the task should be completed. |  
 | **Priority** | The importance of the task as *High* or *Low*. High priority tasks when created have a red circular dot at the start of the task description. | 
 | **Assign to** | The assignment of the task. It can be for the administrator *(Me)*, a specific account/sponsorship or accessible to everyone *(My teams)*. | 
-| **Related Link** | The donor account or sponsorship to whom the task will be related to. |
+| **Related Link** | The donor account or sponsorship etc. to whom the task will be related to. Specify the type by clicking the down arrow and search accordingly. |
 | **Add More Details** | A button to add more details related to the task, if any. Also, any task file made externally can also be added with the *Add File* option within. |
 
 ![Inputing Parameters Gif](./inputing-parameters-new-task.gif)
