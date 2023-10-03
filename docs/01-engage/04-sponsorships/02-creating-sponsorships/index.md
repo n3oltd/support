@@ -8,7 +8,7 @@ In Engage, an account (donor or sponsor), whether individual or organization, ca
 :::note
 - By default a sponsorship is created as anonymous. To associate the sponsorship with an account, click *Change Account* and choose the account accordingly.
 - Before creating a sponsorship, ask your system administrator to add sponsorship schemes for you.
-- To avoid any duplicate sponsorships and their problems, first <K2Link route="docs/engage/sponsorships/searching-sponsorships/" text="search for a sponsorship within Engage" isInternal/>.
+- To avoid any duplicate sponsorships and their problems, first <K2Link route="" text="search for a sponsorship within Engage" isInternal/>.
 :::
 
 ## Option 1: Create a Sponsorship using Create
