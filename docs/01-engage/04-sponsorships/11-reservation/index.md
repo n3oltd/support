@@ -1,6 +1,6 @@
 ---
 title: Reservations
-sidebar_position: 2
+sidebar_position: 11
 ---
 
 Sponsorship reservation applies to the practice of reserving or securing a sponsorship opportunity for a specific beneficiary. Engage allows you to reserve a sponsorship for any beneficiary through **Engage Forms**.
