@@ -6,7 +6,7 @@ sidebar_position: 1
 In Engage, an account, whether individual or organization, can make a single or one-off donation for a specific purpose.
 
 :::note
-If you want to make an anonymous donation, search for an account, click *Choose Account* and then *Make an Anonymous Donation*. Anonymous donations can only be created for single donations.
+If you want to make an anonymous donation, <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal />, click *Choose Account* and then *Make an Anonymous Donation*. Anonymous donations can only be created for single donations.
 :::
 
 This page will walk you through the steps to enter a single/one-off donation.
@@ -14,7 +14,7 @@ This page will walk you through the steps to enter a single/one-off donation.
 1. On the <K2Link route="giving" text="Givig dashboard" isEngage />, in the *quick navigation box*, click **Enter Donation** or use the **Create** button to enter donation.
 
 :::note
-You can also search an account and click *Enter Donation* on its main profile page.
+You can also <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal /> and click *Enter Donation* on its main profile page.
 :::
 
 ![Enter Single Donation Gif](./create-single-donation-dashboard.gif)
@@ -44,8 +44,8 @@ Look at the table below for the different defined allocations which you can make
 
 | Allocation Types | Functionality |
 | ---------------- | ------------- |
-| Fund | Funds in Engage are called donation items. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. |
-| Pledge | To add an allocation as a pledge, select the *Pledge* which opens a *Search Pledges* pop-up screen. Filter and specify to search a pledge or choose any existing pledge from the list. Pledges containing one or more allocations unavailable to any type of giving will appear blur. Once a pledge is choosen, it appears as **'Towards Pledge - reference number'** in the allocations section. |
+| Fund | Funds in Engage are called <K2Link route="docs/engage/donations/allocations/donation-items/" text="donation items" isInternal />. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. |
+| Pledge | To add an allocation as a pledge, select the *Pledge* which opens a *Search Pledges* pop-up screen. Filter and specify to search a pledge or choose any existing pledge from the list. Pledges containing one or more allocations unavailable to any type of giving will appear blur. Once a pledge is chosen, it appears as **'Towards Pledge - reference number'** in the allocations section. |
 | Sponsorship | To add an allocation as a sponsorship, click the down arrow next to *Sponsorship* to either create a new sponsorship or donate to an existing one. |
 | Feedback | To add an allocation as a sponsorship, click the down arrow next to *Feedback* to either create a new feedback or donate to an existing one.|
 
@@ -60,7 +60,7 @@ Next, select the **Donation Date** (only for single donation), **Fundraiser** an
 
 :::note
 - Payment methods are added and managed by your system administrator.
-- You can donate either in *Full Amount or Other Amount* for single donations, which can be entered in the emerged *Amount* textbox.
+- You can donate either in *Full Amount or Other Amount* for single donations, which can be entered in the emerged *Amount* text box.
 - Single donations can be paid with all the payment methods available.
 - Donations whose payment has not been completed come under the *awaiting payment status*. 
 - You can also save your card details for any next payment by ticking the checkbox *'Save the card'*.

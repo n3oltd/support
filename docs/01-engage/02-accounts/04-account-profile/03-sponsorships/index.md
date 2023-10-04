@@ -11,15 +11,7 @@ You can create a new sponsorship via the **Add New Sponsorship** option. For mor
 
 ![Create Sponsorship](./create-sponsorship-button.png)
 
-## Filters
-
-You can either search for a certain sponsorship or apply any filter to view the exact sponsorship via the **Show Filters** button. The filters include:
-
-- **Commitment Date:** The start and end date for a particular sponsorship.
-- **Sponsorship Status:** The status of a particular sponsorship like *Active, Ended or All*.
-- **Commitment Type:** The type of particular sponsorship like *All, Fixed Term or Open Ended*.
-
-![Filters Option](./filters-option.png)
+## Observing a Sponsorship
 
 Each sponsorship viewed contains:
 
@@ -30,8 +22,6 @@ Each sponsorship viewed contains:
 5. Reminders
 
 ![Sponsorship View](./sponsorship-view.png)
-
-## Observing a Sponsorship
 
 To envision a sponsorship in detail, click the **View Sponsorship** button. You will see all the details of the **sponsor**, **beneficiary**, the **sponsorship**, **scheme's** and **ledger**. For example, the scheme used contains information such as *components, date for renewal, location and theme* etc.
 
@@ -49,3 +39,13 @@ Also, each sponsorship contains other *options* which can be used via the **down
 - **Turn Reminders off:** Turns off the reminders of all notifications received by the sponsor.
 - **Update Fund Dimensions:** Updates fund dimensions for the scheme used.
 - **Donate:** Adds more donation for the beneficiary. 
+
+### Applying Filters to View a Sponsorship
+
+You can either search for a certain sponsorship or apply any filter to view the exact sponsorship via the **Show Filters** button. The filters include:
+
+- **Commitment Date:** The start and end date for a particular sponsorship.
+- **Sponsorship Status:** The status of a particular sponsorship e.g. *Active, Ended*.
+- **Commitment Type:** The type of particular sponsorship e.g. *Fixed Term or Open Ended*.
+
+![Filters Option](./filters-option.png)

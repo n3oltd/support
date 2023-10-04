@@ -15,7 +15,7 @@ An account can view all the communication methods used in the form of a list. Se
 
 A communication method used can be viewed in detail via clicking on the reference number and can be *cancelled, retried to be sent again* and *reissued*. Reissued means that when a particular communication method has been updated recently, it will be resent with the newest information to the account again. 
 
-![Communication Options](./options.png) 
+![Communication options](./options.png)
 
 ## Applying Filters
 
@@ -38,6 +38,6 @@ Select any checkbox in status filters including:
 5. **Suppressed:** The communication method *opted-out*, is still present in the database and can be reissued if wanted by the account.
 6. **Template Error:** The communication method does not have any rendered template to show itself.
 
-![Status Filters](./status-filter.png)
+![Status Filter](./status-filter.png)
 
 

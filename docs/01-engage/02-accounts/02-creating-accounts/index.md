@@ -10,7 +10,7 @@ Accounts are either individual or organization and are kept separate due to the 
 This article will walk you through creating a new account within Engage.
 
 :::note
-To avoid any duplicate account and their problems, first search for an account within Engage.
+To avoid any duplicate account and their problems, first <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal /> within Engage.
 :::
 
 ## Option 1: Create an Account from the Dashboard using Create
