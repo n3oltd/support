@@ -5,10 +5,10 @@ sidebar_position: 2
 
 A pledge is a formal promise or commitment made by an individual or organization to contribute a specified amount of money in support of a cause or charity.
 
-In Engage, an account can create a new pledge or [donate to an existing pledge](#donating-to-a-pledge).  
+In Engage, an account can create a new pledge or donate to an existing pledge.  
 
 :::note
-To avoid any duplicate pledges and their problems, first search for a pledge within Engage.
+To avoid any duplicate pledges and their problems, first <K2Link route="docs/engage/donations/allocations/pledges/search-pledge/" text="search for a pledge" isInternal/> within Engage.
 :::
 
 ## Option 1: Create a Pledge via Create
@@ -41,21 +41,15 @@ By default, a pledge will be processed as *anonymous*. You can select **Change A
 Internal sources are managed by your system administrator.
 :::
 
-3. Choose **Enable Allocations** as yes or no. If yes, then an *Allocations* section appears, where you can allocate funds, existing sponsorships, or feedbacks to the pledge. You can also add extra amount in the *Allocate Later* text box and the total amount is shown at the bottom right. 
+3. Choose **Enable Allocations** as yes or no. If yes, then an *Allocations* section appears, where you can allocate funds, existing sponsorships, or feedbacks to the pledge. You can also add extra amount in *Allocate Later* text box and the total amount will be shown at the bottom right. 
 
-4. Lastly, if you want to associate tasks, select yes or otherwise no. When all the information is added, click **Create**.
+:::tip
+Allocations can be enabled even after a pledge's creation. Click the **three dots(...)** while viewing a pledge and select *Add Allocations*. An Allocations section will appear under the information section of the pledge.
+
+![Add Allocations Later](./add-allocations-later.png)
+:::
+
+4. Lastly, if you want to associate any task to this pledge, select yes or otherwise no, and click **Create**.
 
 ![Create Pledge Gif](./create-pledge-gif.gif)
 
-## Donating to a Pledge
-
-:::note
-- For donations referring to specific pledges, each *allocation* added, whether funds or sponsorships, includes a small clickable note saying *Towards Pledge - Pledge Reference Number* and leads to the detailed actual pledge.  
-- Pledges are created with advance allocated payments and can be used for both single and regular donations, with the amount deducted from the pledge payment.
-:::
-
-You can donate to a specific pledge right after its creation, therefore, first create a pledge, click **Donate to this Pledge** and then follow the steps explained in the create one-off donation or create regular donation documentation. 
-
-You can also view any existing pledge from an account's giving profile by clicking the *pen icon* or search for an existing pledge and click the **Donate to this Pledge** option to donate to the pledge. 
-
-![Donate to a Pledge](./donate-to-pledge.png)
