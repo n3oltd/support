@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[1932],{884:t=>{t.exports=JSON.parse('{"permalink":"/product-updates/tags/tally","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Product Updates","blogTitle":"Product Updates"}')}}]);
