@@ -3,7 +3,7 @@ title: Giving
 sidebar_position: 2
 ---
 
-To view all the donations and pledges made by the account, click **Giving** in the profile menu. To read more about donations and givings, go to the Donations Documentation.
+To view all the donations and pledges made by the account, click **Giving** in the profile menu. To read more about donations and givings, go to the <K2Link route="docs/engage/donations/" text="Donations documentation" isInternal />.
 
 ## Regular Giving 
 

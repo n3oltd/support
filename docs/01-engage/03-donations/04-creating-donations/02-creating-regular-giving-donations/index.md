@@ -38,8 +38,8 @@ Look at the table below for the different defined allocations which you can make
 
 | Allocation Types | Functionality |
 | ---------------- | ------------- |
-| Fund | Funds in Engage are called donation items. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. to donate to a fund. |
-| Pledge | To add an allocation as a pledge, select the "Pledge" option which opens a *Search Pledges* pop-up screen. Filter and specify to search a pledge or choose any existing pledge from the list. Pledges containing one or more allocations unavailable to any type of giving will appear blur.  Once a pledge is choosen, it appears as **'Towards Pledge - reference number'** in the allocations section. |
+| Fund | Funds in Engage are called <K2Link route="docs/engage/donations/allocations/donation-items/" text="donation items" isInternal />. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. to donate to a fund. |
+| Pledge | To add an allocation as a pledge, select the "Pledge" option which opens a *Search Pledges* pop-up screen. Filter and specify to search a pledge or choose any existing pledge from the list. Pledges containing one or more allocations unavailable to any type of giving will appear blur.  Once a pledge is chosen, it appears as **'Towards Pledge - reference number'** in the allocations section. |
 | Sponsorship | To add an allocation as a sponsorship, click the down arrow next to *Sponsorship* to either create a new sponsorship or donate to an existing one. |
 | Feedback | To add an allocation as a sponsorship, click the down arrow next to *Feedback* to either create a new feedback or donate to an existing one.|
 

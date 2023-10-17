@@ -44,7 +44,7 @@ Therefore, the system looks through all the interactions that, occurred at "11.0
 Touchpoints in Engage are added and managed by the system administrator.
 :::
 
-To add an interaction in Engage, follow 'step number 8' in the Create an Account Documentation or go to the accounts profile page and add an interaction in the Quick Insights section via **+ Add Interaction**. 
+To add an interaction in Engage, follow 'step number 8' in the <K2Link route="docs/engage/accounts/creating-accounts/" text="create an account documentation" isInternal /> or go to the accounts profile page and add an interaction in the Quick Insights section via **+ Add Interaction**. 
 
 ## Attribution Models
 

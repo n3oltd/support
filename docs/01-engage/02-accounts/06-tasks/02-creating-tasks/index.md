@@ -12,7 +12,7 @@ Creating tasks in Engage is a super quick process. Follow the steps defined belo
 2. On the **New Task** pop-up screen, specify the following input parameters and click **OK**.
 
 :::note
-You can also create and assign a task to a specific account. Just search for the account and perform steps 1 and 2. *Related Link* input parameter will automatically prepopulate the task to that specific account.
+You can also create and assign a task to a specific account. Just <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal /> and perform steps 1 and 2. *Related Link* input parameter will automatically prepopulate the task to that specific account.
 :::
 
 | Parameters | Description |

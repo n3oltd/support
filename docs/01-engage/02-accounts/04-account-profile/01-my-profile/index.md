@@ -73,5 +73,5 @@ The **gift aid** section shows the status of tax relief specified. You can edit 
 
 ## Tasks Bar
 
-The end of the profile screen shows a task bar section, including a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. The task bar pops-up showing each task with a name and date. Also, each task can be illustrated in detail via clicking on the task itself. To learn more, go to the Tasks Section.
+The end of the profile screen shows a task bar section, including a one-liner sentence; **"! There are x tasks associated with this account"**, where x means the number of tasks. To view the list of tasks, click on the **double-upwards arrow**. The task bar pops-up showing each task with a name and date. Also, each task can be illustrated in detail via clicking on the task itself. To learn more, go to the <K2Link route="docs/engage/accounts/tasks/" text="Tasks section" isInternal />.
 
