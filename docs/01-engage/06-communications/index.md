@@ -29,5 +29,3 @@ Defining in detail, these types of communications allow you to:
 3. Consistently maintain emails and PDFs from one main centre. 
 4. Use communications for all different departments within Engage e.g. sending feedbacks to important donors for rentention. 
 
-
-
