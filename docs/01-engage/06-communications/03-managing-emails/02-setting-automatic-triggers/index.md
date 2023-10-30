@@ -1,4 +1,7 @@
-# Setting Automated Triggers to Dispatch Documents
+---
+title: Setting Automated Triggers to Dispatch Documents
+sidebar_position: 2
+--- 
 
 Automated triggers refer to predefined actions that automatically initiate specific communication responses or workflows. These triggers prompt the communication system to send out pre-programmed emails, notifications, or posts without requiring manual intervention. 
 
