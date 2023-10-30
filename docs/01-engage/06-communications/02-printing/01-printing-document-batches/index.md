@@ -3,16 +3,6 @@ title: Printing Document Batches
 sidebar_position: 1
 ---
 
-Printing batches is a process of generating and printing multiple documents in a single batch, rather than printing each document individually. This is important in terms of: 
-
-- **Time and Resource Efficiency:** Printing batches save time and effort by allowing multiple documents to be printed simultaneously.
-
-- **Bulk Processing:** Printing batches enables bulk processing of documents, making it easier to manage and distribute information in printed form.
-
-- **Reduced Errors:** Printing batches help reduce the risk of errors that may occur when manually printing individual documents one by one.
-
-## Printing Batches in Engage
-
 In Engage, printing allows a user to set and action print batches. A print batch, including receipts, certificates and letters, is grouped together by similar print tray sizes to print communications in one go. When multiple documents (emails, SMS, receipts) are auto-generated via the trigger and action mechanism, they are added to a print batch for printing together whenever ready. 
 
 A single print batch can consist:
@@ -43,6 +33,7 @@ Before populating print batches, ask your system administrator to set up PDF tem
 
 1. Click *Communications* in the top menu bar and then *Printing* in the quick navigation section to view the *Printing* screen.
 
+![Land onto Printing screen gif](./land-onto-print-screen.gif)
 
 2. You can view a list of all the batches for printing with parameters defined below. 
 
@@ -57,12 +48,13 @@ Before populating print batches, ask your system administrator to set up PDF tem
 
 3. You can also search for a specific print batch via the **Filters** panel on the left. Expand the panel and input the *reference* of any print batch to view the specific one.
 
-
 4. For batches in an *Open* batch status and ready to be sent for printing, click **Close Batch** to ensure no further documents can be added in it.
 
+![Print batch in Open Status](./print-batch-in-open-status.png)
 
 5. The batch now moves to the *Awaiting Print* status where you can download the document, send it for printing and click **Mark Batch as Printed** to avoid any duplicate printing and set the status of that print as *Printed*. 
 
+![Print batch in Awaiting Print Status](./print-batch-in-awaiting-print-status.png)
 
 :::note
 For print batches already in the *Awaiting Print* batch status, repeat step 5 and send it for printing.   
