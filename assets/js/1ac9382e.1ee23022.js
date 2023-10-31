@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[4308],{4398:t=>{t.exports=JSON.parse('{"title":"Forms","slug":"/category/forms","permalink":"/docs/category/forms","navigation":{"previous":{"title":"Introduction","permalink":"/docs/tally/introduction/"},"next":{"title":"Introduction","permalink":"/docs/forms/introduction/"}}}')}}]);
