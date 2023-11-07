@@ -1,6 +1,6 @@
 ---
 title: Regular Giving - Standard
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 Regular giving donations, also known as recurring donations or monthly giving, are a type of charitable contribution in which a donor commits to giving a fixed amount of money to an organization on a regular and ongoing basis. 
