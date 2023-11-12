@@ -6,7 +6,8 @@ sidebar_position: 2
 Call center in Engage allows various dedicated job role users to call different donors at any time. These users can be agents, inbound or outbound callers working in a team under any campaign.
 
 :::note
-Job roles are added by your system administrator.
+- Job roles are added by your system administrator.
+- Before dialing a call, make sure that the accounts list is created and connected with any active campaign you are working on.
 :::
 
 To call any donor, follow the steps defined below.
@@ -23,11 +24,7 @@ A success popup appears with the message *Success signed into shift*.
 
 ![Sign In as Agent gif](./signin-as-agent.gif)
 
-:::info
-Before dailing a call, make sure that the accounts list is created and connected with any active campaign you are working on. To know more about list, go to the Lists Documentation.
-:::
-
-3. In the dailer popup screen, select the team and campaign and click *Ready for Call*. 
+3. In the dialer popup screen, select the team and campaign and click *Ready for Call*. 
 
 4. Now, Engage will assign you a donor to have a call with displaying the donor name, reference and phone number. Choose whether to start the call with this donor or skip the donor to another via selecting the skip reason and any notes. Starting the call will take you to the donors profile screen where you can make donations and perform other actions. As soon as the conversation finishes, you can end the call with an end reason e.g. *concluded*.
 
