@@ -9,7 +9,7 @@ Regular giving donations, also known as recurring donations or monthly giving, a
 Engage webhook endpoint will be setup and communicated to you by the system administrator. 
 :::
 
-For any regular giving donations entered via the website, you will need to post data to **Engage webhook endpoint**. 
+For any regular giving donations entered via the website, you will need to post data to **Engage webhook endpoint**. Following is a *json* webhook example along with a table containing defined parameters.   
 
 ## Webhook Format Example
 
@@ -50,25 +50,10 @@ For any regular giving donations entered via the website, you will need to post 
 
             "first": "Jessie",
 
-            "last": "Iqbal",
+            "last": "Iqbal"
         }
     },
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **id** | A unique string which identifies the transaction on the website. |
-| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, regular. |
-| **reference** | Any reference the donor was given in an email receipt from the website. |
-| **isOrganization** | *True* or *false* depending on whether you allow donations from organizations. If omitted, will be assumed false. |
-| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organization. Usually this will be individual. |
-| **organization.type** | Should be one of the organization types you recognise in Engage. |
-
-
-```json
-{
     "address": {
 
         "line1": "101 Alexandra Road South, Whalley Range",
@@ -124,18 +109,7 @@ For any regular giving donations entered via the website, you will need to post 
             "fundraising": false
         }
     },
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
-| **giftAid** | Can be *true* or *false* if the donor explicitly states their gift aid status. Should be *null* if the information is not collected or provided. |
-| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
-
-```json
-{
   "allocation": [
     {    
         "type": "fund",
@@ -344,19 +318,7 @@ For any regular giving donations entered via the website, you will need to post 
         "scheme" : "Hifz"
     }
     ],
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **allocation** | <ul><li> Allocations is a concept in Engage which represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> 2. You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li> **Note:** This is an array, and it can contain multiple allocations, but generally there will only be one allocation here. </li></ul> |
-| **allocation[*].type** | This can be fund or sponsorship. |
-| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
-
-
-```json
-{
     "tubewellFeedbacks" : [
     {
         "reference": "2509-3",
@@ -371,7 +333,7 @@ For any regular giving donations entered via the website, you will need to post 
         },
         "currency": "USD",
             
-        "price": 270.0,
+        "price": "270.0",
             
         "customfields":
         { 
@@ -392,7 +354,7 @@ For any regular giving donations entered via the website, you will need to post 
         },
         "currency": "USD",
             
-        "price": 270.0,
+        "price": "270.0",
             
         "customfields":
         { 
@@ -412,8 +374,8 @@ For any regular giving donations entered via the website, you will need to post 
     "paymentMethodName": " ", [This value should be a string that matches the name of the payment method in your engage system, e.g. “Card” or “PayPal”. Depending on the payment method in use, this will be a property with payments specific fields, e.g:
 
         "stripe": {    
-            "SetupIntentId": "si_3JZ0mQHnrctdHvuq1Kz5sPOo",
-        },
+            "SetupIntentId": "si_3JZ0mQHnrctdHvuq1Kz5sPOo"
+        }
     ]
     },
 }
@@ -422,6 +384,18 @@ For any regular giving donations entered via the website, you will need to post 
 
 | Parameters (Fields) | Description |
 | ------------------- | ----------- |
+| **id** | A unique string which identifies the transaction on the website. |
+| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, regular. |
+| **reference** | Any reference the donor was given in an email receipt from the website. |
+| **isOrganization** | *True* or *false* depending on whether you allow donations from organizations. If omitted, will be assumed false. |
+| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organization. Usually this will be individual. |
+| **organization.type** | Should be one of the organization types you recognise in Engage. |
+| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
+| **giftAid** | Can be *true* or *false* if the donor explicitly states their gift aid status. Should be *null* if the information is not collected or provided. |
+| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
+| **allocation** | <ul><li> Allocations is a concept in Engage which represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> 2. You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li> **Note:** This is an array, and it can contain multiple allocations, but generally there will only be one allocation here. </li></ul> |
+| **allocation[*].type** | This can be fund or sponsorship. |
+| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
 | **credential.paymentmethodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood. |
 | **regularGiving** | This is specific for regular giving plans and consists of two main elements. |
 | **regularGiving.Frequency** | This is either monthly, annually or quarterly with default as *monthly*. |
@@ -461,7 +435,7 @@ For GoCardless, provide the *MandateId* and *CustomerId*.
 
     "MandateId": "N3O Ltd",
 
-    "CustomerId": "214214",
+    "CustomerId": "214214"
 }
 ```
 

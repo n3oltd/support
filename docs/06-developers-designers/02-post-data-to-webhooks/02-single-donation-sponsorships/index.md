@@ -19,7 +19,7 @@ Sponsorship information can be viewed across the allocations and sponsorships. T
 
 ## Webhook Format Example
 
-The webhook example explained in this section shows two types of sponsorship schemes in one webhook:
+The *json* webhook example explained in this section shows a table explaining all webhook data parameters defined below and two types of sponsorship schemes in one webhook:
 
 1. Orphan Sponsorships
 2. Family sponsorships
@@ -69,23 +69,7 @@ You need to review the notes and webhook data below before attempting to send ov
             "last": "Iqbal",
         }
   },
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **id** | A unique string which identifies the transaction on the website. |
-| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, single. |
-| **reference** | Any reference the donor was given in an email receipt from the website. |
-| **isOrganization** | *True* or *false* depending on whether you allow donations from organisations. If omitted, will be assumed false. |
-| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organisation. Usually this will be individual. |
-| **organization.type** | Should be one of the organisation types you recognise in Engage. |
-
-
-
-```json
-{
     "address": {
 
         "line1": "101 Alexandra Road South, Whalley Range",
@@ -141,19 +125,7 @@ You need to review the notes and webhook data below before attempting to send ov
             "fundraising": false
         }
     },
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
-| **giftAid** | Can be true or false if the donor explicitly states their Gift Aid status. Should be null if the information is not collected or provided. |
-| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
-
-
-```json
-{
     "allocation": [
     {
         "amount": "240",
@@ -351,19 +323,7 @@ You need to review the notes and webhook data below before attempting to send ov
         "scheme" : "Family"
     }
     ],
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul>  |
-| **allocation[*].type** | This can be fund or sponsorship. |
-| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
-
-
-```json
-{
     "tubewellFeedbacks" : [
         {
             "reference": "2509-3",
@@ -424,8 +384,8 @@ You need to review the notes and webhook data below before attempting to send ov
         
         [ Depending on the payment method in use, this will be a property with payments specific fields e.g:
             "stripe": {
-                "paymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo",
-            },
+                "paymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
+            }
         ]
     },
 
@@ -440,6 +400,18 @@ You need to review the notes and webhook data below before attempting to send ov
 
 | Parameters (Fields) | Description |
 | ------------------- | ----------- |
+| **id** | A unique string which identifies the transaction on the website. |
+| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, single. |
+| **reference** | Any reference the donor was given in an email receipt from the website. |
+| **isOrganization** | *True* or *false* depending on whether you allow donations from organisations. If omitted, will be assumed false. |
+| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organisation. Usually this will be individual. |
+| **organization.type** | Should be one of the organisation types you recognise in Engage. |
+| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
+| **giftAid** | Can be true or false if the donor explicitly states their Gift Aid status. Should be null if the information is not collected or provided. |
+| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
+| **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul>  |
+| **allocation[*].type** | This can be fund or sponsorship. |
+| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
 | **payment** | Populated only on single donations. |
 | **payment.paymentMethodName** | This field should be the name of one of the payment methods the charity has set up in Engage which is configured for single donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, you should complete the relevant section depending on whether the payment type is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal or LaunchGood*. |
 
@@ -458,8 +430,8 @@ For a Stripe payment method you can use either **PaymentIntentId** or **ChargeId
 
     "ChargeId": "ch_3MbsKOIhCuwGfAB01hwiYwYZ",
 
-    "PaymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo",
-},
+    "PaymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
+}
 ```
 
 ### PayPal

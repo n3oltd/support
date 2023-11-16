@@ -11,10 +11,11 @@ Engage webhook endpoint will be setup and communicated to you by the system admi
 
 ## Webhook Format Example
 
-The webhook example explained in this section shows how the data is expected in the form of different funds and two types of sponsorship schemes in one webhook including:
+The *json* webhook example explained in this section shows how the data is expected in the form of different funds, a table explaining all webhook data parameters defined below and two types of sponsorship schemes in one webhook including:
 
 1. Orphan Sponsorships
 2. Hifz sponsorships
+
 
 :::note
 - You need to review the notes and webhook data below before attempting to send over test webhooks.
@@ -62,20 +63,7 @@ The webhook example explained in this section shows how the data is expected in 
             "last": "Iqbal"
         }
     },
-}
-```
 
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **id** | A unique string which identifies the transaction on the website. |
-| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, single. |
-| **reference** | Any reference the donor was given in an email receipt from the website. |
-| **isOrganization** | *True* or *false* depending on whether you allow donations from organisations. If omitted, will be assumed false. |
-| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organisation. Usually this will be individual. |
-| **organization.type** | Should be one of the organisation types you recognise in Engage. |
-
-```json
-{
     "address": {
 
         "line1": "101 Alexandra Road South, Whalley Range",
@@ -131,25 +119,14 @@ The webhook example explained in this section shows how the data is expected in 
             "fundraising": false
         }
     },
-}
 
-```
-
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
-| **giftAid** | Can be *true* or *false* if the donor explicitly states their gift aid status. Should be *null* if the information is not collected or provided. |
-| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
-
-```json
-{
    "allocation": [
    {
       "type": "fund",
         
       "currency": "GBP",
         
-      "amount": 5,
+      "amount": "5",
         
       "fund": {
         
@@ -167,7 +144,7 @@ The webhook example explained in this section shows how the data is expected in 
     {
       "type": "fund",
 
-      "amount": 20,   
+      "amount": "20",   
 
       "currency": "GBP",
       
@@ -178,9 +155,9 @@ The webhook example explained in this section shows how the data is expected in 
 
       "fundDimensions": {
 
-          "location": "Where needed",
-          "theme": "WASH",
-          "stipulation": "Sadaqah" 
+        "location": "Where needed",
+        "theme": "WASH",
+        "stipulation": "Sadaqah" 
       }
     },
 
@@ -188,22 +165,22 @@ The webhook example explained in this section shows how the data is expected in 
 
       "type": "Sponsorship",
 
-      "amount": 840,
+      "amount": "840",
 
       "currency": "GBP",
 
       "fundDimensions": {
 
-          "location": "Yemen",
-          "theme": "health",
-          "stipulation": "sadaqah"
+        "location": "Yemen",
+        "theme": "health",
+        "stipulation": "sadaqah"
       },
 
       "sponsorship": {
           
-          "reference": "2509-1",
+        "reference": "2509-1",
 
-          "scheme": "Orphan"
+        "scheme": "Orphan"
       },
     },
 
@@ -211,22 +188,22 @@ The webhook example explained in this section shows how the data is expected in 
 
       "type": "Sponsorship",           
 
-      "amount": 120,
+      "amount": "120",
 
       "currency": "GBP",
 
       "fundDimensions": {
 
-          "location": "Bangladesh",
-          "theme": "health",
-          "stipulation": "sadaqah"
+        "location": "Bangladesh",
+        "theme": "health",
+        "stipulation": "sadaqah"
       },
 
       "sponsorship": {
 
-          "reference": "2509-2",
+        "reference": "2509-2",
 
-          "scheme": "Hifz"
+        "scheme": "Hifz"
       }
     },
 
@@ -236,7 +213,7 @@ The webhook example explained in this section shows how the data is expected in 
       
       "currency": "GBP",
       
-      "amount": 270.0,
+      "amount": "270.0",
       
       "notes": "",
       
@@ -247,14 +224,14 @@ The webhook example explained in this section shows how the data is expected in 
                       
           "funddimensions": {
 
-              "location": "Where Most Needed",              
-              "theme": "WASH",
-              "stipulation": "Sadaqah"
+            "location": "Where Most Needed",              
+            "theme": "WASH",
+            "stipulation": "Sadaqah"
           },
           
           "currency": "GBP",
                       
-          "price": 270.0,
+          "price": "270.0",
           
           "customfields": { 
 
@@ -282,7 +259,7 @@ The webhook example explained in this section shows how the data is expected in 
 
         "currency": "GBP",
 
-        "monthlyAmount": 70,
+        "monthlyAmount": "70",
 
         "fundDimensions": {
 
@@ -307,7 +284,7 @@ The webhook example explained in this section shows how the data is expected in 
 
         "currency": "GBP",
 
-        "monthlyAmount": 10,
+        "monthlyAmount": "10",
 
         "fundDimensions": {
 
@@ -332,7 +309,7 @@ The webhook example explained in this section shows how the data is expected in 
 
         "currency": "GBP",
 
-        "monthlyAmount": 70,
+        "monthlyAmount": "70",
 
         "fundDimensions": {
 
@@ -356,7 +333,7 @@ The webhook example explained in this section shows how the data is expected in 
             
         "currency": "GBP",
 
-        "monthlyAmount": 10,
+        "monthlyAmount": "10",
 
         "fundDimensions": {
 
@@ -368,17 +345,7 @@ The webhook example explained in this section shows how the data is expected in 
         "scheme" : "Hifz"
     }
   ],
-}
-```
 
-| Parameters (Fields) | Description |
-| ------------------- | ----------- |
-| **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul> |
-| **allocation[*].type** | This can be fund or sponsorship. |
-| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. In case of sponsorships, add the sponsorship in *Allocation object* as **allocation[*].type: "Sponsorship"**. |
-
-```json
-{
     "tubewellFeedbacks" : [
     {
         "reference": "2509-3",
@@ -393,7 +360,7 @@ The webhook example explained in this section shows how the data is expected in 
                 
         "currency": "USD",
           
-        "price": 270.0,
+        "price": "270.0",
           
         "customfields":
         { 
@@ -415,7 +382,7 @@ The webhook example explained in this section shows how the data is expected in 
             
         "currency": "USD",
             
-        "price": 270.0,
+        "price": "270.0",
             
         "customfields":
         { 
@@ -427,7 +394,7 @@ The webhook example explained in this section shows how the data is expected in 
 
     "paymentMethodName": [This value should be a string that matches the name of the payment method in your engage system, e.g. “Card” or “Paypal”],
 
-    "amount": 5, [Depending on the payment method in use, this will be a property with payments specific fields, e.g:
+    "amount": "5", [Depending on the payment method in use, this will be a property with payments specific fields, e.g:
 
                 "stripe": {
                     "paymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo",
@@ -437,15 +404,28 @@ The webhook example explained in this section shows how the data is expected in 
   
     "interactions": [
     {
-      "touchpoint": "donated-website", "timestamp": "2023-08-18T03:43:34.36Z"
+      "touchpoint": "donated-website", 
+      "timestamp": "2023-08-18T03:43:34.36Z"
     }
-]
+  ]
 }
 ```
 
-[^1]: 
+| Parameters (Fields) | Description |
+| ------------------- | ----------- |
+| **id** | A unique string which identifies the transaction on the website. |
+| **type** | Either *single* or *regular* depending on whether the donation is recurring or one-off, in this case, single. |
+| **reference** | Any reference the donor was given in an email receipt from the website. |
+| **isOrganization** | *True* or *false* depending on whether you allow donations from organisations. If omitted, will be assumed false. |
+| **individual/organization** | Complete either one of these sections, **not both**, depending on whether the donor is an individual or an organisation. Usually this will be individual. |
+| **organization.type** | Should be one of the organisation types you recognise in Engage. |
+| **phone** | Include the country code at the beginning. This should be calculated based on the address if it is not required by the donor to enter their country code. |
+| **giftAid** | Can be *true* or *false* if the donor explicitly states their gift aid status. Should be *null* if the information is not collected or provided. |
+| **contactPreferences** | The categories *other* and *fundraising* are specific to each charity. In general, charities will have a category which covers *marketing* (in this case fundraising) and *administration*. You have to ensure that exact categories are agreed with the charity and added here. Also, ensure that explicit consent is being captured on the website before setting any category that covers marketing activity to *true*. |
+| **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul> |
+| **allocation[*].type** | This can be fund or sponsorship. |
+| **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. In case of sponsorships, add the sponsorship in *Allocation object* as **allocation[*].type: "Sponsorship"**. |
 
-[^2]: 
 
 ## Supported Payment Methods
 
@@ -462,8 +442,7 @@ For a Stripe payment method you can use either **PaymentIntentId** or **ChargeId
 
     "ChargeId": "ch_3MbsKOIhCuwGfAB01hwiYwYZ",
 
-    "PaymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo",
-
+    "PaymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
 },
 ```
 
@@ -475,6 +454,5 @@ For a PayPal payment method, Engage requires the **Transaction reference** only.
 "PayPal": {
 
     "TransactionReference:": "abc123"
-
 }
 ```
