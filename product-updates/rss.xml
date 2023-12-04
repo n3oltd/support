@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Mon, 30 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[November 2023 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2023-11-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2023-11-update</guid>
+            <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Month of November includes bug fixes and some new features as well.]]></description>
+            <content:encoded><![CDATA[<p>Month of November includes bug fixes and some new features as well. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Subscribers unsubscribing via Mailchimp can simulatenously opt out of any contact preference within Engage</li><li>Donors can sync their data within Engage via Jotforms</li><li>Sponsorships can now be extended or resumed with or without any payment plan</li><li>Web templates added on forms; where profile PDFs including beneficiary profiles and reports can now be viewed on the website together with videos and other interactive content</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: 'Count Regular Giving Allocation amount' field when selected while updating any list, gives server error</li><li>Fixed: Records in a list get vanished when valid empty field 'Count Pledge Date' is added</li><li>Fixed: Data not displaying on total shift contributions even after a call is made and finished </li><li>Fixed: Engage clicked on navigation bar, drop-down appears but is displaying transparent background </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Transfer Lists</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[October 2023 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2023-10-update</link>
