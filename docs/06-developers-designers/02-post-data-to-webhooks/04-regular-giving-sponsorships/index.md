@@ -16,6 +16,8 @@ Engage webhook endpoint will be setup and communicated to you by the system admi
     {
         "id": "2509",
 
+        "type": "Regular Donation",
+
         "timestamp": "2011-10-05T14:48:00.000Z",
 
         "ip": "82.29.232.77",
@@ -244,8 +246,11 @@ Engage webhook endpoint will be setup and communicated to you by the system admi
 | **allocation** | <ul><li> Allocations is a concept in Engage which represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li> **Note:** This is an array, and it can contain multiple allocations, but generally there will only be one allocation here. </li></ul> |
 | **allocation[*].type** | This should be sponsorship and the order must match where the first sponsorship allocation is paired with the first sponsorship entry and so on. They must not be paired up by location or anything like that. |
 | **allocation[*].scheme** | The scheme name of the sponsorship. This must match exactly with the name of the *Sponsorship Scheme* already set up in Engage *(when you have the code ready, get in touch with support@n3o.ltd to give you the exact scheme name)*. |
-| **$.allocation[*].fundDimensions** |  The location and stipulation is necessary for fund dimensions but ask your system administrator for clarification. |
-| **payment.methodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood. |
+| **$.allocation[*].fundDimensions** |  The location and stipulation is necessary for fund dimensions but ask your system administrator for clarification, **$.ChildSponsorships => [SchemeName]Sponsorships**. |
+| **payment.methodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood*. |
+| **regularGiving** | This is specific for regular giving plans and consists of two main elements named *frequency* and *collection day*. |
+| **regularGiving.Frequency** | This is either *monthly*, *annually* or *quarterly* with default as *monthly*. |
+| **regularGiving.Collection day** | The day of the month of instruction e.g. 1, 9, 15 which should be one of the available collection dates which were configured in the payment method in Engage. |
 
 ## Supported Payment Methods
 
@@ -287,6 +292,8 @@ For GoCardless, provide the *MandateId* and *CustomerId*.
 
 ### SmartDebit
 
+SmartDebit guidance is specific for collecting donor information (e.g. account name, sort code) via your website and submitting the data to Engage via the webhook. Engage will then set up direct debit instructions directly with SmartDebit through their API.
+
 :::note
 You will need to create a *BACS reference number* to be passed via the webhook. 
 :::
@@ -303,6 +310,3 @@ You will need to create a *BACS reference number* to be passed via the webhook.
     "MandateReference": "BACS21791686441" [Unique within service user number]
 }
 ```
-
-SmartDebit guidance is specific for collecting donor information (e.g. account name, sort code) via your website and submitting the data to Engage via the webhook. Engage will then set up direct debit instructions directly with SmartDebit through their API.
-
