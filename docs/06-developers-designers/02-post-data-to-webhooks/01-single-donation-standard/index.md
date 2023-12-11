@@ -9,6 +9,14 @@ For single donations entered via the website, you need to post data to **Engage 
 Engage webhook endpoint will be setup and communicated to you by the system administrator. 
 :::  
 
+A sponsorship beneficary type is known as a scheme for e.g. orphans, widows, families etc. Each of these are considered separate schemes. In most cases, organisations may operate only one scheme e.g. orphan sponsorships, however, others will have multiple schemes and hence the webhook below needs to provide separate data for each scheme type.  
+
+Sponsorship information can be viewed across the allocations and sponsorships. Therefore, the role of the allocation array, is to create a link between the donation and sponsorships. The sponsorship per scheme array contains additional information including the following which is required to create the sponsorship in Engage. 
+
+1. Duration
+2. Begin on date
+3. Beneficiary reference
+
 ## Webhook Format Example
 
 The *json* webhook example explained in this section shows how the data is expected in the form of different funds, a table explaining all webhook data parameters defined below and two types of sponsorship schemes in one webhook including:
@@ -25,6 +33,8 @@ The *json* webhook example explained in this section shows how the data is expec
 ```json
 {
   "id": "2509",
+
+  "type": "Single Donation",
 
   "timestamp": "2011-10-05T14:48:00.000Z",
 
@@ -425,7 +435,10 @@ The *json* webhook example explained in this section shows how the data is expec
 | **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul> |
 | **allocation[*].type** | This can be fund or sponsorship. |
 | **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. In case of sponsorships, add the sponsorship in *Allocation object* as **allocation[*].type: "Sponsorship"**. |
-
+| **Feedbacks** | This refers specifically to projects which require donor feedback. These are typically things like *water wells*, *build a classroom* etc. These 'schemes' must be setup in Engage prior to sending from the website. **Note:** Please speak to N3O to clarify what *feedback schemes* are eligible. Also, the `Type` must be `Feedbacks`. |
+| **payment** | Populated only on Single Donations. |
+| **payment.paymentMethodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for single donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method (i.e. *Card Payments* or *PayPal Payments*). Depending on the payment method selected, complete the relevant section depending on whether the payment method is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, LaunchGood* etc. |
+| **Interactions** | This signals that the *touchpoint* and *attribution* of the donation is from the website. The default touchpoint for **all** webhook data should generally be `donated-website`. |
 
 ## Supported Payment Methods
 
@@ -443,7 +456,7 @@ For a Stripe payment method you can use either **PaymentIntentId** or **ChargeId
     "ChargeId": "ch_3MbsKOIhCuwGfAB01hwiYwYZ",
 
     "PaymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
-},
+}
 ```
 
 ### PayPal

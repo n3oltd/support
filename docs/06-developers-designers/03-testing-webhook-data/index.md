@@ -5,7 +5,7 @@ sidebar_position: 3
 
 In order to test your webhook data, you will require access to the Engage QA environment. 
 
-1. Start with setting up and <K2Link route="" text="post data to your website webhooks" isInternal />.
+1. Start with setting up and <K2Link route="" text="posting data to your website webhooks" isInternal />.
 
 2. N3O will set up a username and password for your developer and provide you 2 webhook URL's to test your donations. 
 

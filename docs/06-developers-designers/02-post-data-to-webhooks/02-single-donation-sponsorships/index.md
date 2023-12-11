@@ -32,6 +32,8 @@ You need to review the notes and webhook data below before attempting to send ov
 {
   "id": "2509",
 
+  "type": "Single Donation",
+
   "timestamp": "2011-10-05T14:48:00.000Z",
 
   "ip": "82.29.232.77",
@@ -128,7 +130,7 @@ You need to review the notes and webhook data below before attempting to send ov
 
     "allocation": [
     {
-        "amount": "240",
+        "amount": "240", [12 x monthly value if annual, monthly value if regular giving]
 
         "currency": "GBP",
 
@@ -159,7 +161,7 @@ You need to review the notes and webhook data below before attempting to send ov
 
     {
 
-        "amount": "360",    
+        "amount": 360, [12 x monthly value if annual, monthly value if regular giving]
 
         "type": "sponsorship",
 
@@ -189,7 +191,7 @@ You need to review the notes and webhook data below before attempting to send ov
     {
         "currency": "GBP",
         
-        "amount": "270.0",
+        "amount": 270.0,
         
         "notes": "",
         
@@ -210,7 +212,7 @@ You need to review the notes and webhook data below before attempting to send ov
             
             "currency": "GBP",
             
-            "price": "270.0",
+            "price": 270.0,
             
             "customfields":{ 
                 "plaque": "Ahmad Ali " 
@@ -234,9 +236,9 @@ You need to review the notes and webhook data below before attempting to send ov
 
         "beneficiaryReference": "f0rtnt7nbhr",
 
-        "scheme": "Orphan", [or whatever their scheme is called in Engage],
+        "scheme": "Orphan", [or whatever their scheme is called in Engage]
             
-        "monthlyAmount": "20", [monthly value], [can be omitted and set as default on form if fixed price]
+        "monthlyAmount": 20, [monthly value], [can be omitted and set as default on form if fixed price]
 
         "currency": "GBP", 
 
@@ -259,7 +261,7 @@ You need to review the notes and webhook data below before attempting to send ov
 
         "beneficiaryReference": "f0rtnt7nbhr",
 
-        "scheme": "Family", [the name of scheme in Engage), 
+        "scheme": "Family", [the name of scheme in Engage]
 
         "currency": "GBP", 
 
@@ -270,7 +272,7 @@ You need to review the notes and webhook data below before attempting to send ov
             "stipulation": "Sadaqah"   
         },
 
-        "monthlyAmount": "30", [monthly value and can be omitted or set as default on form if it is a fixed price]
+        "monthlyAmount": 30, [monthly value and can be omitted or set as default on form if it is a fixed price]
 
         "duration": "_12" [can be omitted and set as default on form if website only offers 12 months option]
     }
@@ -288,7 +290,7 @@ You need to review the notes and webhook data below before attempting to send ov
 
         "currency": "GBP",
 
-        "monthlyAmount": "70",
+        "monthlyAmount": 70,
 
         "fundDimensions": {
 
@@ -310,7 +312,7 @@ You need to review the notes and webhook data below before attempting to send ov
 
         "currency": "GBP",
 
-        "monthlyAmount": "10",
+        "monthlyAmount": 10,
 
         "fundDimensions": {
 
@@ -338,7 +340,7 @@ You need to review the notes and webhook data below before attempting to send ov
             
             "currency": "USD",
             
-            "price": "270.0",
+            "price": 270.0,
             
             "customfields":
                 { 
@@ -362,7 +364,7 @@ You need to review the notes and webhook data below before attempting to send ov
         
             "currency": "USD",
             
-            "price": "270.0",
+            "price": 270.0,
             
             "customfields":
             { 
@@ -375,14 +377,12 @@ You need to review the notes and webhook data below before attempting to send ov
 
         "paymentMethodName": "Stripe", [This value should be a string that matches the name of the payment method in your engage system, e.g. “Stripe” or “PayPal”]
 
-        "amount": "600",
+        "amount": 600,
 
         "stripe": {
             
             "stripeChargeId" : "ch_343454565676879"
-        } 
-        
-        [ Depending on the payment method in use, this will be a property with payments specific fields e.g:
+        } [ Depending on the payment method in use, this will be a property with payments specific fields e.g:
             "stripe": {
                 "paymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
             }
@@ -412,8 +412,10 @@ You need to review the notes and webhook data below before attempting to send ov
 | **allocation** | <ul><li>Allocations is a concept in Engage that represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li>**Note:** This is an array, and it can contain multiple allocations, but generally there will only be 1 allocation here. </li></ul>  |
 | **allocation[*].type** | This can be fund or sponsorship. |
 | **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
+| **Feedbacks** | This refers specifically to projects which require donor feedback. These are typically things like *water wells*, *build a classroom* etc. These 'schemes' must be setup in Engage prior to sending from the website. **Note:** Please speak to N3O to clarify what *feedback schemes* are eligible. Also, the `Type` must be `Feedbacks`. |
 | **payment** | Populated only on single donations. |
 | **payment.paymentMethodName** | This field should be the name of one of the payment methods the charity has set up in Engage which is configured for single donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, you should complete the relevant section depending on whether the payment type is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal or LaunchGood*. |
+| **Interactions** | This signals that the *touchpoint* and *attribution* of the donation is from the website. The default touchpoint for **all** webhook data should generally be `donated-website`. |
 
 ## Supported Payment Methods
 

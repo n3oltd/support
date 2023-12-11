@@ -17,6 +17,8 @@ For any regular giving donations entered via the website, you will need to post 
 {
     "id": "2509",
 
+    "type": "Regular Donation",
+
     "timestamp": "2011-10-05T14:48:00.000Z",
 
     "ip": "82.29.232.77",
@@ -396,9 +398,10 @@ For any regular giving donations entered via the website, you will need to post 
 | **allocation** | <ul><li> Allocations is a concept in Engage which represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> 2. You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li> **Note:** This is an array, and it can contain multiple allocations, but generally there will only be one allocation here. </li></ul> |
 | **allocation[*].type** | This can be fund or sponsorship. |
 | **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
-| **credential.paymentmethodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood. |
-| **regularGiving** | This is specific for regular giving plans and consists of two main elements. |
-| **regularGiving.Frequency** | This is either monthly, annually or quarterly with default as *monthly*. |
+| **Feedbacks** | This refers specifically to projects which require donor feedback. These are typically things like *water wells*, *build a classroom* etc. These 'schemes' must be setup in Engage prior to sending from the website. **Note:** Please speak to N3O to clarify what *feedback schemes* are eligible. Also, the `Type` must be `Feedbacks`. |
+| **credential.paymentmethodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood*. |
+| **regularGiving** | This is specific for regular giving plans and consists of two main elements named *frequency* and *collection day*. |
+| **regularGiving.Frequency** | This is either *monthly*, *annually* or *quarterly* with default as *monthly*. |
 | **regularGiving.Collection day** | The day of the month of instruction e.g. 1, 9, 15 which should be one of the available collection dates which were configured in the payment method in Engage. |
 
 
@@ -410,6 +413,11 @@ Below is a list of supported payment methods and their corresponding webhook str
 
 For Stripe payment method, look at the example below of what should be sent in the webhook under *credentials*.
 
+:::note 
+- Wherever possible, use the *SetupIntentId* that provides extra security and the donor will have a better experience as they would receive limited communications. 
+- If *SubscriptionID* is supplied, it will be cancelled and converted to a payment method where Engage takes monthly payments. 
+:::
+
 ```json
 "Stripe": {
 
@@ -420,11 +428,6 @@ For Stripe payment method, look at the example below of what should be sent in t
         "SubscriptionID": "sub_1JXlDi2eZvKYlo2CI9M6sFCx"
 }
 ```
-
-:::note 
-- Wherever possible, use the *SetupIntentId* that provides extra security and the donor will have a better experience as they would receive limited communications. 
-- If *SubscriptionID* is supplied, it will be cancelled and converted to a payment method where Engage takes monthly payments. 
-:::
 
 ### GoCardless
 
@@ -440,6 +443,8 @@ For GoCardless, provide the *MandateId* and *CustomerId*.
 ```
 
 ### SmartDebit
+
+SmartDebit guidance is specific for collecting donor information (e.g. account name, sort code) via your website and submitting the data to Engage via the webhook. Engage will then set up direct debit instructions directly with SmartDebit through their API.
 
 :::note
 You will need to create a *BACS reference number* to be passed via the webhook. 
@@ -457,6 +462,3 @@ You will need to create a *BACS reference number* to be passed via the webhook.
     "MandateReference": "BACS21791686441" [Unique within service user number]
 }
 ```
-
-SmartDebit guidance is specific for collecting donor information (e.g. account name, sort code) via your website and submitting the data to Engage via the webhook. Engage will then set up direct debit instructions directly with SmartDebit through their API.
-
