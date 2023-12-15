@@ -1,5 +1,5 @@
 ---
-title: Deactivations
+title: Deactivating Sponsorships
 sidebar_position: 10
 ---
 
@@ -8,7 +8,8 @@ Sponsorship deactivation typically refers to the process of discontinuing or end
 Engage allows you to deactivate a sponsorship for any beneficiary through **Engage Forms**, specifically designed for users to create and manage forms on the website. When deactivated, a beneficiary will not be able to be published or sponsored. This is different from unpublishing a beneficiary which means they are temporarily unavailable, but can be published by the organization relatively easily for re-sponsoring.
 
 :::note
-For any changes saved and published in Engage Forms, Engage automatically syncs and pulls the updated information.       
+- For any changes saved and published in Engage Forms, Engage automatically syncs and pulls the updated information.       
+- For a deactivated beneficiary having an active sponsorship at the moment, Engage automatically assigns a new beneficiary to that specific sponsorship.
 :::
 
 ## Steps to Deactivate Sponsorship
@@ -60,3 +61,13 @@ To access this queue and approve the deactivation, please see the following step
 4. A prompt to approve as *yes* or *no* will appear. Select yes, and the request will be approved.
 
 ![Deactivation Gif](deactivation-request-gif.gif)
+
+## Reactivating a Deactivated Beneficiary
+
+If a beneficiary has been deactivated due to any reason and approved by the head office, you can reactivate it again via the *Reactivate* option provided in Engage forms. 
+
+1. Open up the specific beneficiary that has been deactivated with an **approved status** and navigate to the **Deactivate** tab.
+
+2. On the tab, you can see the *Request* section mentioning the deactivate request made by the user and a *Decision* section showing the status of the beneficiary as *Approved* along a *Reactivate* toggle to reactivate the beneficiary again or not. Click the toggle as *yes* and then **Save and publish**.
+
+![Reactivate option](./reactivate-option.png)

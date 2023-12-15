@@ -1,5 +1,5 @@
 ---
-title: Reservations
+title: Reserving Sponsorships
 sidebar_position: 11
 ---
 
