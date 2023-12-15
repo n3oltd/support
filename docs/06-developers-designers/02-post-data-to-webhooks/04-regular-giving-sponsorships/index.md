@@ -279,15 +279,19 @@ For Stripe payment method, look at the example below of what should be sent in t
 
 ### GoCardless
 
-For GoCardless, provide the *MandateId* and *CustomerId*. 
+For GoCardless, just provide the *MandateId* and *CustomerId*. As a result, Engage will create the regular giving and process the payments.
+
+:::note
+*SubscriptionID* and creating subscriptions is not needed in GoCardless, therefore if you do create a subscription, then GoCardless will take payments not Engage. 
+:::
 
 ```json
-"GoCardless": {
+   "GoCardless": {
 
-    "MandateId": "N3O Ltd",
+      "MandateId": "N3O Ltd",
 
-    "CustomerId": "214214"
-}
+      "CustomerId": "214214",
+    }
 ```
 
 ### SmartDebit
