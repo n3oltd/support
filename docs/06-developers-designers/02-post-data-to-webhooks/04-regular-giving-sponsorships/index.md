@@ -281,6 +281,11 @@ For Stripe payment method, look at the example below of what should be sent in t
 
 For GoCardless payment method, direct debit must be set up for regular or recurring payments. You must first create and fill up the *direct debit mandate* form online and then provide the *MandateId* that GoCardless gives you, via the webhook to Engage. As a result, Engage will create the regular giving and process the payments on selected days of a month according to the preference of the donor. These payments will take some time to process and get deducted from the donors account.
 
+This has two primary benefits instead of GoCardless setting up and managing the direct debit:
+
+- The charity can assign the donation item/project to the specific direct debit mandate. This is not possible if via GoCardless directly and requires additional manual work to reconcile.
+- The charity can track failed and missed payments from the CRM directly for follow-up.
+
 :::note 
 - *Mandate* is basically the authorization to deduct payments from the donors account.
 - The *selected days* can be any date of the month for example the *1st, 15th or 25th* of each month, depending on the donor.
