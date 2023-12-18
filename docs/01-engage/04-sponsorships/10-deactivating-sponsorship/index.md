@@ -68,6 +68,6 @@ If a beneficiary has been deactivated due to any reason and approved by the head
 
 1. Open up the specific beneficiary that has been deactivated with an **approved status** and navigate to the **Deactivate** tab.
 
-2. On the tab, you can see the *Request* section mentioning the deactivate request made by the user and a *Decision* section showing the status of the beneficiary as *Approved* along a *Reactivate* toggle to reactivate the beneficiary again or not. Click the toggle as *yes* and then **Save and publish**.
+2. On the tab, you can see the *Request* section mentioning the deactivate request made by the user and a *Decision* section showing the status of the beneficiary as *Approved* along with a *Reactivate* toggle to reactivate the beneficiary again or not. Click the toggle as *yes* and then **Save and publish**.
 
 ![Reactivate option](./reactivate-option.png)
