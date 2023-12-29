@@ -3,27 +3,26 @@ title: Single Donations - Standard
 sidebar_position: 1
 ---
 
-For single donations entered via the website, you need to post data to **Engage webhook endpoint**. 
+Single donations refer to one-time contributions made by any donor. Hence, for one-time donations processed via a website, you need to post data to **Engage webhook endpoint**.
 
 :::note
-Engage webhook endpoint will be setup and communicated to you by the system administrator. 
+Engage webhook endpoint will be setup and communicated to you by N3O's system administrator. 
 :::  
 
-A sponsorship beneficary type is known as a scheme for e.g. orphans, widows, families etc. Each of these are considered separate schemes. In most cases, organisations may operate only one scheme e.g. orphan sponsorships, however, others will have multiple schemes and hence the webhook below needs to provide separate data for each scheme type.  
+During the webhook data integration, other types of required information are actually part of the webhook's additional functionality including *sponsorships*, *feedbacks*, or *funds*, etc. Sponsorships refer to the sponsoring of individual beneficiaries by a donor. Feedbacks are special projects that require feedback being given to the donor after its completion.      
 
-Sponsorship information can be viewed across the allocations and sponsorships. Therefore, the role of the allocation array, is to create a link between the donation and sponsorships. The sponsorship per scheme array contains additional information including the following which is required to create the sponsorship in Engage. 
+If your organization is using this additional functionality as part of the webhook data, then you will need to provide some additional information. For e.g. if you're adding *sponsorships* in the *allocation* part of the webhook, add *duration*, *begin on date*, *scheme name* etc.
 
-1. Duration
-2. Begin on date
-3. Beneficiary reference
+:::tip
+If you need more assistance on understanding the webhook additional functionality or how to integrate them, contact us at N3O.
+:::   
 
 ## Webhook Format Example
 
-The *json* webhook example explained in this section shows how the data is expected in the form of different funds, a table explaining all webhook data parameters defined below and two types of sponsorship schemes in one webhook including:
+The *json* webhook example explained in this section shows how the data is expected along with a table explaining all webhook data parameters and two types of sponsorship schemes including:
 
 1. Orphan Sponsorships
 2. Hifz sponsorships
-
 
 :::note
 - You need to review the notes and webhook data below before attempting to send over test webhooks.
