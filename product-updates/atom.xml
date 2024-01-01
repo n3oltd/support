@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://support.n3o.ltd/product-updates</id>
     <title>N3O Support Blog</title>
-    <updated>2023-11-28T00:00:00.000Z</updated>
+    <updated>2023-12-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://support.n3o.ltd/product-updates"/>
     <subtitle>N3O Support Blog</subtitle>
     <icon>https://support.n3o.ltd/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[December 2023 Update]]></title>
+        <id>https://support.n3o.ltd/product-updates/2023-12-update</id>
+        <link href="https://support.n3o.ltd/product-updates/2023-12-update"/>
+        <updated>2023-12-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As approaching towards the end of the year, the month of December includes finishing up some bug fixes and adding new features.]]></summary>
+        <content type="html"><![CDATA[<p>As approaching towards the end of the year, the month of December includes finishing up some bug fixes and adding new features. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Added option in N3O Forms (Umbraco) to reactivate deactivated beneficiaries</li><li>Optimizing performance of lists function within Engage</li><li>Minimizing delays in the Data Import processing record process</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Tally banked deposit error (The specified settlement dates are incomplete or invalid)</li><li>Fixed: Error occurs when trying to edit regular giving sponsorship allocation </li><li>Fixed: Not all sponsorships are showing when creating a sponsorship list</li><li>Fixed: Go Cardless refund option is unable to approve and gives error </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Transfer Lists</li><li>Scheduled Giving</li></ul>]]></content>
+        <category label="update" term="update"/>
+        <category label="engage" term="engage"/>
+        <category label="tally" term="tally"/>
+        <category label="forms" term="forms"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[November 2023 Update]]></title>
         <id>https://support.n3o.ltd/product-updates/2023-11-update</id>
