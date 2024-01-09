@@ -1,33 +1,13 @@
 ---
 title: Single Donations - Standard 
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-Single donations refer to one-time contributions made by any donor. Hence, for one-time donations processed via a website, you need to post data to **Engage webhook endpoint**.
-
-:::note
-Engage webhook endpoint will be setup and communicated to you by N3O's system administrator. 
-:::  
-
-During the webhook data integration, other types of required information are actually part of the webhook's additional functionality including *sponsorships*, *feedbacks*, or *funds*, etc. Sponsorships refer to the sponsoring of individual beneficiaries by a donor. Feedbacks are special projects that require feedback being given to the donor after its completion.      
-
-If your organization is using this additional functionality as part of the webhook data, then you will need to provide some additional information. For e.g. if you're adding *sponsorships* in the *allocation* part of the webhook, add *duration*, *begin on date*, *scheme name* etc.
-
-:::tip
-If you need more assistance on understanding the webhook additional functionality or how to integrate them, contact us at N3O.
-:::   
+Single donations refer to one-time contributions made by any donor. Hence, for one-time donations processed via a website, you need to post data to the **Engage webhook endpoint**.   
 
 ## Webhook Format Example
 
-The *json* webhook example explained in this section shows how the data is expected along with a table explaining all webhook data parameters and two types of sponsorship schemes including:
-
-1. Orphan Sponsorships
-2. Hifz sponsorships
-
-:::note
-- You need to review the notes and webhook data below before attempting to send over test webhooks.
-- The same format and behavior is followed for feedback schemes.
-:::
+The *json* webhook example explained below shows how the data is expected along with a table explaining all webhook data parameters.
 
 ```json
 {

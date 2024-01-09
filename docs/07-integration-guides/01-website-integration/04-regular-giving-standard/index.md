@@ -1,17 +1,15 @@
 ---
 title: Regular Giving - Standard
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Regular giving donations, also known as recurring donations or monthly giving, are a type of charitable contribution in which a donor commits to giving a fixed amount of money to an organization on a regular and ongoing basis. 
 
-:::note
-Engage webhook endpoint will be setup and communicated to you by the system administrator. 
-:::
-
-For any regular giving donations entered via the website, you will need to post data to **Engage webhook endpoint**. Following is a *json* webhook example along with a table containing defined parameters.   
+For any regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**.    
 
 ## Webhook Format Example
+
+Following is a *json* webhook example explained along with a table containing all the webhook data parameters.
 
 ```json
 {
