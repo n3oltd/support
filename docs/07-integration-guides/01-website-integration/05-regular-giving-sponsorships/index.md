@@ -1,15 +1,13 @@
 ---
 title: Regular Giving - Sponsorships
-sidebar_position: 4
+sidebar_position: 5
 --- 
 
-For regular giving donations entered via the website, you will need to post data to **Engage webhook endpoint**. The *json* webhook format along with a table containing defined parameters given below is for sponsorship regular giving plan with only the *allocation* part to be different.
-
-:::note
-Engage webhook endpoint will be setup and communicated to you by the system administrator. 
-:::
+For regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**. 
 
 ## Webhook Format Example
+
+Given below is a *json* webhook format example along with a table containing the webhook's parameters. The webhook includes **sponsorship regular giving plan** with only the *allocation* part to be different.
 
 ```json
 {

@@ -1,32 +1,16 @@
 ---
 title: Single Donations - Sponsorships
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-For single donations entered via the website, you need to post data to **Engage webhook endpoint**. Below information shows how the data is expected for 'sponsorships'.
-
-:::note
-Engage webhook endpoint will be setup and communicated to you by the system administrator. 
-:::
-
-A sponsorship beneficary type is known as a scheme for e.g. orphans, widows, families etc. Each of these are considered separate schemes. In most cases, organisations may operate only one scheme e.g. orphan sponsorships, however, others will have multiple schemes and hence the webhook below needs to provide separate data for each scheme type.  
-
-Sponsorship information can be viewed across the allocations and sponsorships. Therefore, the role of the allocation array, is to create a link between the donation and sponsorships. The sponsorship per scheme array contains additional information including the following which is required to create the sponsorship in Engage. 
-
-1. Duration
-2. Begin on date
-3. Beneficiary reference 
+For single donations entered via the website, you need to post data to the **Engage webhook endpoint**. 
 
 ## Webhook Format Example
 
-The *json* webhook example explained in this section shows a table explaining all webhook data parameters defined below and two types of sponsorship schemes in one webhook:
+The *json* webhook example explained below shows a table explaining all webhook data parameters along with two types of sponsorship schemes including:
 
 1. Orphan Sponsorships
 2. Family sponsorships
-
-:::note
-You need to review the notes and webhook data below before attempting to send over test webhooks.
-:::
 
 ```json
 {
