@@ -1,5 +1,5 @@
 ---
-title: Sync Mailchimp Data with Engage
+title: Sync Mailchimp Data within Engage
 sidebar_position: 1
 ---
 

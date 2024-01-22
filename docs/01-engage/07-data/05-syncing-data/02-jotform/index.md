@@ -1,5 +1,5 @@
 ---
-title: Syncing Donor Data within Engage using Jotforms
+title: Sync Donor Data within Engage using Jotforms
 sidebar_position: 6
 ---
 
