@@ -1,6 +1,6 @@
 ---
 title: Language and Date Settings
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 :::tip Who can use this feature?

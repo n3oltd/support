@@ -1,6 +1,6 @@
 ---
 title: Organization General Settings
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Organization general settings include the following:
