@@ -222,7 +222,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
 
         "scheme": "Orphan", [or whatever their scheme is called in Engage]
             
-        "monthlyAmount": 20, [monthly value]
+        "monthlyAmount": 20, [monthly amount]
 
         "currency": "GBP", 
 
@@ -254,7 +254,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "stipulation": "Sadaqah"   
         },
 
-        "monthlyAmount": 30, [monthly value]
+        "monthlyAmount": 30, [monthly amount]
     }
     ],
 

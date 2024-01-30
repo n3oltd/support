@@ -146,7 +146,7 @@ Given below is a *json* webhook format example along with a table containing the
 
     {
 
-        "amount": "20", [12 x monthly value if annual, monthly value if regular giving]
+        "amount": "20", [monthly price]
 
         "type": "sponsorship",
   
@@ -175,7 +175,7 @@ Given below is a *json* webhook format example along with a table containing the
 
             "scheme": "child", [or whatever their scheme is called in Engage]
 
-            "amount": "20", [monthly value]
+            "amount": "20", [monthly price]
 
             "fundDimensions":
             {
