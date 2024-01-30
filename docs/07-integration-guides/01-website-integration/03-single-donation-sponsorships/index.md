@@ -114,7 +114,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
 
     "allocation": [
     {
-        "amount": "240", [12 x monthly value if annual, monthly value if regular giving]
+        "amount": "20", [this amount should be the same as that used in the sponsorship area]
 
         "currency": "GBP",
 
@@ -145,7 +145,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
 
     {
 
-        "amount": 360, [12 x monthly value if annual, monthly value if regular giving]
+        "amount": 20, [this amount should be the same as that used in the sponsorship area]
 
         "type": "sponsorship",
 
@@ -222,7 +222,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
 
         "scheme": "Orphan", [or whatever their scheme is called in Engage]
             
-        "monthlyAmount": 20, [monthly value], [can be omitted and set as default on form if fixed price]
+        "monthlyAmount": 20, [monthly value]
 
         "currency": "GBP", 
 
@@ -232,8 +232,6 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "theme": "Child Welfare",
             "stipulation": "Sadaqah"   
         },
-            
-        "duration": "_12" [can be omitted and set as default on form is website only offers 12 months option]
     }
     ],
 
@@ -256,9 +254,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "stipulation": "Sadaqah"   
         },
 
-        "monthlyAmount": 30, [monthly value and can be omitted or set as default on form if it is a fixed price]
-
-        "duration": "_12" [can be omitted and set as default on form if website only offers 12 months option]
+        "monthlyAmount": 30, [monthly value]
     }
     ],
 
