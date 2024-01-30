@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupport=self.webpackChunksupport||[]).push([[4692],{49907:t=>{t.exports=JSON.parse('{"permalink":"/product-updates","page":1,"postsPerPage":10,"totalPages":1,"totalCount":7,"blogDescription":"Product Updates","blogTitle":"Product Updates"}')}}]);
