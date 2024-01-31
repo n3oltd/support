@@ -7,188 +7,368 @@ For single donations entered via the website, you need to post data to the **Eng
 
 ## Webhook Format Example
 
-The *json* webhook example explained below shows a table explaining all webhook data parameters along with two types of sponsorship schemes including:
-
-1. Orphan Sponsorships
-2. Family sponsorships
+The *json* webhook example explained below shows a table explaining all webhook data parameters along with two types of sponsorship schemes including *Orphan* and *Family* and feedbacks.
 
 ```json
 {
-  "id": "2509",
-
-  "type": "Single Donation",
-
-  "timestamp": "2011-10-05T14:48:00.000Z",
-
-  "ip": "82.29.232.77",
-
-  "reference": "2509",
-
-  "currency": "GBP",
-
-  "amount": "25",
-
-  "isOrganization": false,
-
-  "individual": {
-
-        "title": "Mr",
-
-        "first": "Jessie",
-
+    "id": "2509",
+    
+    "type": "Single Donation",
+    
+    "timestamp": "2011-10-05T14:48:00.000Z",
+    
+    "ip": "82.29.232.77",
+    
+    "reference": "2509",
+    
+    "currency": "GBP",
+    
+    "amount": 715,
+    
+    "isOrganization": false,
+    
+    "individual": {
+        
+        "title": "Mr",       
+        "first": "Jessie",    
         "last": "Iqbal"
+    },
 
-  },
-
-  "organization": {
-
+    "organization": {
+        
         "name": "N3O Ltd",
-
+        
         "type": "Business",
-
+        
         "contact": {
-
+            
             "title": "Mr",
-
             "first": "Jessie",
-
-            "last": "Iqbal",
+            "last": "Iqbal"
         }
-  },
+    },
 
     "address": {
-
+        
         "line1": "101 Alexandra Road South, Whalley Range",
-
+        
         "line2": "Whalley Range",
-
+        
         "line3": "Optional",
-
+        
         "line4": "Optional",
-
+        
         "townCity": "Manchester",
-
+        
         "countyState": "Greater Manchester",
-
+        
         "postcode": "M16 8ST",
-
+        
         "countryCode": "GB"
-  },
+    },
 
-  "email": "donor@gmail.com",
-
-  "phone": "+447714243567",
-
-  "giftAid": true,
-
-  "contactPreferences": {
-
+    "email": "donor@gmail.com",
+    
+    "phone": "+447714243567",
+    
+    "giftAid": true,
+    
+    "contactPreferences": {
+        
         "email": {
-
             "administration": true,
-
             "fundraising": false
         },
 
         "sms": {
-
             "administration": false,
-
             "fundraising": false
         },
 
         "telephone": {
-
             "administration": true,
-
             "fundraising": false
         },
 
         "post": {
-
             "administration": true,
-
             "fundraising": false
         }
     },
 
     "allocation": [
-    {
-        "amount": "20", [this amount should be the same as that used in the sponsorship area]
-
-        "currency": "GBP",
-
-        "type": "sponsorship",
-
-        "fundDimensions":  {
-
-            "location": "Where needed",
-            "theme": "Child welfare",
-            "stipulation": "Sadaqah"     
-
-        },
-        "fund": {
-
-            "donationitem": "",
-
-            "summary": ""  
-        },
-
-        "sponsorship": {
-
-            "reference": "2509-1",
-
-            "scheme": "Orphan"
-
-        }
-    },
-
-    {
-
-        "amount": 20, [this amount should be the same as that used in the sponsorship area]
-
-        "type": "sponsorship",
-
-        "currency": "GBP",
-
-        "fundDimensions":  {
-
-            "location": "Pakistan",
-            "theme": "Child welfare",
-            "stipulation": "Zakah"     
-        },
-        "fund": {
-
-            "donationitem": "",
-
-            "summary": ""  
-        },
-
-        "sponsorship": {
-
-            "reference": "2509-2",
-
-            "scheme": "Family"
-        }
-    }, 
-
-    {
-        "currency": "GBP",
-        
-        "amount": 270.0,
-        
-        "notes": "",
-        
-        "type": "Feedback",
-        
-        "feedback": {
+	    {
+            "type": "fund",
             
+            "currency": "GBP",
+            
+            "amount": "5", 
+            
+            "fund": {
+                "item": "Wash fund"
+            },
+
+            "fundDimensions": {
+
+                "location": "Where needed",
+                "theme": "WASH",
+                "stipulation": "Sadaqah"
+            }
+        },
+        {
+            "type": "fund",
+            
+            "amount": "20",
+            
+            "currency": "GBP",
+
+            "fund": {
+                "item": "Food Parcel"
+            },
+
+            "fundDimensions": {
+
+                "location": "Where needed",
+                "theme": "WASH",
+                "stipulation": "Sadaqah"
+            }
+        },
+        {
+
+            "type": "Sponsorship",
+            
+            "amount": "300", [this amount should be the same as that used in the sponsorship area]
+            
+            "currency": "GBP",
+            
+            "fundDimensions": {
+
+                "location": "Yemen",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            },
+            
+            "sponsorship": {
+                
+                "beganOn": "2023-05-23T23:04:36.6885997Z",
+                
+                "reference": "2509-1",
+                
+                "scheme": "Orphan", [name of the scheme in Engage]
+				
+                "beneficiaryReference": "OP23179300",			    
+                
+                "duration": 12,
+                
+                "currency": "GBP",
+                
+                "monthlyAmount": 25,
+			    
+                "amount": 300.0,
+            },
+        },
+        {
+            "type": "Sponsorship",
+            
+            "amount": "120", [this amount should be the same as that used in the sponsorship area]
+            
+            "currency": "GBP",
+            
+            "fundDimensions": {
+
+                "location": "Bangladesh",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            },
+            
+            "sponsorship": {
+				
+                "reference": "2509-2",
+                
+                "beganOn": "2023-05-23T23:04:36.6885997Z",
+			    
+                "scheme": "Hifz", [name of the scheme in Engage]
+                
+                "beneficiaryReference": "HF23179310",
+                
+                "duration": 12,
+                
+                "currency": "GBP",
+                
+                "monthlyAmount": 10,
+			    
+                "amount": 120.0,
+            }
+        },
+        {
+            "type": "Feedback",
+            
+            "currency": "GBP",
+            
+            "amount": 270.0,
+            
+            "notes": "",
+            
+            "feedback": {
+                
+                "reference": "2509-3",
+                
+                "scheme": "Tube Well",
+                
+                "currency": "GBP",
+                
+                "price": 270.0,
+                
+                "customfields": {
+                    "plaque": "Ahmad Ali"
+                }
+            },
+            
+            "funddimensions": {
+
+                "location": "Where Most Needed",
+                "theme": "WASH",
+                "stipulation": "Sadaqah"
+            }
+        }
+    ],
+
+    "OrphanSponsorships": [
+	    {
+            "reference": "2509-1",
+            
+            "beganOn": "2023-05-23T23:04:36.6885997Z",
+			
+            "scheme": "Orphan", [or whatever their scheme is called in Engage]
+            
+            "beneficiaryReference": "OP23179300",			
+            
+            "duration": 12,
+            
+            "currency": "GBP",
+            
+            "monthlyAmount": 25, [monthly amount]
+			
+            "amount": 300.0,
+            
+            "fundDimensions": {
+
+                "location": "Yemen",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            }           
+        },
+    ],
+
+    "HifzSponsorships": [
+	    
+        {
+            "reference": "2509-2",
+            
+            "beganOn": "2023-05-23T23:04:36.6885997Z",
+			
+            "scheme": "Hifz", [the name of scheme in Engage]
+            
+            "beneficiaryReference": "HF23179310",
+            
+            "duration": 12,
+            
+            "currency": "GBP",
+            
+            "monthlyAmount": 10, [monthly amount]
+			
+            "amount": 120.0,
+            
+            "fundDimensions": {
+
+                "location": "Bangladesh",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            }           
+        }
+    ],
+
+    "sponsorships": [
+	    {
+            "reference": "2509-1",
+            
+            "beganOn": "2023-05-23T23:04:36.6885997Z",
+			
+            "scheme": "Orphan",
+            
+            "beneficiaryReference": "OP23179300",			
+            
+            "duration": 12,
+            
+            "currency": "GBP",
+            
+            "monthlyAmount": 25,
+			
+            "amount": 300.0,
+            
+            "fundDimensions": {
+
+                "location": "Yemen",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            } 
+        },
+        {
+            "reference": "2509-2",
+            
+            "beganOn": "2023-05-23T23:04:36.6885997Z",
+			
+            "scheme": "Hifz",
+            
+            "beneficiaryReference": "HF23179310",
+            
+            "duration": 12,
+            
+            "currency": "GBP",
+            
+            "monthlyAmount": 10,
+			
+            "amount": 120.0,
+            
+            "fundDimensions": {
+
+                "location": "Bangladesh",
+                "theme": "health",
+                "stipulation": "sadaqah"
+            }    
+        }
+    ],
+
+    "tubewellFeedbacks": [
+	    {
+            "reference": "2509-3",
+            
+            "scheme": "Tube Well",            
+            
+            "currency": "GBP",
+            
+            "price": 270.0,
+            
+            "customfields": {
+                "plaque": "Ahmad Ali "
+            },
+			
+            "funddimensions": {
+
+                "location": "Where Most Needed",
+                "theme": "WASH",
+                "stipulation": "Sadaqah"
+            }
+        }
+    ],
+    "feedbacks": [
+	    {
             "reference": "2509-3",
             
             "scheme": "Tube Well",
             
             "funddimensions": {
-            
+                
                 "location": "Where Most Needed",
                 "theme": "WASH",
                 "stipulation": "Sadaqah"
@@ -198,165 +378,16 @@ The *json* webhook example explained below shows a table explaining all webhook 
             
             "price": 270.0,
             
-            "customfields":{ 
-                "plaque": "Ahmad Ali " 
-            }
-        },
-        
-        "funddimensions": {
-            
-            "location": "Where Most Needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah"
-        }
-    }
-    ],
-
-    "OrphanSponsorships": [
-    {
-        "reference": "2509-1",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "scheme": "Orphan", [or whatever their scheme is called in Engage]
-            
-        "monthlyAmount": 20, [monthly amount]
-
-        "currency": "GBP", 
-
-        "fundDimensions": {
-
-            "location": "Where needed",
-            "theme": "Child Welfare",
-            "stipulation": "Sadaqah"   
-        },
-    }
-    ],
-
-    "FamilySponsorships": [ 
-    {
-        "reference": "2509-2",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "scheme": "Family", [the name of scheme in Engage]
-
-        "currency": "GBP", 
-
-        "fundDimensions": {
-
-            "location": "Pakistan",
-            "theme": "Education",
-            "stipulation": "Sadaqah"   
-        },
-
-        "monthlyAmount": 30, [monthly amount]
-    }
-    ],
-
-    "Sponsorships" : [
-    {
-        "reference": "2509-1",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "duration": "12",
-
-        "currency": "GBP",
-
-        "monthlyAmount": 70,
-
-        "fundDimensions": {
-
-                "location": "Where needed",
-                "theme": "Child Welfare",
-                "stipulation": "Sadaqah" 
-            },
-        "scheme" : "Orphan"
-    },
-
-    {
-        "reference": "2509-2",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "duration": "12",
-
-        "currency": "GBP",
-
-        "monthlyAmount": 10,
-
-        "fundDimensions": {
-
-            "location": "Pakistan",
-            "theme": "Education",
-            "stipulation": "Sadaqah"   
-
-        },
-
-        "scheme" : "Family"
-    }
-    ],
-
-    "tubewellFeedbacks" : [
-        {
-            "reference": "2509-3",
-            
-            "scheme": "Tube Well",
-            
-            "funddimensions": {
-                "location": "Where Most Needed",
-                "theme": "WASH",
-                "stipulation": "Sadaqah"
-               },
-            
-            "currency": "USD",
-            
-            "price": 270.0,
-            
-            "customfields":
-                { 
-                    "plaque": "Ahmad Ali " 
-                }
-        }
-    ],
-
-    "feedbacks": [
-        {
-            "reference": "2509-3",
-            
-            "scheme": "Tube Well",
-            
-            "funddimensions": {
-            
-                "location": "Where Most Needed",
-                "theme": "WASH",
-                "stipulation": "Sadaqah"
-            },
-        
-            "currency": "USD",
-            
-            "price": 270.0,
-            
-            "customfields":
-            { 
+            "customfields": {
                 "plaque": "Ahmad Ali"
             }
         }
     ],
-
+    
     "payment": {
-
-        "paymentMethodName": "Stripe", [This value should be a string that matches the name of the payment method in your engage system, e.g. “Stripe” or “PayPal”]
-
+        
+        "paymentMethodName": " ", [This value should be a string that matches the name of the payment method in your engage system, e.g.“Card” or “Paypal”]
+        
         "amount": 600,
 
         "stripe": {
@@ -365,13 +396,13 @@ The *json* webhook example explained below shows a table explaining all webhook 
         } [ Depending on the payment method in use, this will be a property with payments specific fields e.g:
             "stripe": {
                 "paymentIntentId": "pi_3JZ0mQHnrctdHvuq1Kz5sPOo"
-            }
-        ]
+            }]
     },
 
     "interactions": [
         {
-            "touchpoint": "donated-website",         
+            
+            "touchpoint": "donated-website",
             "timestamp": "2023-08-18T03:43:34.36Z"
         }
     ]
@@ -396,7 +427,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
 | **Feedbacks** | This refers specifically to projects which require donor feedback. These are typically things like *water wells*, *build a classroom* etc. These 'schemes' must be setup in Engage prior to sending from the website. **Note:** Please speak to N3O to clarify what *feedback schemes* are eligible. Also, the `Type` must be `Feedbacks`. |
 | **payment** | Populated only on single donations. |
 | **payment.paymentMethodName** | This field should be the name of one of the payment methods the charity has set up in Engage which is configured for single donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, you should complete the relevant section depending on whether the payment type is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal or LaunchGood*. |
-| **Interactions** | This signals that the *touchpoint* and *attribution* of the donation is from the website. The default touchpoint for **all** webhook data should generally be `donated-website`. |
+| **interactions** | This signals that the *touchpoint* and *attribution* of the donation is from the website. The default touchpoint for **all** webhook data should generally be `donated-website`. |
 
 ## Supported Payment Methods
 
