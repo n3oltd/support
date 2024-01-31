@@ -1,13 +1,13 @@
 ---
-title: Regular Giving - Sponsorships
+title: Regular Giving (Sponsorships and Feedbacks)
 sidebar_position: 5
 --- 
 
-For regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**. 
+For regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**. This webhook is used only when your organization is using sponsorships and feedbacks as an additional functionality.
 
 ## Webhook Format Example
 
-Given below is a *json* webhook format example along with a table containing the webhook's parameters. The webhook includes **sponsorship regular giving plan** with only the *allocation* part to be different.
+Given below is a *json* webhook format example along with a table containing the webhook's parameters. The webhook includes **sponsorship regular giving plan** with only the *allocation* part to be different along with some feedback schemes. 
 
 ```json
 {

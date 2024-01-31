@@ -1,9 +1,9 @@
 ---
-title: Single Donations - Standard 
+title: Single Donations (Basic) 
 sidebar_position: 2
 ---
 
-Single donations refer to one-time contributions made by any donor. Hence, for one-time donations processed via a website, you need to post data to the **Engage webhook endpoint**.   
+Single donations refer to one-time contributions made by any donor. Hence, for one-time donations processed via a website, you need to post data to the **Engage webhook endpoint**. This webhook is a standard one without any additional information including sponsorships and feedbacks and can be used for performing a basic donations integration. 
 
 ## Webhook Format Example
 

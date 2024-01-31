@@ -1,13 +1,13 @@
 ---
-title: Single Donations - Sponsorships
+title: Single Donations (Sponsorships and Feedbacks)
 sidebar_position: 3
 ---
 
-For single donations entered via the website, you need to post data to the **Engage webhook endpoint**. 
+For single donations entered via the website, you need to post data to the **Engage webhook endpoint**. This webhook is only used when your organization is using sponsorships and feedbacks as an additional functionality.
 
 ## Webhook Format Example
 
-The *json* webhook example explained below shows a table explaining all webhook data parameters along with two types of sponsorship schemes including *Orphan* and *Family* and feedbacks.
+The *json* webhook example explained below shows a table explaining all webhook data parameters along with different types of sponsorship and feedback schemes including *Orphan* and *Family*.
 
 ```json
 {
