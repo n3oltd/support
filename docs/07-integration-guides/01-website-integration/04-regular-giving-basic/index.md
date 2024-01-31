@@ -1,11 +1,11 @@
 ---
-title: Regular Giving - Standard
+title: Regular Giving (Basic) 
 sidebar_position: 4
 ---
 
 Regular giving donations, also known as recurring donations or monthly giving, are a type of charitable contribution in which a donor commits to giving a fixed amount of money to an organization on a regular and ongoing basis. 
 
-For any regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**.    
+For any regular giving donations entered via the website, you will need to post data to the **Engage webhook endpoint**.  This webhook is a standard one without any additional information including sponsorships and feedbacks and can be used for performing a basic donations integration.   
 
 ## Webhook Format Example
 
@@ -13,373 +13,129 @@ Following is a *json* webhook example explained along with a table containing al
 
 ```json
 {
-    "id": "2509",
-
+    "id": "2511",
+    
     "type": "Regular Donation",
-
-    "timestamp": "2011-10-05T14:48:00.000Z",
-
+    
+    "timestamp": "2023-08-13T17:49:03.4564576Z",
+    
     "ip": "82.29.232.77",
-
-    "reference": "2509",
-
+    
+    "reference": "2511",
+    
     "currency": "GBP",
-
-    "amount": "25",
-
+    
+    "amount": 10,
+    
     "isOrganization": false,
-
+    
     "individual": {
-
+        
         "title": "Mr",
-
         "first": "Jessie",
-
         "last": "Iqbal"
     },
-
+    
     "organization": {
-
+        
         "name": "N3O Ltd",
-
+        
         "type": "Business",
-
+           
         "contact": {
-
+            
             "title": "Mr",
-
             "first": "Jessie",
-
             "last": "Iqbal"
         }
     },
 
     "address": {
-
+        
         "line1": "101 Alexandra Road South, Whalley Range",
-
+        
         "line2": "Whalley Range",
-
+        
         "line3": "Optional",
-
+        
         "line4": "Optional",
-
+        
         "townCity": "Manchester",
-
+        
         "countyState": "Greater Manchester",
-
+        
         "postcode": "M16 8ST",
-
+        
         "countryCode": "GB"
     },
 
-  "email": "donor@gmail.com",
-
-  "phone": "+447714243567",
-
-  "giftAid": true,
-
-  "contactPreferences": {
-
+    "email": "donor@gmail.com",
+    
+    "phone": "+447714243567",
+    
+    "giftAid": true,
+    
+    "contactPreferences": {
+        
         "email": {
-
             "administration": true,
-
             "fundraising": false
         },
 
         "sms": {
-
             "administration": false,
-
             "fundraising": false
         },
 
         "telephone": {
-
             "administration": true,
-
             "fundraising": false
         },
 
         "post": {
-
             "administration": true,
-
             "fundraising": false
         }
     },
 
-  "allocation": [
-    {    
-        "type": "fund",
-
-        "currency": "GBP",
-    
-        "amount": "5",
+    "allocation": [
+	    {
+            "type": "fund",
             
-        "fund": {
-
-            "item": "Wash fund"
-        },      
-        "fundDimensions": {
-
-            "location": "Where needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah" 
-        }
-    },
-
-    {
-
-        "type": "fund",
-
-        "amount": "20",   
-
-        "currency": "GBP",
+            "currency": "GBP",
             
-        "fund": {
-
-            "item": "Food Parcel"
-        },      
-
-        "fundDimensions": {
-
-            "location": "Where needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah" 
-        }
-    },
-    {
-
-        "type": "Sponsorship",
-
-        "amount": "70",
-
-        "currency": "GBP",
-
-        "fundDimensions": {
-
-            "location": "Yemen",
-            "theme": "health",
-            "stipulation": "sadaqah"
-        },
-        "sponsorship": {
-
-            "reference": "2509-1",
-            "scheme": "Orphan"
-        }
-    },
-    {
-
-        "type": "Sponsorship",           
-
-        "amount": "10",
-
-        "currency": "GBP",
-
-        "fundDimensions": {
-
-            "location": "Bangladesh",
-            "theme": "health",
-            "stipulation": "sadaqah"
-        },
-        "sponsorship": {
-
-            "reference": "2509-2",
-            "scheme": "Hifz"
-        }
-    },
-    {
-    
-        "type": "Feedback",           
-        
-        "currency": "GBP",
+            "amount": "10",
+            
+            "fund": {
+                "item": "Wash fund"
+            },
+            
+            "fundDimensions": {
                 
-        "amount": "270.0",
-                    
-        "notes": "",
-                
-        "feedback": 
-        {
-            "reference": "2509-3",
-                    
-            "scheme": "Tube Well",
-                    
-            "funddimensions": {
-
-                "location": "Where Most Needed",
+                "location": "Where needed",
                 "theme": "WASH",
                 "stipulation": "Sadaqah"
-            },
-            "currency": "GBP",
-                    
-            "price": "270.0",
-                    
-            "customfields":
-            { 
-                "plaque": "Ahmad Ali " 
             }
-        },
+        }
+    ],   
+   
+    "regularGiving": {
         
-        "funddimensions": {
-
-            "location": "Where Most Needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah"
-        }
-    }  
-    ],
-
-    "OrphanSponsorships": [
-    {
-        "reference": "2509-1",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-            
-        "currency": "GBP",
-
-        "monthlyAmount": "70",
-
-        "fundDimensions": {
-
-                "location": "Yemen",
-                "theme": "health",
-                "stipulation": "sadaqah"
-        },
-
-        "scheme" : "Orphan"
-    }
-    ],
-
-    "HifzSponsorships": [
-    {
-        "reference": "2509-2",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "currency": "GBP",
-
-        "monthlyAmount": "10",
-
-        "fundDimensions": {
-
-            "location": "Bangladesh",
-            "theme": "health",
-            "stipulation": "sadaqah"
-        },
-
-        "scheme" : "Hifz"
-    }
-    ],
-    "sponsorships": [
-    {
-        "reference": "2509-1",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "currency": "GBP",
-
-        "monthlyAmount": "70",
-
-        "fundDimensions": {
-
-            "location": "Yemen",
-            "theme": "health",
-            "stipulation": "sadaqah"
-        },
-
-        "scheme" : "Orphan"
-    },
-    {
-        "reference": "2509-2",
-
-        "beganOn": "27/07/2023",
-
-        "beneficiaryReference": "f0rtnt7nbhr",
-
-        "currency": "GBP",
-
-        "monthlyAmount": "10",
-
-        "fundDimensions": {
-
-            "location": "Bangladesh",
-            "theme": "health",
-            "stipulation": "sadaqah"
-        },
-
-        "scheme" : "Hifz"
-    }
-    ],
-
-    "tubewellFeedbacks" : [
-    {
-        "reference": "2509-3",
-            
-        "scheme": "Tube Well",
-            
-        "funddimensions": {
-                
-            "location": "Where Most Needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah"
-        },
-        "currency": "USD",
-            
-        "price": "270.0",
-            
-        "customfields":
-        { 
-            "plaque": "Ahmad Ali " 
-        }
-    }
-    ],
-    "feedbacks": [
-    {
-        "reference": "2509-3",
-            
-        "scheme": "Tube Well",
-            
-        "funddimensions": {
-            "location": "Where Most Needed",
-            "theme": "WASH",
-            "stipulation": "Sadaqah"
-        },
-        "currency": "USD",
-            
-        "price": "270.0",
-            
-        "customfields":
-        { 
-            "plaque": "Ahmad Ali" 
-        }
-    }
-    ],
-    "regularGiving": 
-    {
         "frequency": "monthly",
-
-        "collectionDay": 1
+        
+        "collectionDay": 1,
+		
+        "amount": 10	
     },
 
     "credential": {
+        "paymentMethodName": " ", [This value should be a string that matches the name of the payment method in your engage system, e.g.“Card” or “PayPal”. Depending on the payment method in use, this will be a property with payments specific fields, e.g:
 
-    "paymentMethodName": " ", [This value should be a string that matches the name of the payment method in your engage system, e.g. “Card” or “PayPal”. Depending on the payment method in use, this will be a property with payments specific fields, e.g:
-
-        "stripe": {    
-            "SetupIntentId": "si_3JZ0mQHnrctdHvuq1Kz5sPOo"
-        }
-    ]
-    },
+            "stripe": {
+                "SetupIntentId": "si_3JZ0mQHnrctdHvuq1Kz5sPOo"
+        }]
+    }
 }
-
 ```
 
 | Parameters (Fields) | Description |
@@ -396,7 +152,6 @@ Following is a *json* webhook example explained along with a table containing al
 | **allocation** | <ul><li> Allocations is a concept in Engage which represents the area where donation money is allocated to be spent and is a combination of *donation item* plus *fund dimensions*. Usually, the title of the web page or the item selected by the donor on the website will determine what is entered for an allocation. </li><li> 2. You can just send the *Item property*, and Engage uses *Transform* to transform the item sent here into the correct donation item and fund dimensions. </li><li> **Note:** This is an array, and it can contain multiple allocations, but generally there will only be one allocation here. </li></ul> |
 | **allocation[*].type** | This can be fund or sponsorship. |
 | **$.allocation[*].fundDimensions** | This is only necessary if your website allows the donor to select or assign different locations or stipulations (e.g. zakah/sadaqah) in addition to the normal donation item. Your system administrator can confirm if this is necessary. |
-| **Feedbacks** | This refers specifically to projects which require donor feedback. These are typically things like *water wells*, *build a classroom* etc. These 'schemes' must be setup in Engage prior to sending from the website. **Note:** Please speak to N3O to clarify what *feedback schemes* are eligible. Also, the `Type` must be `Feedbacks`. |
 | **credential.paymentmethodName** | This should be the name of one of the payment methods the charity has set up in Engage which is configured for regular donations. For example, if the charity has 2 payment methods called *Card Payments* and *PayPal Payments* then the value should be the name of the payment method. Depending on the payment method selected, complete the relevant section depending on whether the payment method is *Stripe, Opayo, Cash, Cheque, SmartDebit, PayPal, or LaunchGood*. |
 | **regularGiving** | This is specific for regular giving plans and consists of two main elements named *frequency* and *collection day*. |
 | **regularGiving.Frequency** | This is either *monthly*, *annually* or *quarterly* with default as *monthly*. |
