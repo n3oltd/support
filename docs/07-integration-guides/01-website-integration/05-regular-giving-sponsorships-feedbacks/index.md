@@ -154,7 +154,7 @@ Given below is a *json* webhook format example along with a table containing the
 				
                 "beganOn": "2023-08-13T17:49:03.4564576Z",
 				
-                "beneficiaryreference": "OP1040075",
+                "beneficiaryreference": "OP1040075",  [this is not required as default]
 				
                 "currency": "GBP",
 				
@@ -185,7 +185,7 @@ Given below is a *json* webhook format example along with a table containing the
 				
                 "beganOn": "2023-08-13T17:49:03.4564576Z",
 				
-                "beneficiaryreference": "HF1040075",
+                "beneficiaryreference": "HF1040075",  [this is not required as default]
 				
                 "currency": "GBP",
 				
@@ -235,7 +235,7 @@ Given below is a *json* webhook format example along with a table containing the
 			
             "scheme": "Orphan", [or whatever their scheme is called in Engage]
 			
-            "beneficiaryreference": "OP1040075",
+            "beneficiaryreference": "OP1040075",  [this is not required as default]
             
             "currency": "GBP",
 			
@@ -260,7 +260,7 @@ Given below is a *json* webhook format example along with a table containing the
 			
             "scheme": "Hifz", [or whatever their scheme is called in Engage]
             
-            "beneficiaryreference": "HF1040075",
+            "beneficiaryreference": "HF1040075",  [this is not required as default]
             
             "currency": "GBP",
 			
@@ -285,7 +285,7 @@ Given below is a *json* webhook format example along with a table containing the
 			
             "scheme": "Orphan",
 			
-            "beneficiaryreference": "OP1040075",
+            "beneficiaryreference": "OP1040075",  [this is not required as default]
             
             "currency": "GBP",
 			
@@ -307,7 +307,7 @@ Given below is a *json* webhook format example along with a table containing the
 			
             "scheme": "Hifz",
             
-            "beneficiaryreference": "HF1040075",
+            "beneficiaryreference": "HF1040075",  [this is not required as default]
             
             "currency": "GBP",
 			
