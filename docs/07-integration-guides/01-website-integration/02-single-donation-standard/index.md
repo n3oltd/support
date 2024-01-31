@@ -131,7 +131,7 @@ The *json* webhook example explained below shows how the data is expected along 
     "interactions": [
       {
           "touchpoint": "donated-website",
-          "timestamp": "2023-08-18T03:43:34.36Z"
+          "timestamp": "2011-10-05T14:48:00.000Z"
       }
     ]
 }
