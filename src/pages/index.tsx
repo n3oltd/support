@@ -26,17 +26,6 @@ export default function Home(): JSX.Element {
             description="We're here to help">
             <HomepageHeader/>
             <main>
-                <div className="margin-top--lg">
-                    <div className="col col--6 col--offset-3">
-                        <div className="alert alert--info" role="alert">
-                            Welcome to the <strong>brand new N3O support site</strong>. Our team are still busy migrating
-                            content here so please bear with us if there are any temporary broken links or missing
-                            pages.
-                            These should all be resolved shortly.
-                        </div>
-                    </div>
-                </div>
-
                 <HomepageFeatures/>
 
                 {/*<MailchimpSignUp />*/}
