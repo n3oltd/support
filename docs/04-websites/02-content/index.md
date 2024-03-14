@@ -14,4 +14,3 @@ Within the Umbraco backoffice, the core building blocks under *Content* that you
 4. **Template:** Consists of the header and footer options for the website.
 
 Each of these are explained in detail under their respective sections ahead. 
-
