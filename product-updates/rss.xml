@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[March 2024 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2024-03-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2024-03-update</guid>
+            <pubDate>Sat, 30 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The month of March includes adding some new features and finishing up bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>The month of March includes adding some new features and finishing up bug fixes. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>SMS preview when sending an SMS in outboxes</li><li>Updated label and title for communications (SMS and email)</li><li>Added missing "File type" icons for list file downloads</li><li>Added new error types &amp; filters for data import</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Open-ended sponsorships do not seem to be appearing under Sponsorships for a donor account</li><li>Fixed: Ended sponsorships are still shown as "active" under lists in Engage</li><li>Fixed: Start date to be removed from the requirements of annual reports for older sponsorships</li><li>Fixed: Accommodation selection is not showing on annual report in Umbraco</li><li>Fixed: Under collaborators group, partners are unable to "Save &amp; Publish" in Umbraco due to some error</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Scheduled Donations</li><li>Tax Relief/Gift Aid</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[February 2024 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2024-02-update</link>
