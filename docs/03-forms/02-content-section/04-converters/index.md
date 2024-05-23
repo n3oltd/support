@@ -28,12 +28,18 @@ To properly sort out the data provided by any charity, converters need to be set
 
 ![create converter for preferred bank](./create-converter-for-preferred-bank.png)
 
-**4.** In the **Input** section, upload the sheet via the Drag and drop option. Click **Save and publish**, and the converter converts the sheet into perfectly clear data along with additional fields like donation item, location, theme, stipulation, etc.
+**4.** In the **Input** section upload the sheet with `.csv` extension via the **Drag and drop** option. Click **Save and publish**, and the converter converts the sheet into perfectly clear data along with additional fields like *account reference*, *allocation type*, *fund dimensions*, *donation item*, etc.
 
-:::info
-Some additional fields have been added by the N3O developers prior to the conversion, so that the client can manually fill it up themselves and then import the bank statement sheet into Engage.
+:::tip
+- A sample bank statement to be uploaded may look like this.
+
+![Sample bank statement](./sample-date-file.png)
+
+- Some additional fields have been added by the N3O developers prior to the conversion, so that the client can manually fill it up themselves and then import the bank statement sheet into Engage.
 :::
 
-![input section](./input-section.png)
+![input section](./input-section.jpg)
 
-**5.** The converted file appears under the **Output** section and can be downloaded as well.
+**5.** The converted file appears under the **Output** section and can be downloaded as well. A sample downloaded output `.csv` file shows up like this.
+
+![Downloaded file](./downloaded-sample-file.png)
