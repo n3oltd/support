@@ -3,7 +3,7 @@ title: Accounts
 sidebar_position: 1
 ---
 
-Begin using an account in **Engage** as soon as it gets created. 
+Begin using an account as soon as it gets created in **Engage**. 
 
 <section class="row list">
    <article class="col col--6 margin-bottom--lg">
