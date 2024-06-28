@@ -41,5 +41,3 @@ You can also view a record of all active connections created with existing lists
 | **Next Sync** | Next time a list will be synced. |
 | **Status** | Status of connection as *healthy* or *needs attention*. |
 | **Created At** | Date and time when the connection was created. |
-
-![List of connections](./list-of-connections.png)
