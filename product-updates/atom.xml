@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://support.n3o.ltd/product-updates</id>
     <title>N3O Support Blog</title>
-    <updated>2024-05-30T00:00:00.000Z</updated>
+    <updated>2024-06-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://support.n3o.ltd/product-updates"/>
     <subtitle>N3O Support Blog</subtitle>
     <icon>https://support.n3o.ltd/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[June 2024 Update]]></title>
+        <id>https://support.n3o.ltd/product-updates/2024-06-update</id>
+        <link href="https://support.n3o.ltd/product-updates/2024-06-update"/>
+        <updated>2024-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The month of June includes adding some new features and completing up a few bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>The month of June includes adding some new features and completing up a few bug fixes. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Adding Installment Triggers Property to activate sending of regular giving or scheduled donation receipts</li><li>Adding instructed feedback project information including location and date in the feedbacks "Details" section </li><li>Editing and updating sponsorship amount for a beneficiary while making a donation </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: List table created by filter is not working properly</li><li>Fixed: Error appearing while atempting to download a list </li><li>Fixed: Website donations are not being attributed properly</li><li>Fixed: Existing attributions are not updating in Donation Income report</li><li>Fixed: Multiple duplicate accounts appearing in Engage and not auto merging</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>N3O App Marketplace</li><li>Tax Relief/Gift Aid</li></ul>]]></content>
+        <category label="update" term="update"/>
+        <category label="engage" term="engage"/>
+        <category label="tally" term="tally"/>
+        <category label="forms" term="forms"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[May 2024 Update]]></title>
         <id>https://support.n3o.ltd/product-updates/2024-05-update</id>
