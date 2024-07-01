@@ -3,9 +3,22 @@ title: Communications
 sidebar_position: 5
 ---
 
-An account can view all the communication methods used in the form of a list. Select *Communications* from the profile menu and view the results on the right-hand side. Each communication has:
+An account can view all the communications sent in the form of a list. Select **Communications** from the profile menu and view the following options:
 
-1. **Reference Number:** Individual identification number of each communication used.  
+1. Send a communication option
+2. Communication records list
+
+## Send a Communication
+
+You can send a new communication related to the account via the **Send correspondence** option. For more details, go to the <K2Link route="docs/engage/communications/outboxes/sending-templates-via-outbox/" text="Sending Templates via Outboxes Documentation" isInternal/>.
+
+![Send correspondence](./send-correspondence-option.png)
+
+## Communication Records List
+
+Each communication in the list includes:
+
+1. **Reference Number:** Individual identification number of each communication used. You can also click on the reference number to view the communication type. 
 2. **Type:** The type of communication method used.
 3. **Dispatched At:** The date and time on which the communication was sent.
 4. **Status:** The condition of the communication like has it been sent or still in the queue.
@@ -13,21 +26,21 @@ An account can view all the communication methods used in the form of a list. Se
 
 ![Communication Lists](./communication-list.png)
 
-A communication method used can be viewed in detail via clicking on the reference number and can be *cancelled, retried to be sent again* and *reissued*. Reissued means that when a particular communication method has been updated recently, it will be resent with the newest information to the account again. 
+A communication method used can be viewed in detail via clicking on the reference number and can be **cancelled**, **retried to be sent again** and **reissued**. Reissued means that when a particular communication method has been updated recently, it will be resent with the newest information to the account again. 
 
 ![Communication options](./options.png)
 
-## Applying Filters
+### Applying Filters
 
-To search and view a specific communication, you can either use *quick search* or apply filters on parameters of the list including **Type** and **Status**.
+To search and view a specific communication, you can apply filters on parameters of the list including **Type** and **Status**.
 
-### Type
+#### Type
 
-Tick mark a checkbox if you want to view a *Document*, *Email* or *SMS* and click **OK**. You will see your desired result.
+Tickmark a checkbox if you want to view a **Document**, **Email** or **SMS** and click **OK**. You will see your desired result.
 
 ![Type Filters](./type-filter.png)
 
-### Status
+#### Status
 
 Select any checkbox in status filters including:
 
