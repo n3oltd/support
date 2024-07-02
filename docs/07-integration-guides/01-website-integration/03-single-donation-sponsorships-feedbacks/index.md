@@ -103,6 +103,8 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "currency": "GBP",
             
             "amount": "5", 
+
+            "linkedtopledge": true, [This will only be true if organization is sending the "pledge" linked to this type of donation]
             
             "fund": {
                 "item": "Wash fund"
@@ -119,6 +121,8 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "type": "fund",
             
             "amount": "20",
+
+            "linkedtopledge": true, [This will only be true if organization is sending the "pledge" linked to this type of donation]
             
             "currency": "GBP",
 
@@ -381,6 +385,12 @@ The *json* webhook example explained below shows a table explaining all webhook 
             "customfields": {
                 "plaque": "Ahmad Ali"
             }
+        }
+    ],
+    
+    "pledges": [
+        {
+            "pledgereference": "https://www.n3o.ltd/campaign/123/page"
         }
     ],
     
