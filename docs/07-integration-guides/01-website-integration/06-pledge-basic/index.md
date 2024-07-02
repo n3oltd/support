@@ -21,7 +21,7 @@ The *json* webhook example explained below shows how the data is expected along 
     
     "currency": "GBP",
     
-    "amount": 500,
+    "amount": 500, [This is the total pledge amount]
     
     "isOrganization": false,
 	
