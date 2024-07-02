@@ -21,7 +21,7 @@ The *json* webhook example explained below shows a table explaining all webhook 
     
     "currency": "GBP",
     
-    "amount": 715,
+    "amount": 715, [This is the total pledge amount]
     
     "isOrganization": false,
 	
