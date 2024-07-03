@@ -103,6 +103,8 @@ The *json* webhook example explained below shows how the data is expected along 
           "currency": "GBP",
           
           "amount": "5",
+
+          "linkedtopledge": true, [This will only be true if organization is sending the "pledge" linked to this type of donation]
           
           "fund": {
               "item": "Wash fund"
@@ -114,7 +116,13 @@ The *json* webhook example explained below shows how the data is expected along 
               "theme": "WASH",
               "stipulation": "Sadaqah"
           }
-      }
+        }
+    ],
+
+    "pledges": [
+        {
+            "pledgereference": "https://www.n3o.ltd/campaign/123/page"
+        }
     ],
  
     "payment": {
