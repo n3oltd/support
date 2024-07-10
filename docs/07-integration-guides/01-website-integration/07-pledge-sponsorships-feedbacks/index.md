@@ -395,6 +395,8 @@ The *json* webhook example explained below shows a table explaining all webhook 
         "Url": "https://www.n3o.cloud/campaign/123/page",
 		
         "Title": "Free Palestine",
+
+        "source": "Website Fundraising Page", [name of any source the charity defines] 
 		
         "Team": {
 			"Name": "Walk for Palestine 2024",
