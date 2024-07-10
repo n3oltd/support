@@ -126,6 +126,8 @@ The *json* webhook example explained below shows how the data is expected along 
         "Url": "https://www.n3o.cloud/campaign/123/page",
 		
         "Title": "Free Palestine",
+
+        "source": "Website Fundraising Page", [name of any source the charity defines] 
 		
         "Team": {
 			"Name": "Walk for Palestine 2024",
