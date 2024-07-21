@@ -3,7 +3,7 @@ title: Deactivating Sponsorships
 sidebar_position: 10
 ---
 
-Sponsorship deactivation typically refers to the process of discontinuing or ending a sponsorship arrangement between an individual/organization and a beneficiary. This is primarily used when the organization wants to remove the beneficiary entirely from the pool of available beneficiaries.
+Sponsorship deactivation typically refers to the process of discontinuing or ending a sponsorship arrangement between an individual/organization and a beneficiary. This is primarily used when the organization wants to remove the beneficiary entirely from a pool of available beneficiaries.
 
 Engage allows you to deactivate a sponsorship for any beneficiary through **Engage Forms**, specifically designed for users to create and manage forms on the website. When deactivated, a beneficiary will not be able to be published or sponsored. This is different from unpublishing a beneficiary which means they are temporarily unavailable, but can be published by the organization relatively easily for re-sponsoring.
 
@@ -12,25 +12,23 @@ Engage allows you to deactivate a sponsorship for any beneficiary through **Enga
 - For a deactivated beneficiary having an active sponsorship at the moment, Engage automatically assigns a new beneficiary to that specific sponsorship.
 :::
 
-## Steps to Deactivate Sponsorship
+## Deactivate a Beneficiary
 
-1. Login to *N3O Cloud Engage CRM* and open *Forms* by clicking on Engage in the top left corner. 
+1. Login to **N3O Cloud Engage** and open **Forms** by clicking on Engage in the top left corner. 
 
 ![Forms](forms.png)
 
-2. In the Content tab, click on **Sponsorships**. On the right-hand side, different sponsorship programs which already exist in the system and are published, containing name and status, will appear in the form of a list.
+2. In the Content tab, click on **Sponsorships**. On the right-hand side, different sponsorship programs which already exist in the system and are published, will appear in the form of a list.
 
 :::note
-You can also add a new sponsorship program with the **Create** button under different categories.
+You can also add a new sponsorship programs with the **Create** button under different categories.
 :::
 
 ![Sponsorship Tab](sponsorship-tab.png)
 
-3. Choose any program, e.g. *Orphan*.
+3. Choose any sponsorship program.
 
-![Select Program](select-program.png)
-
-4. Select any scheme under the orphan program category, e.g. *UK - Care Compass Production*. 
+4. Select any scheme under the program category, e.g. **Orphans scheme**. 
 
 :::note
 You can also add a new scheme with the **Create** button.
@@ -38,36 +36,32 @@ You can also add a new scheme with the **Create** button.
 
 ![Select Scheme](select-scheme.png)
 
-5. Now, under each scheme, select any country and a beneficiary list (list of orphans in this case) will appear which includes *name, status* and *reference* of each orphan.
+5. Now, under each scheme, select any country and a beneficiary list (list of orphans in this case) will appear which includes **name**, **status** and **reference** of each orphan.
 
 6. Choose any orphan and view its complete profile under the **Profile** tab. 
 
-7. In the **Deactivate** tab, choose the reason, add any extra notes, click *Save and publish* and send a deactivate request for the selected orphan.
+7. Click the **Deactivate** tab, choose the **reason**, add any extra notes if required, click **Save and publish** and send a deactivate request for the selected orphan.
 
 ![Deactivation Gif](deactivation-video.gif)
 
-## Approving Deactivations 
+## Approve the Deactivated Beneficiary 
 
-As a default, following the above process will not complete the deactivation process. Instead, beneficiaries submitted for deactivation will be sent to a queue to be approved by the head office.  
+As a default, following the above process will not complete the deactivation process. Instead, beneficaries submitted for deactivation will be sent to a queue to be approved by the head office.  
 
 To access this queue and approve the deactivation, please see the following steps:
 
-1. Under the **Sponsorships** Content tab, select any *program* and then *scheme*, e.g. *UK - Care Compass Production*.
+1. Under the **Sponsorships** content tab, select any **program** and then **scheme**.
 
 2. In the top right corner, click **Dashboard** and then the **Deactivations** tab.
 
-3. You will see a list of all the beneficiaries submitted for deactivation. Click the *down arrow* under the *Action* tab and select *Approve* for any beneficiary.
+3. You will see a list of all the beneficiaries submitted for deactivation. Click the **down arrow** under the **Action** tab and select **Approve** for any beneficiary.
 
-4. A prompt to approve as *yes* or *no* will appear. Select yes, and the request will be approved.
+4. A prompt to approve as **yes** or **no** will appear. Select **yes**, and the request will be approved.
 
 ![Deactivation Gif](deactivation-request-gif.gif)
 
-## Reactivating a Deactivated Beneficiary
+5. The approved deactivated beneficiary will appear in the **deactivations folder** followed by the appropriate beneficiary **location folder**, under the previously chosen **scheme**.
 
-If a beneficiary has been deactivated due to any reason and approved by the head office, you can reactivate it again via the *Reactivate* option provided in Engage forms. 
+![deactivation folder](./deactivations-folder.png)
 
-1. Open up the specific beneficiary that has been deactivated with an **approved status** and navigate to the **Deactivate** tab.
 
-2. On the tab, you can see the *Request* section mentioning the deactivate request made by the user and a *Decision* section showing the status of the beneficiary as *Approved* along with a *Reactivate* toggle to reactivate the beneficiary again or not. Click the toggle as *yes* and then **Save and publish**.
-
-![Reactivate option](./reactivate-option.png)
