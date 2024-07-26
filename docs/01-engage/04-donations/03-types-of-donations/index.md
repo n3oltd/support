@@ -3,7 +3,7 @@ title: Types of Donations
 sidebar_position: 3
 ---
 
-Donations are essential contributions made by an individual or organization to support a charitable cause. They play a vital role in helping charities fulfill their missions and make a positive impact on society. There are many types of donations like *In-Kind, Legacy and Time and Skill* but, **Engage** provides *Monetary donations* further divided into:
+Donations are essential contributions made by an individual or organization to support a charitable cause. They play a vital role in helping charities fulfill their missions and make a positive impact on society. There are many types of donations like In-Kind, Legacy and Time and Skill but, **Engage** provides **Monetary donations** further divided into:
 
 1. [One-off Donations](#one-off-donations)
 2. [Regular Giving](#regular-giving-donations)
@@ -23,11 +23,7 @@ Now let's demonstrate each monetary donation type in detail with examples.
 
 ## One-off Donations
 
-A one-off donation, also known as a single donation, is a financial contribution made by an individual or organization to a charity or nonprofit on a single occasion, without any commitment to donate regularly. It is a one-time gesture of support that may be prompted by a specific event, campaign, or personal interest in the cause.
-
-:::note
-Learn how to make a single donation in Engage in the Create a Single Donation documentation.  
-:::
+A one-off donation, also known as a single donation, is a financial contribution made by an individual or organization to a charity or nonprofit on a single occasion, without any commitment to donate regularly. It is a one-time gesture of support that may be prompted by a specific event, campaign, or personal interest in the cause. To learn how to donate via a one-off donation in Engage, refer to the <K2Link route="docs/engage/donations/creating-donations/creating-one-off-donations/" text="Create a Single Donation documentation" isInternal/>.
 
 ### Example
 
@@ -35,11 +31,7 @@ Alex is moved by a heartbreaking news story about a natural disaster affecting a
 
 ## Regular Giving Donations
 
-Regular giving, also called monthly giving or recurring donations, is a commitment by an individual or entity to make ongoing contributions to a charity at regular intervals (e.g., monthly, quarterly, annually). These donations are pre-authorized and automatically deducted from the donor's chosen payment method.
-
-:::note
-Engage provides regular giving donations. Learn more about how to make a regular giving donation in the Create a Regular Donation documentation.
-:::
+Regular giving, also called monthly giving or recurring donations, is a commitment by an individual or entity to make ongoing contributions to a charity at regular intervals (e.g., monthly, quarterly, annually). These donations are pre-authorized and automatically deducted from the donor's chosen payment method. To learn how to create a regular giving in Engage, refer to the <K2Link route="docs/engage/donations/creating-donations/creating-regular-giving-donations/" text="Create a Regular Giving documentation" isInternal/>
 
 ### Example
 
@@ -47,11 +39,7 @@ Sarah is passionate about animal welfare and wants to support her local animal s
 
 ## Anonymous Donations
 
-An anonymous donation is a contribution made to a charity or nonprofit without revealing the identity of the donor. The donor chooses not to have their name or personal information associated with the gift publicly.
-
-:::note
-Learn how to make anonymous donations in Engage via the documentation.
-:::
+An anonymous donation is a contribution made to a charity or nonprofit without revealing the identity of the donor. The donor chooses not to have their name or personal information associated with the gift publicly. To learn how to create an anonymous donation, refer to the Create an Anonymous Donation documentation.
 
 ### Example
 
