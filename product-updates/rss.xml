@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Fri, 28 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[July 2024 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2024-07-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2024-07-update</guid>
+            <pubDate>Tue, 30 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The month of July includes multiple new features and more closed bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>The month of July includes multiple new features and more closed bug fixes. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Linkbuilder to create bespoke links for certain webpages in line with attributions set in Engage</li><li>Custom forms to create and customize forms tailored to your specific needs</li><li>Sage integration that allows generating a Sage file from Engage </li><li>Pricing amount for donation items, feedback and sponsorship schemes removed as a required attribute</li><li>Deactivated beneficiaries will now appear under a separate deactivations folder in Engage forms </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Regular giving payments are charged twice for each donation</li><li>Fixed: Annual report emails are not being sent to donors for approved reports </li><li>Fixed: On Analytics page in Engage, if there is no report under a category then do not show it</li><li>Fixed: Incorrect locations are shown for sponsorships within the allocations section</li><li>Fixed: Images not updating when trying to preview the annual report in Engage forms</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Crowdfunding</li><li>Tax Relief/Gift Aid</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[June 2024 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2024-06-update</link>
