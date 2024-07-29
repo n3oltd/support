@@ -28,6 +28,8 @@ Following is a *json* webhook example explained along with a table containing al
     "amount": 10,
     
     "isOrganization": false,
+
+    "accountType" : "Individual",
     
     "individual": {
         
