@@ -26,6 +26,8 @@ The *json* webhook example explained below shows how the data is expected along 
     "amount": 5,
     
     "isOrganization": false,
+
+    "accountType" : "Individual",
     
     "individual": {
         

@@ -26,6 +26,8 @@ Given below is a *json* webhook format example along with a table containing the
     "amount": 171,
     
     "isOrganization": false,
+
+    "accountType" : "Individual",
     
     "individual": {
         
