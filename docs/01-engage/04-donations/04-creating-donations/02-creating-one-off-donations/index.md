@@ -13,13 +13,9 @@ To create a single donation, go through the following steps.
 
 3. Choose the type of donation, in this case, **Single Donation**.
 
-:::note
-You can choose the currency you wish to donate in for e.g. GBP, USD, AUD etc. from the drop-down on the top right.
-:::
-
 ![Type of Donation Gif](./type-of-donation.gif)
 
-4. In the **Allocations** section, you can specify where you want to make a donation for e.g. to an existing beneficiary. As a result, you will refer to the exact program or scheme where you want your donation to be allocated to. 
+4. In the **Allocations** section, specify where you want to make a donation for e.g. towards an education fund. As a result, you will refer to the exact program or scheme where you want your donation to be allocated to. 
 
 :::note Important
 - If you want to switch from single to regular donation, then allocations already allocated to one donation type will not be transferable to the other.
