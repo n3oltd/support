@@ -17,6 +17,6 @@ A fundraising event (also called a fundraiser) is an event or campaign whose pur
 Fundraisers are configured and managed by your system administrator.
 :::
 
-In Engage, an account selects a fundraiser (each with a different name) while adding allocations in a *single* or *regular* donation. If no fundraiser appears in the dropdown, then ask your system administrator to add one for you.
+In Engage, an account selects a fundraiser (each with a different name) while adding allocations in a **single donation** or **regular giving**. If no fundraiser appears in the dropdown, then ask your system administrator to add one for you.
 
 ![Fundraiser while making donation](./fundraiser.png)
