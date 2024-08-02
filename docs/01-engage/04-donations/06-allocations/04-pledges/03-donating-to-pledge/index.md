@@ -23,5 +23,5 @@ You can also hover over the clickable note to view the minimal information of th
 
 :::note
 - Pledges created with advance allocated payments will have that amount deducted from the pledge payment when making a donation and are considered with status complete when the all amount allocated has been donated.
-- To read more on how to make payments, go to <K2Link route="docs/engage/donations/payments/payment-types/" text="Payment Types and Methods Documentation" isInternal/>.
+- To read more on how to make payments, go to <K2Link route="docs/engage/donations/payments/payment-types-and-methods/" text="Payment Types and Methods Documentation" isInternal/>.
 :::
