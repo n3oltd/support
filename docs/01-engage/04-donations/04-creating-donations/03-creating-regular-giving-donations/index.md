@@ -8,21 +8,17 @@ To create a regular giving donation, follow the steps explained below.
 1. On the <K2Link route="giving" text="Giving dashboard" isEngage />, in the *quick navigation box*, click **Enter Donation** or use the **Create** button to enter donation.
 
 :::tip
-You can also search a specific account and create a regular giving for that account on its main profile page.
+- You can also search a specific account and create a regular giving for that account on its main profile page.
+- Regular givings are not created as **anonymous**.
 :::
 
 ![Enter Regular giving Donation Gif](./create-single-donation-dashboard.gif)
 
 2. Search for an account on the left-hand side. This will take you to the account's *Enter Donation* screen. 
 
-3. Choose the type of donation, in this case, *Regular Giving Donation*.
+3. Choose the type of donation, in this case, **Regular Giving**. 
 
-:::info
-- Regular givings are not created as **anonymous**.
-- You can choose the currency you wish to donate in for e.g. GBP, AED, AUD etc. from the drop-down on the top right.
-:::
-
-4. In the **Allocations** section, specify where you want to make a donation, for example, towards a fund or a certain pledge. As a result, you will refer to the exact program or scheme where you want your donation to be allocated to. 
+4. In the **Allocations** section, specify where you want to make a donation, for e.g., towards a school fund. As a result, you will refer to the exact program or scheme where you want your donation to be allocated to. 
 
 :::note Important
 - If you want to switch from regular to single donation, then allocations already allocated to one donation type will not be transferable to the other.
