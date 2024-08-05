@@ -1,6 +1,6 @@
 ---
 title: Adding a Beneficiary in Umbraco
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Engage allows you to add a beneficiary to sponsor via **Engage Forms** i.e. specifically designed for users to create and manage forms on the website. This means that whenever a beneficiary is added, it is automatically synced within Engage and visible for any donor to create sponsorships.

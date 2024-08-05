@@ -1,6 +1,6 @@
 ---
 title: Cancel Existing Sponsorships
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 Cancelling a sponsorship means to disconnect a particular beneficiary from its related donor/sponsor. As a result, that beneficiary can be transferred to another donor or become available to be sponsored by another donor.

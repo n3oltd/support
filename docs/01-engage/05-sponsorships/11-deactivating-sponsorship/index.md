@@ -1,6 +1,6 @@
 ---
 title: Deactivating Sponsorships
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 Sponsorship deactivation typically refers to the process of discontinuing or ending a sponsorship arrangement between an individual/organization and a beneficiary. This is primarily used when the organization wants to remove the beneficiary entirely from a pool of available beneficiaries.

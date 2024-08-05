@@ -1,6 +1,6 @@
 ---
 title: Moving Beneficiary to New Donor
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 Engage allows moving a certain beneficiary under a sponsorship from one donor/sponsor to another. This movement could happen for various reasons, such as a change in circumstances, preferences, or availability of the original donor. 
