@@ -1,6 +1,6 @@
 ---
 title: Assigning Task to a Beneficiary
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 Similar to assigning tasks to an account, individual tasks can be created and allocated to various beneficiaries under a particular sponsorship. To get a familiarity with tasks, refer to the <K2Link route="docs/engage/accounts/tasks/" text="Tasks Documentation" isInternal/>.

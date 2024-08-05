@@ -1,6 +1,6 @@
 ---
 title: Creating Sponsorships
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 In Engage, an account (donor or sponsor), whether individual or organization, can create a sponsorship to sponsor a beneficiary in support of any cause. This page will walk you through the steps to create a new sponsorship.

@@ -1,6 +1,6 @@
 ---
 title: Transferring Sponsorships
-sidebar_position: 8
+sidebar_position: 9
 --- 
 
 Sometimes it can be necessary to replace and assign a new beneficiary to a donor. A few reasons could be that the beneficiary has reached a certain age and is no longer eligible according to the organizations policies, or the beneficiary may have left the program that the donor has requested.

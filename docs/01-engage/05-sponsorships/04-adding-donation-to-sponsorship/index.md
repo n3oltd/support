@@ -1,6 +1,6 @@
 ---
 title: Adding Donation Towards a Sponsorship
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 In Engage, once a sponsorship has been created for a particular beneficiary under any related scheme, the donor/sponsor can donate towards that sponsorship at any time. This donation can be both single or a regular giving donation. When a certain donation is made, a donor can always make an additional donation. 

@@ -3,24 +3,34 @@ title: Sponsorships
 sidebar_position: 5
 ---
 
-Sponsorship within a CRM refers to the process of managing and nurturing relationships with sponsors or benefactors. Sponsors are individuals or organizations that provide financial or other support to a cause or event. CRM assists in effectively managing these sponsor relationships and interactions.
+Efficiently manage and streamline sponsor management with our comprehensive sponsorships function in Engage.
 
-Sponsorships are considered important for many reasons including:
+<section class="row list">
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/sponsorships/searching-sponsorships/">
+         <h2 class="text--truncate cardTitle" title="Search for a Sponsorship">Search for a Sponsorship</h2>
+         <p class="text--truncate cardDescription" title="Search for any existing sponsorship using different methods">Search for any existing sponsorship using different methods</p>
+      </a>
+   </article>
 
-- **Efficient Management:** CRM streamlines the management of sponsor relationships, making it easier to track, communicate, and engage with sponsors effectively.
+  <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/sponsorships/creating-sponsorships/">
+         <h2 class="text--truncate cardTitle" title="Create a Sponsorship">Create a Sponsorship</h2>
+         <p class="text--truncate cardDescription" title="Create a new sponsorship in Engage">Create a new sponsorship in Engage</p>
+      </a>
+   </article>
 
-- **Enhanced Communication:** Tailored communication through CRM strengthens sponsor engagement, leading to more meaningful and long-lasting relationships.
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/sponsorships/adding-donation-to-sponsorship/">
+         <h2 class="text--truncate cardTitle" title="Add Donation to a Sponsorship">Add Donation to a Sponsorship</h2>
+         <p class="text--truncate cardDescription" title="Donate to the created sponsorship">Donate to the created sponsorship</p>
+      </a>
+   </article>
 
-- **Improved Sponsor Satisfaction:** Understanding sponsor preferences and interactions helps in meeting their expectations, ensuring their satisfaction with the sponsorship experience.
-
-## Sponsorships in Engage
-
-In Engage, the sponsorship module is a custom-built component which allows an organization to manage one-to-one donor/sponsor (individual or organization) and beneficiary relations including sponsoring orphans, children, families etc. To make this module work, Engage creates 'relationships' between a specific donor and a beneficiary. *For example, a donor named 'Phoebe Lewis' can sponsor a child 'Mohammad Zayan' from country 'Yemen' and thereby create a relationship.*
-
-As a result of this, payments and donations can be allocated to this relationship. Also, specific tasks or profiles can be created along with the implementation of a number of other actions.
-
-## Link between Engage and Umbraco for Sponsorships
-
-The sponsorship module involves two main systems, one **Engage** and the other **Umbraco**. Engage stores the relationship between the sponsor/donor and the beneficiary along with other functionalities such as payments and donations whereas Umbraco is a stand-alone content management system (CMS) which stores the actual data of the beneficiaries in the form of *Forms*. This ensures the separation of the donor and beneficiary data and reduces any security risk.
-
-Once an organization uploads the beneficiary data on to Umbraco this is automatically synced with Engage allowing the donor to view the relationship and conduct any actions necessary.
+<article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/sponsorships/adding-beneficiary-in-umbraco/">
+         <h2 class="text--truncate cardTitle" title="Add Beneficiary in Engage Forms">Add Beneficiary in Engage Forms</h2>
+         <p class="text--truncate cardDescription" title="Find out how to add a beneficiary in Engage forms">Find out how to add a beneficiary in Engage forms</p>
+      </a>
+   </article>
+</section>

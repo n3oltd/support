@@ -1,6 +1,6 @@
 ---
 title: Extending Sponsorships
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 Extending a sponsorship involves the continuation of financial support from a donor/sponsor to a beneficiary beyond the initial agreed-upon sponsorship period. This extension can happen for various reasons, such as continue supporting a cause, positive outcomes from the sponsorship, or a wish to maintain a beneficial relationship.
