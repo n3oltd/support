@@ -1,5 +1,5 @@
 ---
-title: Cancel Existing Sponsorships
+title: Cancelling Sponsorships
 sidebar_position: 10
 ---
 
@@ -7,11 +7,11 @@ Cancelling a sponsorship means to disconnect a particular beneficiary from its r
 
 To cancel a sponsorship in Engage, follow the steps.
 
-1. <K2Link route="" text="Search for a sponsorship" isInternal/> and view a list of all existing beneficiaries under sponsorships or <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal/> that created a particular sponsorship and go to the Sponsorships page.
+1. <K2Link route="" text="Search for a sponsorship" isInternal/> or <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal/> that created a particular sponsorship and go to the Sponsorships section.
 
 ![Search sponsorships Gif](./search-sponsorship-ways.gif)
 
-2. Choose the beneficiary sponsorship you wish to cancel, click the down arrow and then **End**.
+2. Choose the sponsorship you wish to cancel, click the down arrow and then **End**.
 
 ![Click end](./click-end-sponsorship.png)
 
