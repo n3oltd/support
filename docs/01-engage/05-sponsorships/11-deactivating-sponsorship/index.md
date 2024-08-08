@@ -14,11 +14,11 @@ Engage allows you to deactivate a sponsorship for any beneficiary through **Enga
 
 ## Deactivate a Beneficiary
 
-1. Login to **N3O Cloud Engage** and open **Forms** by clicking on Engage in the top left corner. 
+1. Login to **Engage** and open **Forms** by clicking on Engage in the top left corner. 
 
 ![Forms](forms.png)
 
-2. In the Content tab, click on **Sponsorships**. On the right-hand side, different sponsorship programs which already exist in the system and are published, will appear in the form of a list.
+2. In the Content tab, click on **Sponsorships**. Different sponsorship programs which already exist in the system and are published, will appear on the right-hand side.
 
 :::note
 You can also add a new sponsorship programs with the **Create** button under different categories.
