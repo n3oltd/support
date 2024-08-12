@@ -41,7 +41,26 @@ To add a new beneficiary:
 3. Fields such as **ID**, **Cohort ID**, **Photo URL**, etc. are prepopulated by the Umbraco system.
 :::
 
-**7.** For each beneficiary, you can:
+
+**7.** In the **Guardian** section, input all the details for the beneficiaries guardian including **first name**, **middle name**, **last name**, **date of birth**. Add the **Relationship** of the guardian with the beneficiary and any means of support.
+
+![Input guardian information section](./guardian-info-section.png)
+
+**8.** In the **Health** section, add the **Health Standard** e.g. good, poor etc. 
+
+**9.** In the **Residence** and **Attachment** section, add the **accomodation type** as rented or owned, **accomodation standards** as good, fair or poor and any **attachment** e.g. photo ID.
+
+![Input health, residence, attachment information section](./health-residence-attachment.png)
+
+:::note
+You can add more values for the pre-selected dropdown menu's in various input parameters e.g. guardian relationships, accomodations standards etc. After choosing any program, click *Settings* and you will see a list of different folders. Select any folder e.g. **Accomodation Standard** and create a new value for it.
+
+![Add values for pre-selected dropdown Gif](./add-values-dropdown.gif)
+:::
+
+**10.** Click **Save** to only save the beneficiary information in Umbraco or **Save and publish** to publish and automatically sync the Umbraco beneficiary information with Engage.
+
+**11.** For each beneficiary, you can:
 
 - Preview **HTML reports** under the **Preview** tab.
 - View the donor account that is sponsoring the beneficiary under the **Sponsorships** tab with details including sponsorship **begin on** and **end date**. 
@@ -49,4 +68,4 @@ To add a new beneficiary:
 
 ![view beneficiary detail](./view-beneficiary-detail.png)
 
-**8.** You can also choose to **reserve** or **deactivate** a beneficiary as required. Visit the <K2Link route="docs/engage/sponsorships/reserving-sponsorships/" text="Reserving" isInternal/> or <K2Link route="docs/engage/sponsorships/deactivating-sponsorship/" text="Deactivating Beneficiary documentations" isInternal/> respectively.
+**12.** You can also choose to **reserve** or **deactivate** a beneficiary as required. Visit the <K2Link route="docs/engage/sponsorships/reserving-sponsorships/" text="Reserving" isInternal/> or <K2Link route="docs/engage/sponsorships/deactivating-sponsorship/" text="Deactivating Beneficiary documentations" isInternal/> respectively.
