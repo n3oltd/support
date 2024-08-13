@@ -3,29 +3,25 @@ title: Adding Donation to Feedbacks
 sidebar_position: 3
 ---
 
-In Engage, whenever a feedback is created under a particular feedback scheme, the donor can donate towards that feedback at any time. This donation can be both single or a regular giving donation. To learn more about donations, refer to the <K2Link route="docs/engage/donations/" text="Donations Documentation" isInternal/>.
+In Engage, once a feedback is created under a particular feedback scheme, the donor can donate towards it at any time. This donation can be both single donation or a regular giving.
 
-To make a donation towards a feedback, follow the steps defined.
+To make a donation, follow the steps defined.
 
-1. While creating a feedback, in the last step, select **Create and Donate** to immediately donate or click *Enter Donation* on the <K2Link route="giving" text="Giving dashboard" isEngage />, choose an account and then donate towards a new or existing feedback.
+1. To donate immediately while creating a new feedback, select **Create and Donate** and navigate to the **Enter Donation** screen. To donate later after saving a feedback, <K2Link route="docs/engage/accounts/searching-accounts/" text="search for an account" isInternal/>, click **Enter Donation** and choose a feedback to donate to via the **Feedback** option in the **Allocations** section.
 
-![Gif showing both steps](./gif-showing-both-steps.gif)
+![Gif showing both steps](./gif-showing-both-steps-to-donate.gif)
 
-:::note
-Each created feedback when viewed has different fields and sections defined e.g. if no donation is made, the feedback would have an *Awaiting Payment* status and the *Ledger* section would include a list of all those donations.
+:::tip
+Each created feedback when viewed has different fields and sections defined. For example, for a feedback, if no donation is made towards it, then that feedback would have an **Awaiting Payment** status along with its **Ledger** section as empty.
 :::
 
-2. When immediately donating towards a feedback, the created feedback is prepopulated in the *Feedback* tab showing the reference, feedback scheme type and fund dimensions under the *Allocations* section.
+2. When immediately donating towards a feedback, the created feedback is prepopulated in the **Feedback** tab showing the **reference**, **feedback scheme type** and **fund dimensions** under the **Allocations** section. Similarly, you can also select any **existing** or create another **new** feedback to donate to via the **Feedback** option at the end.
 
 ![Feedback Prepopulated in Allocations](./feedback-prepopulated-allocations.png)
 
-3. Similarly, you can also select any other existing feedback or create a new one to donate to via the *Feedback* option at the end of the Allocations section.
+3. The total amount would be the amount donated and shown at the end of the **Allocations** section. Click **Save and Continue to Payment** and pay via the payment methods available in the **Payments** section.
 
-![New or existing Feedback Gif](./new-existing-feedback.gif)
-
-4. The total amount would be the amount donated and shown at the end of the *Allocations* section. Click *Save and Continue to Payment* and pay via the payment methods available in the *Payments* section.
-
-:::note
-To read more on how to make payments, go to <K2Link route="docs/engage/donations/payments/payment-types-and-methods/" text="Payment Types and Methods Documentation" isInternal/>.
+:::tip
+To read on how to make payments, go to <K2Link route="docs/engage/donations/payments/payment-types-and-methods/" text="Payment Types and Methods Documentation" isInternal/>.
 :::
  
