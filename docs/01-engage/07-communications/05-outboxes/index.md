@@ -1,6 +1,6 @@
 ---
 title: Outboxes
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 An outbox manages outgoing communications and serves as a centralized hub where all the communication messages, such as emails or documents, are queued and processed before being delivered to recipients. It is considered important for many reasons.

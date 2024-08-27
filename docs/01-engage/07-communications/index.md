@@ -3,29 +3,34 @@ title: Communications
 sidebar_position: 7
 ---
 
-Communication is an act of exchanging, receiving and sharing information either verbal or written via a medium. A communication tool within a CRM facilitates seamless communication and interaction with donors and is considered important for several reasons.
+Engage's call Centre feature offers a seamless donor care solution, empowering charities to efficiently manage all aspects of your call campaigns
 
-- **Centralized Communication:** Communication tools bring all customer-related interactions, including emails, calls, and messages, into one centralized platform. This allows for a comprehensive view of customer interactions.
+<section class="row list">
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/communications/call-center/">
+         <h2 class="text--truncate cardTitle" title="Call Center">Call Center</h2>
+         <p class="text--truncate cardDescription" title="Explore the call center feature">Explore the call center feature</p>
+      </a>
+   </article>
 
-- **Improved Customer Service:** Efficient communication tools enable better customer service and support. Quick response times, timely follow-ups, and personalized interactions contribute to higher customer satisfaction.
+  <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/communications/printing/">
+         <h2 class="text--truncate cardTitle" title="Printing">Printing</h2>
+         <p class="text--truncate cardDescription" title="Go through the printing feature">Go through the printing feature</p>
+      </a>
+   </article>
 
-- **Better Customer Insights:** Communication tools capture valuable customer data, which can be used to analyze communication patterns, preferences, and sentiments. This information helps in tailoring marketing and support efforts.
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/communications/managing-emails/">
+         <h2 class="text--truncate cardTitle" title="Managing Emails">Managing Emails</h2>
+         <p class="text--truncate cardDescription" title="Manage emails via Engage for a donor">Manage emails via Engage for a donor</p>
+      </a>
+   </article>
 
-- **Streamlined Workflows:** Communication tools automate routine tasks, such as email follow-ups or notifications, streamlining workflows and reducing manual efforts for repetitive tasks.
-
-## Communications in Engage
-
-The communications functionality within Engage is a powerful tool allowing an organization to customize and automate communications with donors including:
-
-- Verbal (call center)
-- Postal (post/PDF)
-- Email (emails)
-- Automated (automatically generated email/PDF/SMS)
-
-Defining in detail, these types of communications allow you to:
-
-1. Connect with your donors through timely and active communications.
-2. Have automated correspondence via automatic triggers with the donors to save up cost, time and improve the brand image.
-3. Consistently maintain emails and PDFs from one main centre. 
-4. Use communications for all different departments within Engage e.g. sending feedbacks to important donors for rentention. 
-
+<article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/communications/outboxes/">
+         <h2 class="text--truncate cardTitle" title="Outboxes">Outboxes</h2>
+         <p class="text--truncate cardDescription" title="Find out how to send a document via an outbox">Find out how to send a document via an outbox</p>
+      </a>
+   </article>
+</section>

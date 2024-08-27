@@ -1,6 +1,6 @@
 ---
 title: Managing Emails 
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Emails play a crucial role as a communication channel for handling client inquiries, managing various interactions etc. Email communication complements voice-based interactions (phone calls) and offers several effective advantages defined.

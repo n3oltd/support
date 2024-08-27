@@ -1,6 +1,6 @@
 ---
 title: Printing
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Printing batches is a process of generating and printing multiple documents in a single batch, rather than printing each document individually. This is important in terms of: 
