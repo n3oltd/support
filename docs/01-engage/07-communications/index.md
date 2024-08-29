@@ -3,7 +3,7 @@ title: Communications
 sidebar_position: 7
 ---
 
-Engage's call Centre feature offers a seamless donor care solution, empowering charities to efficiently manage all aspects of your call campaigns
+Streamline your customer interactions and enhance engagement with our robust **communications** feature within Engage. 
 
 <section class="row list">
    <article class="col col--6 margin-bottom--lg">
