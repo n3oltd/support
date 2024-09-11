@@ -3,7 +3,7 @@ title: Send Templates via an Outbox
 sidebar_position: 3
 ---
 
-As soon as you create new a template, you can send it to the respective donor immediately.  
+As soon as you create a new template, you can send it to the respective donor immediately.  
 
 **1.** On the **Outboxes** screen, choose an outbox, then select any template (email, SMS or document) and click **Use This Template**. 
 
