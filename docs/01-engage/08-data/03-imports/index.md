@@ -3,12 +3,34 @@ title: Imports
 sidebar_position: 3
 ---
 
-Importing data from different sources is a vital function for any charity CRM. In particular for an organizations fundraising, this function can be used for importing account information, donations, and a number of other data-types. 
+Streamline the process of bringing external data into the platform, ensuring that customer information is accurately standardized and ready to use.
 
-Engage has been designed to ingest arbitrary data through a variety of mediums; *CSV/Excel sheets*, *webhooks* and *datafiles* in order to map them arbitrarily to columns. Therefore, allowing users to import data from crowdfunding sites (e.g. *Justgiving, LaunchGood*), bank transfers, donor information collected at events or an organization's website.
+<section class="row list">
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/lists/">
+         <h2 class="text--truncate cardTitle" title="Introduction to Imports">Introduction to Imports</h2>
+         <p class="text--truncate cardDescription" title="What is data import in Engage">What is data import in Engage</p>
+      </a>
+   </article>
 
-In this section, you will find information on topics including:
+  <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/imports/queues-dashboard/">
+         <h2 class="text--truncate cardTitle" title="Queues Dashboard">Queues Dashboard</h2>
+         <p class="text--truncate cardDescription" title="Explore the main dashboard in imports section">Explore the main dashboard in imports section</p>
+      </a>
+   </article>
 
-1. Engage's queue dashboard.
-2. Creating and viewing queues in detail.
-3. Defining webhooks and their usage.
+   <article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/introduction-to-analytics/">
+         <h2 class="text--truncate cardTitle" title="Create a Queue to Import Data">Create a Queue to Import Data</h2>
+         <p class="text--truncate cardDescription" title="Look at how create a queue to import data">Look at how create a queue to import data</p>
+      </a>
+   </article>
+
+<article class="col col--6 margin-bottom--lg">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/syncing-data/">
+         <h2 class="text--truncate cardTitle" title="Ways to Import Data in a Queue">Ways to Import Data in a Queue</h2>
+         <p class="text--truncate cardDescription" title="Read about the different ways to import data within a queue">Read about the different ways to import data within a queue</p>
+      </a>
+   </article>
+</section>

@@ -9,14 +9,14 @@ In Engage, an outbox is used for sending ad-hoc correspondence (email, SMS, or d
 2. To different accounts automatically for a similar purpose in bulk via lists
 
 :::note
-To add an outbox and its functionality, as your system administrator to that for you.
+To add an outbox and its functionality, ask your system administrator to that for you.
 :::
 
 You can view existing outboxes representing different entities such as sponsorships or feedbacks in the **Outboxes** screen, also known as the **Outboxes dashboard**. For example, *all emails, documents or SMS related to sponsorships will be handled under the Sponsorship Outbox*.
 
 **1.** To land onto the **Outboxes** screen, click **Communications** in the top menu bar and then **Outboxes** in the quick navigation section.
 
-![Land onto Outboxes screen gif](./land-onto-outboxes-screen.gif)
+![Land onto Outboxes screen gif](./land-on-outbox-screen.gif)
  
 **2.** Each outbox includes two tabs, **Templates** and **Sent Items**. 
 

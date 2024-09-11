@@ -18,7 +18,7 @@ In SendGrid, event types refer to the type of events provided by the event webho
 
 ## Create a Webhook in Engage
 
-Subscribers in SendGrid can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or any other activity via SendGrid can at the same time opt out of the related contact preference within Engage using <K2Link route="docs/engage/data/imports/webhooks/" text="webhooks" isInternal/>. 
+Subscribers in SendGrid can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or any other activity via SendGrid can at the same time opt out of the related contact preference within Engage using webhooks. 
 
 **1.** In Engage, click on *Data*, *Imports* and choose the **Preferences Queue**.
 
