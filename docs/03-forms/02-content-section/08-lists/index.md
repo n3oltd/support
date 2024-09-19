@@ -1,6 +1,6 @@
 ---
 title: Lists
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 One more feature to grasp under **Content** in the section menu is **Lists**. The lists functionality plays an important role in organizing and managing data related to donors, beneficiaries, and various other entities within a CRM. 
