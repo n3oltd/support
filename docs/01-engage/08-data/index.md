@@ -21,7 +21,7 @@ Unlock the full potential of your customer relationships with our comprehensive 
    </article>
 
    <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/data/introduction-to-analytics/">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/">
          <h2 class="text--truncate cardTitle" title="Analytics">Analytics</h2>
          <p class="text--truncate cardDescription" title="Explore the analytics section within Engage">Explore the analytics section within Engage</p>
       </a>
