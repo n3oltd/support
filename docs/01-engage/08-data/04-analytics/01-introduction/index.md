@@ -35,4 +35,4 @@ Some main functionalities typically found under analytics are:
 
 ## Analytics in Engage
 
-Engage covers a separate **Analytics** section that allows you to analyze data and track all areas of your charity with customizable, in built reports regarding donors, incoming donations, sponsorships etc. To know more, move onto the next sections consisting of Reports and Analysis.
+Engage covers a separate **Analytics** section that allows you to analyze data and track all areas of your charity with customizable, in built reports regarding donors, incoming donations, sponsorships etc. To know more, move onto the next sections consisting of <K2Link route="docs/engage/data/analytics/reports/" text="Reports" isInternal/> and <K2Link route="docs/engage/data/analytics/analysis/" text="Analysis" isInternal/>.
