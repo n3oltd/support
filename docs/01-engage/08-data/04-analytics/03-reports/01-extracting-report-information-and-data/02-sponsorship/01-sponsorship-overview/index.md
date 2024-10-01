@@ -56,3 +56,7 @@ The sponsorship changes report shows how many sponsorships have added, cancelled
 The sponsorships retention report shows the figure of sponsorships begining on and the number which are still active over any month.
 
 ![Retention tab](./retention-tab.png)
+
+### Adding Filters, Bookmarks and Reporting Periods
+
+You can create bookmarks, apply different filters and add multiple reporting periods on the sponsorship overview report and its pages. For more information, see <K2Link route="docs/engage/data/analytics/reports/adding-bookmarks/" text="Adding Bookmarks" isInternal/>, <K2Link route="docs/engage/data/analytics/reports/using-filters/" text="Using Filters" isInternal/> and <K2Link route="docs/engage/data/analytics/reports/manage-reporting-periods/" text="Manage Reporting Periods" isInternal/>.  

@@ -57,4 +57,4 @@ The **sponsorships retention** report shows the figure of sponsorships begining 
 
 ## Bookmarks and Filters
 
-You can create bookmarks to review the report for later and use different filters on the sponsorship overview report and its pages to view any specific information you want. For more information, see Adding Bookmarks and Using Filters in the **Engage reports** section. 
+You can create bookmarks to review the report for later and apply different filters on the sponsorship overview report and its pages to view any specific information you want. For more information, see <K2Link route="docs/engage/data/analytics/reports/adding-bookmarks/" text="Adding Bookmarks" isInternal/> and <K2Link route="docs/engage/data/analytics/reports/using-filters/" text="Using Filters" isInternal/> in the **Engage Analytics Reports** section. 

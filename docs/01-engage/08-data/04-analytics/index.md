@@ -7,28 +7,28 @@ Unlock the ultimate potential of your data with our comprehensive analytics sect
 
 <section class="row list">
    <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/data/imports/">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/analytics/introduction/">
          <h2 class="text--truncate cardTitle" title="Introduction to Analytics">Introduction to Analytics</h2>
          <p class="text--truncate cardDescription" title="What is analytics in Engage">What is analytics in Engage</p>
       </a>
    </article>
 
   <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/data/imports/">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/analytics/using-the-analysis-function/">
          <h2 class="text--truncate cardTitle" title="Using Analysis Function">Using Analysis Function</h2>
          <p class="text--truncate cardDescription" title="Explore the analysis function">Explore the analysis function</p>
       </a>
    </article>
 
    <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/data/imports/">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/analytics/reports/">
          <h2 class="text--truncate cardTitle" title="Reports">Reports</h2>
          <p class="text--truncate cardDescription" title="Generate, view, and analyze various data reports in Engage">Generate, view, and analyze various data reports in Engage</p>
       </a>
    </article>
 
 <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/data/imports/">
+      <a class="card padding--lg cardContainer" href="/docs/engage/data/analytics/analysis/">
          <h2 class="text--truncate cardTitle" title="Analysis">Analysis</h2>
          <p class="text--truncate cardDescription" title="Read about in-depth exploration of data trends and patterns via Engage's analysis section">Read about in-depth exploration of data trends and patterns via Engage's analysis section</p>
       </a>

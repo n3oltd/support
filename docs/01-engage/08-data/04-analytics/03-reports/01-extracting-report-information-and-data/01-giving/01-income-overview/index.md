@@ -63,7 +63,7 @@ This section shows a **Donations Breakdown** report of funds based on location a
 
 ### Adding Filters, Bookmarks and Reporting Periods
 
-You can also create bookmarks, use different filters and add multiple reporting periods on the income overview report and its pages. For more information, see Adding Bookmarks, Using Filters and Manage Reporting Periods documentation.  
+You can create bookmarks, apply different filters and add multiple reporting periods on the income overview report and its pages. For more information, see <K2Link route="docs/engage/data/analytics/reports/adding-bookmarks/" text="Adding Bookmarks" isInternal/>, <K2Link route="docs/engage/data/analytics/reports/using-filters/" text="Using Filters" isInternal/> and <K2Link route="docs/engage/data/analytics/reports/manage-reporting-periods/" text="Manage Reporting Periods" isInternal/>.  
 
 
 
