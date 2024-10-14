@@ -1,6 +1,6 @@
 ---
 title: Instructing Feedbacks
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 After creating and donating towards a feedback, the next step is instruction. Go through the feedback instruction documentation including:

@@ -1,6 +1,6 @@
 ---
 title: Creating Feedbacks
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 In Engage, an account can create multiple feedbacks. This section will walk you through the steps to create a feedback from scratch.

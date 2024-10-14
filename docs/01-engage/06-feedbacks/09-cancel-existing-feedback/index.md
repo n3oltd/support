@@ -1,6 +1,6 @@
 ---
 title: Cancel Existing Feedbacks
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 Engage allows you to cancel any existing feedback under a scheme. This can occur for many reasons e.g. an account that created a feedback got closed, the feedback scheme/project got delayed for too long or cannot be further processed.

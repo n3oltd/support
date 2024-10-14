@@ -1,6 +1,6 @@
 ---
 title: Assigning Tasks to Feedbacks
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Individual tasks can be created and allocated to various feedbacks under a particular feedback scheme. 
