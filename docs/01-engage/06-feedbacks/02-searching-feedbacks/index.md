@@ -1,6 +1,6 @@
 ---
 title: Searching Feedbacks
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 In Engage, feedbacks are donations made by any donor in support of different projects e.g. water wells. This article shows you how to search for existing feedbacks easily with the help of:

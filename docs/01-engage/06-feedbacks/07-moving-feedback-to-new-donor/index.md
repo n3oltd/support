@@ -1,6 +1,6 @@
 ---
 title: Moving Feedback to New Donor
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 In Engage, you can move a feedback under any scheme from one donor to another. This can happen due to any reason e.g. availability of the donor or other circumstances.

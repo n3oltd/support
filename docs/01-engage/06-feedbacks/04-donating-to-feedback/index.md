@@ -1,6 +1,6 @@
 ---
 title: Adding Donation to Feedbacks
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 In Engage, once a feedback is created under a particular feedback scheme, the donor can donate towards it at any time. This donation can be both single donation or a regular giving.
