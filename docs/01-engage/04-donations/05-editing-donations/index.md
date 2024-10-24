@@ -29,7 +29,7 @@ On the regular giving screen, click the **pen icon** infront of each of the foll
 
 :::tip
 - You can view a **donations list** that includes all the donations related to the particular regular giving. For e.g. *a 160 pound monthly donation made by Mr. Phoebe Lewis with status '**payment completed**' started on '**20-01-2023**' and so on*.  
-- You can click the **three dots (...)** under the **Details** section and choose to: 
+- You can click the **three dots (...)** under the **Details** section of a regular giving and choose to: 
 
     - Disable the installment actions function which was enabled before. 
     - Pause the regular giving for a while.
@@ -47,8 +47,13 @@ To edit a donation, click the **donation reference number** and navigate to the 
 - **Donation date:** Date on which the donation was processed.
 - **Allocations:** Existing allocation added to the donation.
 
-:::note
-If the donation has an **awaiting payment** or **payment failed** status, it can be removed via updating the donation's payment method and paying again.
-:::
-
 ![donation detail screen](./donation-detail-screen.png)
+
+:::tip
+- If the donation has an **awaiting payment** or **payment failed** status, it can be removed via updating the donation's payment method and paying again.
+- Furthermore, you can also view a:
+
+    - **Payments** section showing the recent payment made for a donation.
+    - **Receipts & Other Communications** section showing correspondence sent to the donor.
+    - **Attributions** section showing the different attributions added. 
+:::
