@@ -16,11 +16,11 @@ Engage allows you to create new and edit existing teams via the call center func
 
 Follow the steps defined below to create a new team of callers under a certain campaign.
 
-**1.** Click *Communications* in the top menu bar and then *Call Center* in the quick navigation section to view the *Call Center* screen.
+**1.** Click **Communications** in the top menu bar and then **Call Center** in the quick navigation section to view the *Call Center* screen.
 
 ![Land onto Call Center screen gif](./land-onto-callcenter-screen.gif)
 
-**2.** On the *Call Center* screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. Under the *Teams* tab, click the **Create New Team** option to land onto the *Create New Team* page.
+**2.** On the *Call Center* screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. Under the **Teams** tab, click the **Create New Team** option to land onto the *Create New Team* page.
 
 ![Land onto create new team screen gif](./land-onto-create-new-team-screen.gif)
 
@@ -38,6 +38,6 @@ Users who have access to the call center can be added as a team member only.
 
 ## Edit a Team
 
-To edit an existing team, click on the drop-down and then the **Edit icon** at the end of each team row or the *Team Name* under the *Teams* tab to navigate to the respective team page. Change any information, add or remove team members and click **Save**.
+To edit an existing team, click on the drop-down and then the **Edit icon** at the end of each team row or the **Team Name** under the *Teams* tab to navigate to the respective team page. Change any information, add or remove team members and click **Save**.
 
 ![Editing Team gif](./editing-team.gif)

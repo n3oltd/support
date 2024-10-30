@@ -9,7 +9,7 @@ In Engage, before calling any donor, create a new data list or choose an existin
 To create a new and edit any existing campaign, go to the <K2Link route="docs/engage/communications/call-center/campaigns/creating-editing-campaigns/" text="creating and editing campaigns documentation" isInternal/>.
 :::
 
-**1.** Click *Data* in the top menu bar and then *Lists* in the quick navigation section to view the *Lists* screen.
+**1.** Click **Data** in the top menu bar and then **Lists** in the quick navigation section to view the **Lists** screen.
 
 ![Land onto Lists screen gif](./land-onto-list-screen.gif)
 
@@ -21,7 +21,7 @@ To create a new and edit any existing campaign, go to the <K2Link route="docs/en
 
 ![Input List name](./input-list-name.png)
 
-**4.** Add different fields to the list which represents the actual data you wish to see on the list. For the accounts list, you need to add the major important fields that are *reference*, *display name*, *primary telephone number* and fields related to call functionality that is *current preference*. Some fields require additional data to be added e.g. current preference requires adding *field title*, choosing the *field channel + category* and giving the consent whether to contact the account as *yes*, *no* or *any*.      
+**4.** Add different fields to the list which represents the actual data you wish to see on the list. For the accounts list, you need to add the major important fields that are **reference**, **display name**, **primary telephone number** and fields related to call functionality that is **current preference**. Some fields require additional data to be added e.g. current preference requires adding *field title*, choosing the *field channel + category* and giving the consent whether to contact the account as *yes*, *no* or *any*.      
 
 :::info
 Each field set has a number of other parameters which can be displayed as per necessary e.g. *address* or *postal code*. You may need not add and display each of them separately in a list.
@@ -37,7 +37,7 @@ It is not necessary to add filters for a field. You can always create a list wit
 
 ![Add filters gif](./add-filters-on-field.gif)
 
-**6.** Lastly, you need to connect the list with the *Calls* connection type in order to use it within the call center. To enable the accounts list for calls, click *Connect*. Under the Engage tab, select the connection type e.g. *Calls* and click *Next*. Choose any existing active campaign from the drop-down, select the *entity*, *priority field* and *order*, click the *Should Include International* checkbox and save the connection.
+**6.** Lastly, you need to connect the list with the **Calls** connection type in order to use it within the call center. To enable the accounts list for calls, click **Connect**. Under the Engage tab, select the connection type e.g. *Calls* and click *Next*. Choose any existing active campaign from the drop-down, select the **entity**, **priority field** and **order**, click the **Should Include International** checkbox and save the connection.
 
 :::note
 - Any connection type choosen creates and performs a specified action for each entry in the list.
