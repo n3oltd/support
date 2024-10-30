@@ -3,11 +3,11 @@ title: Dashboard
 sidebar_position: 2
 ---  
 
-In Engage, the **call center dashboard** is basically the main screen of the call center module. It consists of a *Summary* section along with *Live dashboard's* of different active campaigns. To land onto the call center dashboard, click *Call Center* in the quick navigation section of the *Communications* screen.
+In Engage, the **call center dashboard** is basically the main screen of the call center module. It consists of a *Summary* section along with *Live dashboard's* of different active campaigns. To land onto the call center dashboard, click **Call Center** in the quick navigation section of the **Communications** screen.
 
 ![Land onto Call Center dashboard gif](./land-onto-callcenter-screen.gif)
 
-1. In the *Summary* section, you can view the total calls made or total shift contributions done during a certain time period. This information is also displayed via a graph depicting each week of a month.
+1. In the **Summary** section, you can view the total calls made or total shift contributions done during a certain time period. This information is also displayed via a graph depicting each week of a month.
 
 ![Summary first section(graph + total calls + total shift)](./summary-first-section.png)
 
@@ -38,7 +38,7 @@ Each call parameter is explained below.
 - Call center managers can view live dashboards for all teams and active campaigns. Team leads can view live dashboards for their team **only** and a specific team member (agent) can only view it for the campaign they are working on.
 :::
 
-3. In the *Live Dashboard - Campaign name* section, you can view a minimal dashboard dedicated to a currently active campaign consisting of 2 different sections. Upper section includes:
+3. In the **Live Dashboard - Campaign name** section, you can view a minimal dashboard dedicated to a currently active campaign consisting of 2 different sections. Upper section includes:
 
 - Number of agents working on a particular day.
 - Number of calls handled on a particular day.

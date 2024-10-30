@@ -15,11 +15,11 @@ In Engage, agents, grouped together in teams, can work under various campaigns.
 Call center managers have access to view and manage all campaigns.
 :::
 
-**1.** Click *Communications* in the top menu bar and then *Call Center* in the quick navigation section to view the *Call Center* screen.
+**1.** Click **Communications** in the top menu bar and then **Call Center** in the quick navigation section to view the *Call Center* screen.
 
 ![Land onto Call Center screen gif](./land-onto-callcenter-screen.gif)
 
-**2.** On the *Call Center* screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. The *Campaigns* tab shows a list of all existing active campaigns with defined parameters.
+**2.** On the *Call Center* screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. The **Campaigns** tab shows a list of all existing active campaigns with defined parameters.
 
 | Parameters | Description |
 | ---------- | ----------- |

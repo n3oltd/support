@@ -9,11 +9,11 @@ Engage allows you to create new and edit existing campaigns via the call center 
 
 Follow the steps defined below to create a new campaign.
 
-**1.** Click *Communications* in the top menu bar and then *Call Center* in the quick navigation section to view the *Call Center* screen.
+**1.** Click **Communications** in the top menu bar and then **Call Center** in the quick navigation section to view the *Call Center* screen.
 
 ![Land onto Call Center screen gif](./land-onto-callcenter-screen.gif)
 
-**2.** On the *Call Center* screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. Under the *Campaigns* tab, click the **Create New Campaign** option to land onto the *Create New Campaign* page.
+**2.** On the Call Center screen, click the **three(...)** dots and select **Manage Teams and Campaigns**. Under the *Campaigns* tab, click the **Create New Campaign** option to land onto the *Create New Campaign* page.
 
 ![Land onto create new campaign screen gif](./land-onto-create-new-campaign-screen.gif)
 
@@ -49,6 +49,6 @@ Follow the steps defined below to create a new campaign.
 
 ## Edit a Campaign
 
-To edit an entire existing campaign, select any *campaign reference* or click the drop-down and choose the **Edit icon** at the end of the campaign row under the *Campaigns* tab. Change any information like *campaign info* or *campaign settings* and click **Save**.
+To edit an entire existing campaign, select any **campaign reference** or click the drop-down and choose the **Edit icon** at the end of the campaign row under the **Campaigns** tab. Change any information like *campaign info* or *campaign settings* and click **Save**.
 
 ![Editing Campaign gif](./editing-campaigns.gif)

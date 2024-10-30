@@ -10,11 +10,11 @@ In Engage's call center, you can view records of all scheduled appointments for 
 - Overdue appointments are distinguished with a *red colour* along with a message *'There are x overdue appointments'* on the top.
 :::
 
-**1.** Click *Communications* in the top menu bar and then *Call Center* in the quick navigation section to view the *Call Center* screen.
+**1.** Click **Communications** in the top menu bar and then **Call Center** in the quick navigation section to view the *Call Center* screen.
 
 ![Land onto Call Center screen gif](./land-onto-callcenter-screen.gif)
 
-**2.** On the *Call Center* screen, click the **three(...)** dots and select **Calls and Appointments**. You will be able to view a list of all appointments under the *Appointments* tab.
+**2.** On the Call Center screen, click the **three(...)** dots and select **Calls and Appointments**. You will be able to view a list of all appointments under the **Appointments** tab.
 
 ![Land onto appointments screen gif](./land-onto-appointments-screen.gif)
 
@@ -51,7 +51,7 @@ Simply click the **down arrow** at the end of the selected appointment row and c
 
 ## Canceling an Appointment
 
-You can also cancel a scheduled appointment. Click the **down arrow** at the end of the selected appointment row and choose *cancel*. Input the reason to cancel in the *Cancel Appointment* popup screen and click *Cancel*.
+You can also cancel a scheduled appointment. Click the **down arrow** at the end of the selected appointment row and choose **cancel**. Input the reason to cancel in the *Cancel Appointment* popup screen and click **Cancel**.
 
 ![Cancel Appointment](./cancel-appointment.gif)
 
@@ -59,7 +59,7 @@ You can also cancel a scheduled appointment. Click the **down arrow** at the end
 
 You can also search for an appointment in the list using the **Filters** panel on the left. 
 
-**1.** Expand *Filters* and specify any parameter defined in the table to search for the exact appointment.
+**1.** Expand **Filters** and specify any parameter defined in the table to search for the exact appointment.
 
 | Search Parameters | Description |
 | ----------------- | ----------- |

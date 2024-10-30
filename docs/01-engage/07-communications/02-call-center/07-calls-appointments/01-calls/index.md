@@ -10,11 +10,11 @@ Detailed records of all inbound and outbound calls made by agents can be viewed 
 - Team leads can only edit calls for their relevant teams.
 :::
 
-**1.** Click *Communications* in the top menu bar and then *Call Center* in the quick navigation section to view the *Call Center* screen.
+**1.** Click **Communications** in the top menu bar and then **Call Center** in the quick navigation section to view the *Call Center* screen.
 
 ![Land onto Call Center screen gif](./land-onto-callcenter-screen.gif)
 
-**2.** On the *Call Center* screen, click the **three(...)** dots and select **Calls and Appointments**. You will be able to view a list of calls under the *Calls* tab.
+**2.** On the Call Center screen, click the **three(...)** dots and select **Calls and Appointments**. You will be able to view a list of calls under the **Calls** tab.
 
 ![Land onto calls screen gif](./land-onto-calls-screen.gif)
 
@@ -41,7 +41,7 @@ You can also hover over symbols that either show minimal details for any *appoin
 
 You can also edit and update any existing call from the list. 
 
-**1.** Click the *pen icon* located at the end of any selected call row. An *Update Call* screen pops up from the left-hand side with all the call information.
+**1.** Click the **pen icon** located at the end of any selected call row. An *Update Call* screen pops up from the left-hand side with all the call information.
 
 ![Update call gif](./update-call.gif)
 
@@ -51,7 +51,7 @@ You can also edit and update any existing call from the list.
 
 You can also search for a call in the list using the **Filters** panel on the left. 
 
-**1.** Expand *Filters* and specify any parameter defined in the table to search for the exact call.
+**1.** Expand **Filters** and specify any parameter defined in the table to search for the exact call.
 
 :::info
 The **caller option** is shown to a *call center manager* and *team lead* **only**, not a simple agent or team member. Simple agent only has a list of his or her own calls that have been made. Manager has a list of all callers and campaigns and team lead only has a list of himself and all agents present in his/her team.
