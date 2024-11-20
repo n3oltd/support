@@ -38,9 +38,10 @@ You can also add a new sponsorship program with the **Create** button under diff
 **6.** To add a new beneficiary, click **Create** to populate the **New Beneficiary** screen. Under the **Profile** tab, in the **Basic Info** section, enter **field reference**, click **Drop an image** to upload a photo of the beneficiary and set the **Priority**. Input the **first name**, **last name**, **date of birth** and select the **gender**.
 
 :::tip
-1. Make sure the size of the image is minimum **"1000x1000"** dimensions. If the dimensions are less than the required, a warning message will be shown.
-2. By default, **priority** and **location** will be prepopulated, and you can change it as per necessary.
-3. Fields such as **ID**, **Cohort ID**, **Photo URL**, etc. are prepopulated by the Umbraco system.
+1. Make sure the size of the image is minimum **"1000x1000"** dimensions. If the dimensions are **less** than the required, a **warning** message will be shown. 
+2. If there is a need to resize and crop the image, go to <K2Link route="https://imageresizer.com/" text="Image Resizer"/>, provide the required dimensions and download the cropped image immediately.
+3. By default, **priority** and **location** will be prepopulated, and you can change it as per necessary.
+4. Fields such as **ID**, **Cohort ID**, **Photo URL**, etc. are prepopulated by the Umbraco system.
 :::
 
 ![Input basic information section](./basic-info-section.png)
