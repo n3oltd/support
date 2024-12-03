@@ -25,6 +25,7 @@ export default function Home(): JSX.Element {
             title="Welcome"
             description="We're here to help">
             <HomepageHeader/>
+            
             <main>
                 <HomepageFeatures/>
 
