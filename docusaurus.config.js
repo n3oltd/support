@@ -165,7 +165,7 @@ const config = {
                 appId: '2RALWS9ZRW',
                 indexName: 'docusaurus',
                 apiKey: 'bbdf883eeb031be77d78ae03ab19942e'
-            }
+            },
         }),
 
     plugins: [
@@ -179,7 +179,18 @@ const config = {
                 disableInDev: false,
             },
         ],
-    ]
+    ],
+    scripts: [
+        {
+            src: '/js/set-chatbot.js', 
+            async: false,
+          },
+        {
+          src: "https://app.creator.io/chat-widget-v1.js", 
+          async: true,
+        },
+      ],
+
 };
 
 module.exports = config;
