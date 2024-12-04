@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://support.n3o.ltd/product-updates</id>
     <title>N3O Support Blog</title>
-    <updated>2024-10-29T00:00:00.000Z</updated>
+    <updated>2024-11-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://support.n3o.ltd/product-updates"/>
     <subtitle>N3O Support Blog</subtitle>
     <icon>https://support.n3o.ltd/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[November 2024 Update]]></title>
+        <id>https://support.n3o.ltd/product-updates/2024-11-update</id>
+        <link href="https://support.n3o.ltd/product-updates/2024-11-update"/>
+        <updated>2024-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For the month of November, there are a few new additions and some major bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>For the month of November, there are a few new additions and some major bug fixes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Added an option to make direct manual calls for recording purposes in the calls section under an accounts profile </li><li>Adding filter lookups while creating a list in Engage</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Some donation receipts seem to be stuck in processing in Engage</li><li>Fixed: After importing a certain sponsorship record, it is in error state due to the price not matching with the sponsorship scheme </li><li>Fixed: No option to link a certain regular giving to an open ended sponsorship under an allocation section</li><li>Fixed: Plaque information is not appearing on a feedback template for any feedback scheme </li><li>Fixed: Some deactivated beneficiaries are not approved and disappear from the deactivation dashboard</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Crowdfunding</li><li>Tax Relief</li></ul>]]></content>
+        <category label="update" term="update"/>
+        <category label="engage" term="engage"/>
+        <category label="tally" term="tally"/>
+        <category label="forms" term="forms"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[October 2024 Update]]></title>
         <id>https://support.n3o.ltd/product-updates/2024-10-update</id>
