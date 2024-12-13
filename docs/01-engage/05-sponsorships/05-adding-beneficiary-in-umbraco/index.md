@@ -40,7 +40,11 @@ You can also add a new sponsorship program with the **Create** button under diff
 :::tip
 1. Make sure the size of the image is minimum **"1000x1000"** dimensions. If the dimensions are **less** than the required, a **warning** message will be shown. 
 2. If there is a need to resize and crop the image, go to <K2Link route="https://imageresizer.com/" text="Image Resizer"/>, provide the required dimensions and download the cropped image immediately.
-3. By default, **priority** and **location** will be prepopulated, and you can change it as per necessary.
+3. By default, **priority** and **location** are prepopulated, but you can change them as per necessary. **Priority** is designed to indicate the level of a beneficiary when being suggested for a sponsorship. These levels range from 1 to 10 with **"1"** being the highest priority level and **"10"** being the lowest priority level. Some examples are:
+    - Beneficiaries in need of immediate support or residing in regions facing critical challenges can be assigned a **higher** priority.
+    - beneficiaries with medical needs, disabilities, or those in situations of extreme vulnerability can be assigned a **higher** priority.
+    - Beneficiaries with stable sponsorship arrangements or access to alternative support channels can be assigned a **lower** priority.
+    - Beneficiaries who have been waiting longer for sponsorship could be prioritized in a different range (3-8) to ensure equality.
 4. Fields such as **ID**, **Cohort ID**, **Photo URL**, etc. are prepopulated by the Umbraco system.
 :::
 
