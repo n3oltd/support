@@ -187,7 +187,7 @@ const config = {
           },
         {
           src: "https://app.creator.io/chat-widget-v1.js", 
-          async: true,
+          defer: true,
         },
       ],
 
