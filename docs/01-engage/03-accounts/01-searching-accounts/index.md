@@ -60,5 +60,5 @@ The dates/times in the **Created/Updated** section are relative to the time the 
 :::tip
 - If you wish to remove the search input for all parameters and start all over again, use the **Reset All** option. 
 - If you need a list of all the accounts in a specific city or name (rather than looking for a specific account) use the <K2Link route="docs/engage/data/lists/" text="lists function" isInternal/>.
-- If a duplicate account appears in the search results, it can be because there is duplicate data in their system. To tackle with this, <K2Link route="docs/engage/accounts/merging/" text="merge the duplicate accounts" isInternal/>, or ask your system administrator to do this for you as it is necessary to have only one account per person or company.
+- If a duplicate account appears in the search results, it can be because there is duplicate data in their system. To tackle with this, <K2Link route="docs/engage/accounts/merging-accounts/" text="merge the duplicate accounts" isInternal/>, or ask your system administrator to do this for you as it is necessary to have only one account per person or company.
 :::

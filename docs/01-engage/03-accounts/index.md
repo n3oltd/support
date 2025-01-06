@@ -28,7 +28,7 @@ Begin using an account as soon as it gets created in **Engage**.
    </article>
 
 <article class="col col--6 margin-bottom--lg">
-      <a class="card padding--lg cardContainer" href="/docs/engage/accounts/merging">
+      <a class="card padding--lg cardContainer" href="/docs/engage/accounts/merging-accounts">
          <h2 class="text--truncate cardTitle" title="Merge Account">Merge Account</h2>
          <p class="text--truncate cardDescription" title="Get rid of duplicate accounts via merging them together">Get rid of duplicate accounts via merging them together</p>
       </a>
