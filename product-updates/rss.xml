@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Sat, 30 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[December 2024 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2024-12-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2024-12-update</guid>
+            <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the year 2024 comes to an end, we finish up with some important bug fixes and adding some new features.]]></description>
+            <content:encoded><![CDATA[<p>As the year 2024 comes to an end, we finish up with some important bug fixes and adding some new features.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Added an AI-powered assistant in the Engage Support documentation for faster queries and their solutions</li><li>Fixing alignment of some buttons in the Engage Import Queues section</li><li>Adding a "Create New List" button on the Lists dashboard screen in Engage</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Reports of some website donations showing matching failed status after being imported</li><li>Fixed: Error occurs when trying to publish some pages from staging to live site in Umbraco</li><li>Fixed: A bug with select donation receipts not being issued from Engage to the donors</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Crowdfunding</li><li>Tax Relief</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[November 2024 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2024-11-update</link>
