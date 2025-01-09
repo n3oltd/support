@@ -9,9 +9,9 @@ Twilio SendGrid is a cloud-based email delivery platform that allows businesses 
 
 ## What are Event Webhooks and Types?
 
-Terms *'webhooks'* and *'event webhooks'* are two different phenomena's. Webhooks refer to an overall API concept for an app to provide other applications with real-time information, whereas, event webhooks point to the *SendGrid operation* that makes *POST* requests to your URL. The URL you use to configure your SendGrid Event Webhook is referred to as the "Post URL," "endpoint," or "destination."
+Terms **'webhooks'** and **'event webhooks'** are two different phenomena's. Webhooks refer to an overall API concept for an app to provide other applications with real-time information, whereas, event webhooks point to the **SendGrid operation** that makes **POST** requests to your URL. The URL you use to configure your SendGrid Event Webhook is referred to as the "Post URL," "endpoint," or "destination."
 
-In SendGrid, event types refer to the type of events provided by the event webhooks in two major categories: *deliverability events* and *engagement events*. 
+In SendGrid, event types refer to the type of events provided by the event webhooks in two major categories: **deliverability events** and **engagement events**. 
 
 - Deliverability events such as "delivered," "bounced," and "processed".
 - Engagement events such as "unsubscribe," and "click".
@@ -20,21 +20,21 @@ In SendGrid, event types refer to the type of events provided by the event webho
 
 Subscribers in SendGrid can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or any other activity via SendGrid can at the same time opt out of the related contact preference within Engage using webhooks. 
 
-**1.** In Engage, click on *Data*, *Imports* and choose the **Preferences Queue**.
+**1.** In Engage, click on **Data**, **Imports** and choose an existing **Queue** or create a new one..
 
-![Choose preferences queue gif](./choose-preferences-queue.gif)
+![Choose queue gif](./choose-queue.png)
 
-**2.** Click the **three dots(...)** on the top right-hand side and go to **Queue info and history** to create and set up a new webhook (feed). 
+**2.** Open the **Info & Imports History** tab and under the **Feeds** section, hover over the **down arrow** and click **Create New JSON Feed** to create and set up a new JSON feed.
 
 :::note
 You can also ask your system administrator to set up feeds (webhooks) for you.
 :::
 
-![Set up a new feed gif](./set-up-new-feed.gif)
+![Set up a new feed gif](./create-new-json-feed.png)
 
 ## Add an Event Webhook in SendGrid
 
-Once you have a webhook URL ready to accept SendGrid's POST requests, you can add an event webhook in SendGrid. To add a new event webhook to your account, follow the steps below.
+Once you have a **webhook URL** ready to accept SendGrid's POST requests, you can add an event webhook in SendGrid. To add a new event webhook to your account, follow the steps below.
 
 **1.** Login into your SendGrid account. In the SendGrid application UI, navigate to **Settings** and then **Mail Settings**.
 
