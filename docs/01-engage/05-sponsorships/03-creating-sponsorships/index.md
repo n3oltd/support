@@ -43,7 +43,7 @@ After selecting a scheme, you can also change it to another one with the **Chang
 
 **2.** Choose the **Begin On** date. By default, the date is displayed as the current date.
 
-**3.** Select the **Commitment Type** as fixed term or open-ended and **Sponsorship Duration**.
+**3.** Select the **Commitment Type** as fixed term or open-ended and **Sponsorship Duration**. Commitment type refers to the length of time a donor commits to sponsor an orphan. **Fixed terms sponsorships** will specify the sponsorship length such as 6, 12, or 24 months. **Open-ended sponsorships** will not set an end date on the sponsorship length.
 
 ![Choose Date and Others](./choose-date-and-others.png)
 
@@ -64,7 +64,7 @@ You can also generate a **profile PDF** for the beneficiary for the first time v
 Mandatory components are necessary to sponsor and optional can be choosen via the toggle button.
 :::
 
-**6.** Lastly, click **Create** if you only need to save the sponsorship or **Create & Donate** if you need to create the sponsorship and immediately donate towards it. The donation can be made as single donation or regular giving.
+**6.** Lastly, click **Create** if you only need to save the sponsorship or **Create & Donate** if you need to create the sponsorship and immediately donate towards it. The **Create** option will link the donor and beneficiary without triggering a payment and the **Create & Donate** option will link the donor and beneficiary, whilst subsequently processing the payment.
 
 ![Components Table](./components-table.png)
 
