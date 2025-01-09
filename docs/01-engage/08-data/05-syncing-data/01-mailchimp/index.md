@@ -12,23 +12,23 @@ Mailchimp is an all-in-one marketing platform for businesses to manage emails, c
 - A subscribed contact, or subscriber, is someone who has opted in to receive an organizations email marketing.
 :::
 
-Subscribers in the audience section of a Mailchimp account can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or other activities via mailchimp can at the same time opt out of the related contact preference (fundraising emails) within Engage using <K2Link route="docs/category/developers--designers/" text="webhooks" isInternal/>. 
+Subscribers in the audience section of a Mailchimp account can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or other activities via mailchimp can at the same time opt out of the related contact preference (fundraising emails) within Engage using <K2Link route="docs/engage/data/imports/ways-to-import-data-within-queue/webhooks/" text="webhooks" isInternal/>. 
 
-1. In Engage, click on *Data*, *Imports* and choose the **Preferences Queue**.
+1. In Engage, click on **Data**, **Imports** and choose an existing **Queue** or create a new one.
 
-![Choose preferences queue gif](./choose-preferences-queue.gif)
+![Choose queue](./choose-queue.png)
 
-2. Click the **three dots(...)** on the top right-hand side and go to **Queue info and history** to create and set up a new feed (webhook). 
+2. Open the **Info & Imports History** tab and under the **Feeds** section, hover over the **down arrow** and click **Create New JSON Feed** to create and set up a new JSON feed. 
 
 :::note
 You can also ask your system administrator to set up feeds (webhooks) for you.
 :::
 
-![Set up a new feed gif](./set-up-new-feed.gif)
+![Set up a new json feed](./create-new-json-feed.png)
 
-3. Provide the URL of the created webhook by copying and pasting the unique last part of the URL consisting of numbers and letters under the webhook settings of an audience in Mailchimp.
+3. Provide the **URL** of the created webhook by copying and pasting the unique last part of the URL consisting of numbers and letters under the webhook settings of an audience in Mailchimp.
 
 ![Adding URL in Mailchimp](./edit-webhook-url.gif)
 
-4. As soon as a subscriber unsubscribes from any email in Mailchimp, Engage receives a webhook via the URL, finds the account (subscriber) by its Engage ID and sets the contact preference of emails for the fundraising section of that account to be off.
+4. As soon as a subscriber unsubscribes from any email in Mailchimp, Engage receives a webhook via the URL, finds the account (subscriber) by its **Engage ID** and sets the contact preference of emails for the fundraising section of that account to be **off**.
 
