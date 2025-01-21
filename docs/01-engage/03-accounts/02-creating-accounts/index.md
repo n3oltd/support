@@ -69,9 +69,13 @@ For incorrect and incomplete phone numbers, a **validation pop-up error message*
 
 **4.** In the **Email Address** section, input the **accounts email**. Most of the time the system will be able to detect if the email is work or personal, but if not, set it manually. The first email will become the primary email which is the one used by automated processes in the system. You can also add extra email addresses with **+ Add Email Address** and remove them with the **Remove** button.
 
-![Create Account Email](create-account-4.png)   
+![Create Account Email](create-account-4.png)  
 
-**5.** For the **Contact Preferences** section, select the way you want to receive communication i.e. via **Email**, **Post**, **SMS** or **Telephone**. For details, refer to the <K2Link route="docs/engage/accounts/contact-details/enable-contact-preferences/" text="Contact Preferences documentation" isInternal/>.
+**5.** In the **Online Presence** section, select the digital platform you use to interact online with other people, for example, Facebook, YouTube, Instagram, etc., via the drop-down and input an example. 
+
+![Select Online Presence](./select-online-presence.png)
+
+**6.** For the **Contact Preferences** section, select the way you want to receive communication i.e. via **Email**, **Post**, **SMS** or **Telephone**. For details, refer to the <K2Link route="docs/engage/accounts/contact-details/enable-contact-preferences/" text="Contact Preferences documentation" isInternal/>.
 
 :::note Important
 You can select two categories at one time by using the **Opt-In** and **Opt-Out** options.
@@ -79,15 +83,22 @@ You can select two categories at one time by using the **Opt-In** and **Opt-Out*
 
 ![Create Account Contact Preferences](create-account-6.png)
 
-**6.** You can also specify **tax relief preferences** associated with the account. For details, refer to Gift Aid documentation.
+**7.** You can also specify **tax relief preferences / Gift Aid** associated with the account. 
 
-![Create Account Gift Aid](create-account-7.png)
+- If you select **Tax Eligibility** as **yes**, then choose the **Valid From** date, the **Declaration Source** from the drop-down and any other tax files that you want to upload. **Declaration date** is prepopulated by the system.
+- If you select **Tax Eligibility** as **no**, then choose the **reason** as *unspecified, declined* or *other* and any other tax files that you want to upload. **Declaration date** is prepopulated by the system.    
 
-**7.** If you wish to track the source of the account for analytics purposes you can do that by assigning an **initial touchpoint** to the account. If unsure, leave this blank. For more information, go to <K2Link route="docs/engage/accounts/interactions/" text="Interactions documentation" isInternal/>.  
+![Create Account Gift Aid](./gift-aid.png)
+
+**8.** If you wish to track the source of the account for analytics purposes you can do that by assigning an **initial touchpoint** to the account. If unsure, leave this blank. For more information, go to <K2Link route="docs/engage/accounts/interactions/" text="Interactions documentation" isInternal/>.  
 
 ![Create Account Interactions](create-account-8.png)
 
-**8.**  Click **+ Create Account**. At this point, you may see one or more validation messages in Engage indicating missing or incorrect data that must be specified or corrected to proceed.
+**9.** In the **Add more details to the account** section, select the custom form and add all its required details. This section only appears if custom forms are added and configured by the administrator in the Admin part of Engage.
+
+![add info to custom forms](./add-custom-forms.png)
+
+**10.**  Click **+ Create Account**. At this point, you may see one or more validation messages in Engage indicating missing or incorrect data that must be specified or corrected to proceed. Solve the validation messages, if any, and your account is created successfully. 
 
 ## Differences between Individual and Organization Accounts
 
