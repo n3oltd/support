@@ -23,7 +23,7 @@ You can also <K2Link route="docs/engage/accounts/searching-accounts/" text="sear
 
 ![Allocations section](./allocations-section.png)
 
-3. The total amount would be the amount donated and shown at the end of the **Allocations** section. Click **Save and Continue to Payment** and pay via the payment methods available in the **Payments** section.
+3. The total amount would be the amount donated and shown at the end of the **Allocations** section. Click **Save and Continue to Payment** and pay via the payment methods available in the **Payments** section. Lastly, click **Enter Donation** to process the donation successfully.
 
 :::note
 To read more on how to make payments, go to <K2Link route="docs/engage/donations/payments/payment-types-and-methods/" text="Payment Types and Methods Documentation" isInternal/>.
