@@ -7,7 +7,7 @@ Whenever two records are identical and serve a common purpose, it is likely to m
 
 ## Merging Duplicate Accounts
 
-**1.** In the <K2Link route="dashboard" text="Engage dashboard" isEngage />, use any search method and choose the account you wish to merge from.
+**1.** On the <K2Link route="dashboard" text="Engage dashboard" isEngage />, use any search method and choose the account you wish to merge from.
 
 ![Search Account Video](./search-account-video.gif)
 
@@ -15,10 +15,13 @@ Whenever two records are identical and serve a common purpose, it is likely to m
 
 ![Three Dots](./three-dots.png)
 
-**3.** Now, search for the name of the account you want to merge into and click **Merge** to merge both accounts.
+**3.** Now, search for the account you want to merge. It is important to note that this action will merge the initial account into the new account selected. Click **Merge** to merge both accounts.
 
-:::note
-The account selected from the search in *step 1* will be merged into the account selected in *step 3*.
+:::tip
+The account selected from the search in **step 1 (initial account)** will be merged into the account selected in **step 3 (account searched afterwards)**.
 :::
 
-![Merge Into](./merge-into.png)
+![Merge Into](./merge-into-updated.png)
+
+**4.** As soon as the merging finishes, the initial account gets deleted shortly. You can also view the merged information, such as phone number and email address, in the merged account's profile menu.
+
