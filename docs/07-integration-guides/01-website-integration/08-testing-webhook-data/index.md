@@ -18,13 +18,13 @@ In order to test your webhook data, you will require access to the Engage QA env
 
 To test the imported data coming from your website, follow the steps below.
 
-1. In Engage, click on *Data*, then *Imports* and choose the **Donations Queue**.
+1. In Engage, click on **Data**, then **Imports** and choose the **Donations Queue**.
 
 ![Choose Donations queue gif](./choose-donations-queue.gif)
 
-2. Click the **three dots(...)** on the top right-hand side and go to **Queue info and history** to access the import runs.
+2. Open the **Info & Imports History** tab and scroll down to access the **Import Runs** section.
 
-![View queue info history](./view-queue-info.png)
+![View queue info history](./view-the-import-runs-section.png)
 
 3. Under the **Import runs** section you can view a record of all the latest import attempts in the form of a list, including any *webhooks* which you have sent.
 
