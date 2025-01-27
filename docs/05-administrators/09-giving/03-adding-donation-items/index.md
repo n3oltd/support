@@ -14,7 +14,12 @@ To add a donation item, click **+ Add Donation Item**. In the **General** sectio
 1. Write a donation item name.
 2. Add any notes, if required.
 3. Select the type of donation for which the donation will be used.
-4. Choose the tax relief rate as **full** or **zero**.
+4. Choose the tax relief rate as **full** or **zero**. 
+
+:::tip
+- **Full tax relief** means that the entire qualifying amount is deducted from taxable income or offset against tax liabilities. In effect, the taxpayer gains the full financial benefit of the relief.
+- **Zero tax relief** means that no deduction, reduction, or offset is provided for the expense or activity in question. The taxpayer receives no tax benefit.
+:::
 
 ![General section](./general-section.png)
 
