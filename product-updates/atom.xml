@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://support.n3o.ltd/product-updates</id>
     <title>N3O Support Blog</title>
-    <updated>2024-12-31T00:00:00.000Z</updated>
+    <updated>2025-01-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://support.n3o.ltd/product-updates"/>
     <subtitle>N3O Support Blog</subtitle>
     <icon>https://support.n3o.ltd/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[January 2025 Update]]></title>
+        <id>https://support.n3o.ltd/product-updates/2025-01-update</id>
+        <link href="https://support.n3o.ltd/product-updates/2025-01-update"/>
+        <updated>2025-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As the year 2025 starts, we begin adding new features and clearing some important bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>As the year <strong>2025</strong> starts, we begin adding new features and clearing some important bug fixes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Redesigning the transfer list functionality for sponsorships in Umbraco</li><li>Adding descriptive notes for different options under "Creating a Feed" in the Data Import section </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Two payments for single donations through card are receiving an error while processing</li><li>Fixed: A certain feedback report sent is not showing the image on its first page</li><li>Fixed: A certain feedback project created within a location is not showing under the Instruct Feedback dropdown </li><li>Fixed: A regular giving payment for a certain donor stopped working since the last payment it collected</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Crowdfunding</li><li>Tax Relief</li></ul>]]></content>
+        <category label="update" term="update"/>
+        <category label="engage" term="engage"/>
+        <category label="tally" term="tally"/>
+        <category label="forms" term="forms"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[December 2024 Update]]></title>
         <id>https://support.n3o.ltd/product-updates/2024-12-update</id>
