@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 In Engage, feedbacks refer to special projects that require feedback being given back to the donor after its completion. Before creating a feedback and donating towards it, admin users must first create feedback schemes and activate them.
 
-To add a scheme, click **Add New Scheme**. Under **step 1: Scheme Setup**, input the following information.
+To add a scheme, click on **Admin** in the header menu, **Feedbacks** and then **Schemes** from the side menu. On the **Feedback Schemes** screen, click **Add New Scheme**. Under **step 1: Scheme Setup**, input the following information.
 
 1. **Name:** The name of the feedback scheme.
 2. **Restrict to Roles:** The users who will be able to access the scheme, either all or some part of it. If you want the scheme to be accessible by all, tickmark **Accessible to everyone**.

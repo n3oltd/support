@@ -9,6 +9,6 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Cancellation reasons in general explain about the justifications provided for terminating or discontinuing a certain function. In Engage, admin users can add different cancellation reasons for multiple pledges.
 
-To add a reason, click **Add Pledge Cancellation Reason**, input the name and select **OK**. You can also edit and delete any existing cancellation reason.
+Click on **Admin** in the header menu, **Pledges** and then **Cancellation Reasons** from the side menu. To add a reason, click **Add Pledge Cancellation Reason**, input the name and select **OK**. You can also edit and delete any existing cancellation reason.
 
 ![Add pledge cancellation reason](./add-pledge-cancellation-reason.gif)

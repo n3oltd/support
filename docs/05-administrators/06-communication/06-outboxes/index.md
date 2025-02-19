@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Outbox is a feature that typically stores the outgoing messages, documents or emails before being sent. Admin users in Engage, can add, edit and maintain mutliple outboxes related to different entities like sponsorships, accounts etc.
 
-Click the **+ Add Outbox** option, **name** it, select the users who can create templates, dispatch documents and view the contents of the outbox as **Managed By** and **Usable By**, add any extra notes and click **Save**.  
+Click on **Admin** in the header menu, **Communication** and then **Outboxes** from the side menu. On the **Outboxes** screen, click the **+ Add Outbox** option, **name** it, select the users who can create templates, dispatch documents and view the contents of the outbox as **Managed By** and **Usable By**, add any extra notes and click **Save**.  
 
 ![Add an outbox](./add-outbox.gif)
 

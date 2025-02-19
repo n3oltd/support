@@ -13,7 +13,7 @@ Touchpoints refer to any interaction that a customer has with a product, or serv
 Attribution dimensions that appear while creating a touchpoint are the same as those added in the Admin Attribution section.
 :::
 
-You can add a new touchpoint or edit any previous one via the **down arrow**. Click the **+ Add Touchpoint** option, **name** it, choose the **lifetime** as number of hours, days, months, or year etc., input the **attribution dimensions** as required from the dropdown and select **Save**. 
+You can add a new touchpoint or edit any previous one via the **down arrow**. Click on **Admin** in the header menu, **Analytics** and then **Touchpoints** from the side menu. On the **Manage Touchpoints** screen, click the **+ Add Touchpoint** option, **name** it, choose the **lifetime** as number of hours, days, months, or year etc., input the **attribution dimensions** as required from the dropdown and select **Save**. 
 
 All touchpoints added appear in the form of a list stating their:
 

@@ -13,7 +13,7 @@ Reports are a structured presentation of data and information that provide insig
 2. Regular Giving Overview
 3. Sponsorship Overview
 
-You, as an admin user, can add various different custom reports. Click the **+ Add Custom Report**, **name** the report, write its **description**, choose the **report category**, upload any report sample file in `.pbix` format and select **OK**.
+You, as an admin user, can add various different custom reports. Click on **Admin** in the header menu, **Analytics** and then **Reports** from the side menu. On the **Reports** screen, click the **+ Add Custom Report**, **name** the report, write its **description**, choose the **report category**, upload any report sample file in `.pbix` format and select **OK**.
 
 All reports when added appear in the form of a list with parameters:
 

@@ -9,7 +9,9 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 In Engage, donation items are specific projects which are spread across various fund dimensions. Admin users must first add multiple donation items for different fund dimensions in order to later add them while making donations, pledges etc., making sure that fund dimensions are added beforehand.
 
-To add a donation item, click **+ Add Donation Item**. In the **General** section:
+Click on **Admin** in the header menu, **Giving** and then **Donation Items** from the side menu. On the **Donation Items** screen, to add a donation item, click **+ Add Donation Item**. 
+
+In the **General** section:
 
 1. Write a donation item name.
 2. Add any notes, if required.

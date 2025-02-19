@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Sponsorships refer to the process of managing and nurturing relationships with sponsors or benefactors. Sponsors are individuals or organizations that provide financial support to a cause. Before creating a sponsorship, admin users must first create sponsorship schemes and activate them.
 
-To add a scheme, click **Add New Scheme** and select **Child** or **Other**, that includes all those schemes which do not fall under the child category. Under **step 1: Scheme Setup**, input the following information.
+Click on **Admin** in the header menu, **Sponsorships** and then **Schemes** from the side menu. To add a scheme, click **Add New Scheme** and select **Child** or **Other**, that includes all those schemes which do not fall under the child category. Under **step 1: Scheme Setup**, input the following information.
 
 1. **Name:** The name of the sponsorship scheme.
 2. **Beneficiary Assignment:** The assignment of beneficiaries in Umbraco as *No Beneficiaries*,  *Optional* or *Required*.

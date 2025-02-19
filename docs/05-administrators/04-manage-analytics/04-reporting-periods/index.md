@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Reporting period refers to a specific timeframe for members working in a CRM during which they collect, analyze and present data for reporting purposes. In Engage, it is useful while analyzing the different reports e.g. income or regular giving overview report. 
 
-You, as an admin user, can add multiple reporting periods or edit any existing one for any member working in Engage. Click the **+ Add Reporting Period** option, input the name of any member, the **start date** and **end date** and select **OK**.
+You, as an admin user, can add multiple reporting periods or edit any existing one for any member working in Engage. Click on **Admin** in the header menu, **Analytics** and then **Reporting Periods** from the side menu. On the **Reporting Periods** screen, click the **+ Add Reporting Period** option, input the name of any member, the **start date** and **end date** and select **OK**.
 
 All reporting periods appear in the form of a list stating the:
 
