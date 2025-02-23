@@ -26,7 +26,7 @@ Let's say, a donor donates a sum of money on a charity organization's website pa
 In Engage, this conversion is stored in the account as interactions or touchpoints. Each interaction has:
 
 1. **Name:** The name of the interaction that occurred.
-2. **Lifetime:** The time duration of the interaction in which it stays active.
+2. **Lifetime:** The time duration of the interaction in which it stays active. This also means that if a donation comes within this lifetime, it will be attributed towards the dedicated channel, otherwise it will not.
 3. **Timestamp:** The time and date at which the interaction took place.
 4. **Status:** The current condition of the interaction i.e. *Active* or *Inactive*. 
 
