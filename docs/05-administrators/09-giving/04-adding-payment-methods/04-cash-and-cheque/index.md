@@ -3,7 +3,7 @@ title: Cash and Cheque
 sidebar_position: 4
 ---
 
-Cash and cheque are digital forms of payment methods that are accepted in financial transactions. To add cash and cheque as a payment method, click **Add payment method** and select **Cash & Cheque**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown as cash or cheque, and click **OK**.
+Cash and cheque are digital forms of payment methods that are accepted in financial transactions. Click on **Admin** in the header menu, **Giving** and then **Payment Methods** from the side menu. To add cash and cheque as a payment method, click **Add payment method** and select **Cash & Cheque**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown as cash or cheque, and click **OK**.
 
 ## Cash
 

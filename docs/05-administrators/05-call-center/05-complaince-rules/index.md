@@ -9,6 +9,6 @@ The main **Product Owners** along with the members having **Admin Roles** or **C
 
 In Engage, compliance is a set of rules that agents and the call center must adhere to during customer interactions. For example, an account must not be called more than 2 times in 30 days and if someone does, then display a warning or error message and skip that contact.
 
-You, as an admin user, can add or edit these rules for all agents working in the call center. Click **+ Add Rule**, input the number of times an account can be called for a particular time period as **Past**, number of calls made to an account as **Calls**, error or warning message as **Severity** and select **OK**.
+You, as an admin user, can add or edit these rules for all agents working in the call center. Click on **Admin** in the header menu, **Call Center** and then **Complaince** from the side menu. On the **Manage Rule** screen, click **+ Add Rule**, input the number of times an account can be called for a particular time period as **Past**, number of calls made to an account as **Calls**, error or warning message as **Severity** and select **OK**.
 
 ![Complaince Gif](./adding-compliance-rules.gif)

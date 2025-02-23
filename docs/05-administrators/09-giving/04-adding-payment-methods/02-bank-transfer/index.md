@@ -3,7 +3,7 @@ title: Bank Transfer
 sidebar_position: 2
 ---
 
-Bank transfer is the transfer of money from one bank to another.  To add bank transfer as a payment method, click **Add payment method** and select **Bank Transfer**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown, and click **OK**.
+Bank transfer is the transfer of money from one bank to another. Click on **Admin** in the header menu, **Giving** and then **Payment Methods** from the side menu. To add bank transfer as a payment method, click **Add payment method** and select **Bank Transfer**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown, and click **OK**.
 
 Now, input information for all the required fields of the payment provider.
 

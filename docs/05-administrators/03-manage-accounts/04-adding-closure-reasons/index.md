@@ -11,6 +11,6 @@ Closure reasons typically refer to the specific explanations for closing an acco
 
 Admin users can add various closure reasons that can be later chosen via the dropdown in the **Reason** section while closing any individual or organizational account in Engage. 
 
-You can add and also edit any previously added closure reasons via the **pen icon**. Click the **+ Add Closure Reason** option, **name** the reason and select **OK**. All closure reasons appear in the form of a list along with their names.
+You can add and also edit any previously added closure reasons via the **pen icon**. Click on **Admin** in the header menu, **Accounts** and then **Closure Reasons** from the side menu. On the **Manage Accounts** screen, click the **+ Add Closure Reason** option, **name** the reason and select **OK**. All closure reasons appear in the form of a list along with their names.
 
 ![Closure Reasons Gif](./adding-closure-reasons.gif)

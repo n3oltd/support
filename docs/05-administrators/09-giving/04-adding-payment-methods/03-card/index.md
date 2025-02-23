@@ -3,7 +3,7 @@ title: Card
 sidebar_position: 3
 ---
 
-Card payments are cashless payment methods that allow payments with debit or credit cards online. To add card as a payment method, click **Add payment method** and select **Card**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown e.g. Bambora, Opayo, Stripe, etc., and click **OK**. 
+Card payments are cashless payment methods that allow payments with debit or credit cards online. Click on **Admin** in the header menu, **Giving** and then **Payment Methods** from the side menu. To add card as a payment method, click **Add payment method** and select **Card**. Choose the **country**, that is set to *United Kingdom* as default, the **payment provider** from the dropdown e.g. Bambora, Opayo, Stripe, etc., and click **OK**. 
 
 ![Card Payment method gif](./card.gif)
 

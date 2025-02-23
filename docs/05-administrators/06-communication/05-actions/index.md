@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Actions refer to the process or the result of doing something. In Engage, an action is basically a trigger that might occur on a donation processed or an account or contact preference updated, etc. Admin users can add actions according to the user preferences.  
 
-Click the **+ Add Action** option, and:
+Click on **Admin** in the header menu, **Communication** and then **Actions** from the side menu. On the **Communication Actions** screen, click the **+ Add Action** option, and:
 
 1. Input the **name** of the action and add any notes, if required.
 2. Select the **entity**, the action is related to.

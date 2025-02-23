@@ -17,6 +17,6 @@ Each dimension for the first time appears with a warning:
 **This attribution dimension is inactive and cannot be used to attribute funds. If you want to use this attribution dimension, ensure options have been added and then activate it from the Options menu.**
 :::
 
-You can add a new dimension and also edit, change its order, deactivate or activate any previously added dimensions via the **down arrow**. To add, click the down arrow and select **Edit**. Change the dimension name, if required, add the options in a comma separated manner and click **Save**.
+Click on **Admin** in the header menu, **Analytics** and then **Attribution Dimensions** from the side menu. You can add a new dimension and also edit, change its order, deactivate or activate any previously added dimensions via the **down arrow**. To add, click the **down arrow** on a dimension block and select **Edit**. Change the **dimension name**, if required, add the options in a comma separated manner and click **Save**.
 
 ![Attribution dimension Gif](./add-attribution-dimensions.gif)

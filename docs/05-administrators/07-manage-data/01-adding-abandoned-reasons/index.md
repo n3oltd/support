@@ -9,6 +9,6 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 In Engage, abandoned reasons indicate the reasons for which a user of the system may choose to abandon an *Import Record* instead of importing it. 
 
-You can add and also edit any previously added abandoned reason via the **pen icon**. To add, click the **+ Add Abandoned Reason** option, **name** the reason and select **OK**. All abandoned reasons appear in the form of a list along with their names.
+You can add and also edit any previously added abandoned reason via the **pen icon**. Click on **Admin** in the header menu, **Data** and then **Abandoned Reasons** from the side menu. On the **Manage Record Abandoned Reasons** screen, click the **+ Add Abandoned Reason** option, **name** the reason and select **OK**. All abandoned reasons appear in the form of a list along with their names.
 
 ![Abandoned reasons Gif](./add-abandoned-reason.gif)

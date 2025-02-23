@@ -13,7 +13,7 @@ Fund dimensions indicate the way to manage funds or donations based on pre-defin
 Each fund dimension is inactive at first and cannot be used to allocate funds. If you want to use a fund dimension, ensure restricted options have been added and activated from the **Options** menu.
 :::
 
-To add a new fund dimension, click the **down arrow** and choose **Edit**. 
+Click on **Admin** in the header menu, **Giving** and then **Fund Dimensions** from the side menu. To add a new fund dimension, click the **down arrow** on a dimension block and choose **Edit**. 
 
 1. **Name** the dimension.
 2. Add different options to assign funds for specific purposes in the **Restricted to** section.

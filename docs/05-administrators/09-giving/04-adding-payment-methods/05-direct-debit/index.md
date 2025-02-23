@@ -3,7 +3,7 @@ title: Direct Debit
 sidebar_position: 5
 ---
 
-Direct debit payments allow organisations to collect recurring payments. To add direct debit as a payment method, click **Add payment method** and select **Direct Debit**. Choose the **country**, that is set to *United Kingdom* as default and select the **payment provider** from the dropdown as direct debit (UK BACS), GoCardless, SmartDebit, etc.
+Direct debit payments allow organisations to collect recurring payments. Click on **Admin** in the header menu, **Giving** and then **Payment Methods** from the side menu. To add direct debit as a payment method, click **Add payment method** and select **Direct Debit**. Choose the **country**, that is set to *United Kingdom* as default and select the **payment provider** from the dropdown as direct debit (UK BACS), GoCardless, SmartDebit, etc.
 
 ![Direct debit Payment method gif](./direct-debit.gif)
 

@@ -3,7 +3,9 @@ title: Other
 sidebar_position: 6 
 ---
 
-Other payment method includes all those methods that are not included in the Engage system. Any organisation that wants to use other payment methods should add them in the **Other** section of **Payments**. To add any other as a payment method, click **Add payment method** and select **Other**. Choose the **country**, that is set to *United Kingdom* as default and select the **payment provider** from the dropdown as other.
+Other payment method includes all those methods that are not included in the Engage system. Any organisation that wants to use other payment methods should add them in the **Other** section of **Payments**. 
+
+Click on **Admin** in the header menu, **Giving** and then **Payment Methods** from the side menu. To add any other payment method, click **Add payment method** and select **Other**. Choose the **country**, that is set to *United Kingdom* as default and select the **payment provider** from the dropdown as other.
 
 Add the following information for the specific fields.
 

@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 In Engage, campaigns are useful when an organization wants to associate particular donation items or projects to a dedicated time period. Admin users can add multiple campaigns and save them.
 
-To add a campaign, click **+ Add Campaign** and:
+To add a campaign, click on **Admin** in the header menu, **Analytics** and then **Campaigns** from the side menu. On the **Manage Campaigns** screen, click **+ Add Campaign** and:
 
 1. Input the **name** of the campaign.
 2. **From** and **To** dates of the campaign.

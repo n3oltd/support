@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 Webhooks in Engage, are essentially automated messages which allow you to send real-time data from one application to another whenever a given event occurs. Admin users can manage webhook endpoints for multiple events via the admin section.
 
-You can add a new endpoint or edit any previous one via the **down arrow**. Click the **+ Add Endpoint** option, provide the **URL**, any **description** for the endpoint, **conditions** that allow you to perform complex filtering, select any **event** from the list and click **Save**.
+You can add a new endpoint or edit any previous one via the **down arrow**. Click on **Admin** in the header menu, **Data** and then **Webhooks** from the side menu. On the **Webhooks** screen, click the **+ Add Endpoint** option, provide the **URL**, any **description** for the endpoint, **conditions** that allow you to perform complex filtering, select any **event** from the list and click **Save**.
 
 All endpoints added appear in the form of a list stating its:
 

@@ -9,7 +9,7 @@ The main **Product Owners** along with the members having **Admin Roles** access
 
 In Engage, users are the people that can access or manage different functions within. Admin users can create, add and edit multiple users via the **pen icon**. 
 
-To create a user, click **+ Create User**. In the **General** section:
+Click on **Admin** in the header menu, **Users & Roles** and then **Users** from the side menu. To create a user, click **+ Create User**. In the **General** section:
 
 1. Input **First Name** and **Last Name** of the user.
 2. Write the users **email** and the **job title**.
