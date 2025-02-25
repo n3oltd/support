@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Fri, 31 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[February 2025 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2025-02-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2025-02-update</guid>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the month of February, we add some new features and finish up few bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>For the month of February, we add some new features and finish up few bug fixes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Introducing crowdfunding as a new feature in Umbraco to raise funds by collecting money from people online</li><li>Adding "Eventbrite" as a new payment method under Agency income in Engage</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Validation error message is not visible to the user on the data import screen when importing a record</li><li>Fixed: When creating a certain feedback allocation in a regular giving, an error message appears: "Scheme must have pricing when price is not specified" </li><li>Fixed: A certain record to be imported after a change in Umbraco (Engage forms) is going into error </li><li>Fixed: Few appointments scheduled via the call center are facing an error: "Country must be specified"</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Tax Relief</li><li>Donation Widget</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[January 2025 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2025-01-update</link>
