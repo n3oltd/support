@@ -1,6 +1,6 @@
 ---
 title: Field Transform (Advanced Data Import)
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 In a CRM, generally, field transform refers to the process of modifying the data stored in a CRM field during data imports, exports, or while processing data for use. It helps ensure that data is standardized, cleaned, and usable for reporting, and other functions, etc.
