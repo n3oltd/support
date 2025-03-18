@@ -3,7 +3,7 @@ title: Accounts
 sidebar_position: 1
 ---
 
-In this guide, let us look at how to import account data into its respective queue.
+In this guide, let us look at how to import account data in Engage.
 
 ## Import Account Data via Account Feed
 

@@ -3,7 +3,7 @@ title: Simple Donations
 sidebar_position: 2
 ---
 
-In this guide, let us look at how to import simple donation data into its respective queue.
+In this guide, let us look at how to import simple donation data in Engage.
 
 ## Import Donation Data via Donation Feed
 
