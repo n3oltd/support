@@ -12,7 +12,7 @@ Mailchimp is an all-in-one marketing platform for businesses to manage emails, c
 - A subscribed contact, or subscriber, is someone who has opted in to receive an organizations email marketing.
 :::
 
-Subscribers in the audience section of a Mailchimp account can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or other activities via mailchimp can at the same time opt out of the related contact preference (fundraising emails) within Engage using <K2Link route="docs/engage/data/imports/ways-to-import-data-within-queue/webhooks/" text="webhooks" isInternal/>. 
+Subscribers in the audience section of a Mailchimp account can also be accounts or donors within Engage. Any subscriber wanting to unsubscribe from receiving any email regarding fundraising or other activities via mailchimp can at the same time opt out of the related contact preference (fundraising emails) within Engage using <K2Link route="docs/engage/data/imports/prequisites-to-import-data-within-queue/webhooks/" text="webhooks" isInternal/>. 
 
 1. In Engage, click on **Data**, **Imports** and choose an existing **Queue** or create a new one.
 

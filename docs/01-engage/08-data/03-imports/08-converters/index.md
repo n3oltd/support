@@ -1,6 +1,6 @@
 ---
 title: Converters
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 Converters are tools designed to manage different types of data, especially financial data. They eliminate the need for manual data entry, automatically mapping key details from statements into formatted reports. This guide will walk you through financial bank statement converters and their usage in Engage.
