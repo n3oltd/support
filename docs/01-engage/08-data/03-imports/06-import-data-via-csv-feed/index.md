@@ -7,3 +7,7 @@ As soon as a feed is created within a queue, you are ready to import data via th
 
 1. Accounts 
 2. Simple Donations
+3. JustGiving & LaunchGood Donations
+4. Sponsorships
+5. Pledges
+6. Regular Giving

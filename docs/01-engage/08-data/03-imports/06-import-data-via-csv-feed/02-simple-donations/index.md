@@ -5,8 +5,6 @@ sidebar_position: 2
 
 In this guide, let us look at how to import simple donation data in Engage.
 
-## Import Donation Data via Donation Feed
-
 :::tip
 When importing donations, you can import a donation along with other data types (accounts, sponsorships, feedbacks, pledges), but in this guide we will talk about simple donations only.
 :::
@@ -15,12 +13,14 @@ When importing donations, you can import a donation along with other data types 
 
 ![click import now button](./click-import-now-button.png)
 
-**2.** On the **Upload CSV file to Feed** screen, download the sample file and fill it up with all the new donations that need to be imported into Engage. In the sample file, there are both **mandatory** and **optional** fields that need to be filled in. Let us have a look at each field and its description for clarity.
+**2.** On the **Upload CSV file to Feed** screen, upload all the donation data that needs importing into Engage as a `CSV file`. You can also download the sample CSV file, which includes both **mandatory** and **optional** fields for reference.  
 
 :::tip
 - These fields also depend on the **field mapping** setup in the CSV Account Feed. You can also check whether the options (selected options, filters) under the fields are correctly configured and your added details are in sync with the mapping.
 - If you do not specify any field in the uploaded CSV file, Engage will use the field details from the **Field Mapping** section of the feed.
 :::
+
+Let us have a look at each field and its description for clarity.
 
 | Field | Description |
 | ----- | ----------- |
@@ -38,10 +38,6 @@ When importing donations, you can import a donation along with other data types 
 | **Tax Relief Donation Information** | Information such the **tax relief donation amount, currency, claim submitted on**, etc. and are optional fields. |
 
 ![show donations file](./show-donations-file.png)
-
-Upload the CSV file, make sure your CSV file has the same format as the sample file, and click **Upload**.
-
-![upload csv file](./upload-csv-file.png)
 
 **3.** Each imported data via a feed is shown as a record in the **Import Runs** section under **Info & Imports History**. Number of records are created and tested on the basis of the number of rows within the uploaded data file. Imported records with a **Processed** status can be downloaded or reprocessed, if needed.
 
