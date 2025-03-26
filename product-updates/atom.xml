@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://support.n3o.ltd/product-updates</id>
     <title>N3O Support Blog</title>
-    <updated>2025-02-28T00:00:00.000Z</updated>
+    <updated>2025-03-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://support.n3o.ltd/product-updates"/>
     <subtitle>N3O Support Blog</subtitle>
     <icon>https://support.n3o.ltd/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[March 2025 Update]]></title>
+        <id>https://support.n3o.ltd/product-updates/2025-03-update</id>
+        <link href="https://support.n3o.ltd/product-updates/2025-03-update"/>
+        <updated>2025-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The month of March includes adding some new features and completing up a few bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>The month of March includes adding some new features and completing up a few bug fixes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Introducing "GoodData" reports under Analytics in Engage: it seamlessly integrates into the system, providing real-time analytics</li><li>Adding new payment methods, "Cybersource" and "Network Merchants Incorporated (NMI)", under type: "Card", in Engage</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: A certain record is stuck in processing after import and has a validation issue</li><li>Fixed: Few sponsorships for certain beneficiaries are failing after being created </li><li>Fixed: A duplicate payment is being taken for a regular giving via Stripe payment method</li><li>Fixed: When processing a certain donation under web donation import, an error message: "An unexpected error occurred processing this record" shows up </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Tax Relief</li><li>Donation Widget</li></ul>]]></content>
+        <category label="update" term="update"/>
+        <category label="engage" term="engage"/>
+        <category label="tally" term="tally"/>
+        <category label="forms" term="forms"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[February 2025 Update]]></title>
         <id>https://support.n3o.ltd/product-updates/2025-02-update</id>
