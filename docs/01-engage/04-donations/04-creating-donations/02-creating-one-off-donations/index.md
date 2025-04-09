@@ -42,7 +42,31 @@ Look at the table below for the different defined allocations which you can make
 
 5. Select the **Donation Date** (only for single donation), **Fundraiser** and click **Save & Continue to Payment**. 
 
-6. Lastly in the **Payments** section, you can select any payment method including bank transfer, card, cash & cheque etc. Each method is clickable and includes different fields to be covered. As soon as payment is completed, click **Enter Donation**. 
+6. Lastly in the **Payments** section, you can select any payment method including **agency income, bank transfer, card, cash & cheque** etc. Each method is clickable and includes different fields to be covered. As soon as payment is completed, click **Enter Donation**. 
+
+For **Agency Income**:
+
+Select the payment service provider and input its required parameters. For e.g. *payment service provider GiveBrite, has parameters Givebrite Charge ID, Receipt Book Number, etc.* **Payment Date** is set by default to the current date. 
+
+![agency income](./agency-income.png)
+
+For **Bank Transfer**:
+
+Select the payment service provider and input its required parameters. For e.g. *payment service provider Bank Transfer - Barclays, has parameters Payee, Receipt Book Number, etc.* **Payment Date** is set by default to the current date. 
+
+![bank transfer](./bank-transfer.png)
+
+For **Card**:
+
+Select the payment service provider, choose an existing saved card or add a new one by adding all the required details including cardholder name, number etc.
+
+![card payment](./card-details.png)
+
+For **Cash & Cheque**:
+
+Select the payment service provider as *cash or cheque*, and input its required parameters. **Payment Date** is set by default to the current date.
+
+![cash & cheque](./cash-and-cheque.png)
 
 :::note
 - Payment methods are added and managed by your system administrator.
@@ -51,5 +75,3 @@ Look at the table below for the different defined allocations which you can make
 - Donations whose payment has not been completed come under the **awaiting payment status**. 
 - You can also save your card details for any next payment by ticking the checkbox **Save the card**.
 :::
-
-![Single Donation Payment Methods Gif](./single-payment-methods.gif)

@@ -7,5 +7,6 @@ Effortlessly learn how to create and manage donations in Engage. Read the follow
 
 1. Get Started with Donations
 2. Create a Single Donation
-3. Create a Regular Giving Donation
+3. Create a Regular Giving
+4. Create a Scheduled Giving
 
