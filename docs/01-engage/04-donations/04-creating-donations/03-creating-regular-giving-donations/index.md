@@ -1,9 +1,9 @@
 ---
-title: Create a Regular Giving Donation
+title: Create a Regular Giving
 sidebar_position: 3
 ---
 
-To create a regular giving donation, follow the steps explained below.
+To create a regular giving, follow the steps explained below.
 
 1. On the <K2Link route="giving" text="Giving dashboard" isEngage />, in the *quick navigation box*, click **Enter Donation** or use the **Create** button to enter donation.
 
@@ -33,7 +33,7 @@ Look at the table below for the different defined allocations which you can make
 
 | Allocation Types | Functionality |
 | ---------------- | ------------- |
-| **Fund** | Funds in Engage are called donation items. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. to donate towards it. |
+| **Fund** | Funds in Engage are called <K2Link route="docs/engage/donations/allocations/donation-items/" text="donation items" isInternal />. You can select any donation item, a *program, event or campaign*, and its fund dimensions including *location, theme* etc. to donate towards it. |
 | **Pledge** | To add an allocation as a pledge, select the "Pledge" option which opens a **Search Pledges** pop-up screen. Filter and specify the required parameters to search a pledge or choose any existing one from the list. Pledges containing one or more allocations unavailable to any type of giving will appear blur. Once a pledge is choosen, it appears as **'Towards Pledge - reference number'** in the allocations section. |
 | **Sponsorship** | To add an allocation as a sponsorship, click the **down arrow** to either create a **new** sponsorship or donate to an **existing** one. |
 | **Feedback** | To add an allocation as a sponsorship, click the **down arrow** to either create a **new** feedback or donate to an **existing** one.|
