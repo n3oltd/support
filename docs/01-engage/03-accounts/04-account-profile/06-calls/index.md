@@ -9,7 +9,7 @@ Click **Calls** in the profile menu. Starting from the top, the "Calls" page sho
 
 - **Last Date and Time Contacted:** The date and time of the last recent call made.
 - **Total Calls:** The total number of calls made to the account. 
-- **Total Appointments:** The total number of appointments made. 
+- **Total Upcoming Appointments:** The total number of upcoming appointments scheduled. 
 - **List of Call Records:** A list of all call records.
 
 ![Calls Upper Section](./calls-upper-section.png)
@@ -27,6 +27,26 @@ Callers can now add manual outbound and inbound calls to the donor account for r
 7. **Notes:** Any notes to be added with the call.
 
 ![add call for an account](./add-call-to-account.png)
+
+## Schedule an Appointment Directly
+
+Callers can now schedule an appointment directly with the donor account instead of scheduling during a call. Click **Schedule Appointment** and input the following information. 
+
+1. **Date and Time:** Scheduled date and time of the appointment.
+2. **Timezone:** Geographic region where the same standard time is used. (Usually it choosen according to where the appointment is being scheduled.) 
+3. **Assign Agent or Team:** The agent or the team which will handle the appointment.
+4. **Notes:** Any description of the appointment.
+
+![schedule appointment](./schedule-appointment.png)
+
+All scheduled appointments are displayed in a separate **Upcoming Appointments** section along with:
+
+- **Date** and **time** of appointment
+- **Status** of appointment as **pending** or **complete**
+- **Description** of the appointment in words
+- A **down arrow** from which appointments can be **reassigned** to another agent, **rescheduled** to another time or date and **** if needed.
+
+![show appointments section](./show-appointments-section.png)
 
 ## Observing Call List in Detail
 
