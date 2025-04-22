@@ -1,5 +1,5 @@
 ---
-title: Key Elements and it's Best Practices for a Effective Charity-CRM
+title: Key Elements and it's Best Practices for an Effective Charity CRM
 sidebar_position: 1
 ---
 
