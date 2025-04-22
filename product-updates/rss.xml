@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Fri, 28 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[April 2025 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2025-04-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2025-04-update</guid>
+            <pubDate>Wed, 30 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the month of April, we introduce some new features and clean up a few bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>In the month of April, we introduce some new features and clean up a few bug fixes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Adding a "schedule an appointment" option under Calls in an accounts profile menu where appointments can be created directly </li><li>Adding option to move a list from one folder to other shared root folders </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Deactivation reasons do not appear when requesting to deactivate a certain beneficiary via Engage forms</li><li>Fixed: An error occurred while trying to create a scheduled giving campaign </li><li>Fixed: A feedback report is not generated after instructing a certain feedback</li><li>Fixed: An error while trying to schedule an appointment during a certain call via the call center</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Tax Relief</li><li>Donation Widget</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[March 2025 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2025-03-update</link>
