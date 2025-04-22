@@ -1,6 +1,6 @@
 ---
-title: Best Practices for Using a Donor CRM
-sidebar_position: 3
+title: General Best Practices for Maximising a Donor CRM
+sidebar_position: 2
 ---
 
 A Donor CRM is a powerful tool for managing relationships with donors, streamlining fundraising efforts, and improving donor engagement. To maximize the impact of your donor CRM, it’s important to follow best practices that ensure efficiency, data integrity, and optimal donor experiences. 

@@ -1,6 +1,6 @@
 ---
 title: Sponsorships
-sidebar_position: 11
+sidebar_position: 10
 ---
 
 Another major part of **Engage Forms** under **Content** in the section menu is **Sponsorships**. The sponsorships module is custom-built to manage hundreds of thousands of donor-to-beneficiary relationships. It has two main parts; **Engage** and **Engage Forms**. Engage stores the relationship between the donor and beneficiary along with other functionalities such as payments and donations whereas Engage forms stores the actual data of the beneficiaries.
