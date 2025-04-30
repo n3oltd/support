@@ -7,7 +7,7 @@ LaunchGood is a global crowdfunding platform that enables individuals, nonprofit
 
 Engage allows you to import LaunchGood donations through its data import feature. To start the process, you must first import the **campaign/fundraiser CSV sheet** obtained through the LaunchGood platform into a **type: "Pledge" queue**.
 
-### Upload Campaign/Fundraiser Data into Pledge Queue
+### Import Campaign/Fundraiser Data into Engage via Pledge Queue
 
 **1.** The first step is to create a **field transform rule** for multiple fundraising events in the campaign data. Each event is dedicated to a certain cause and this cause needs to be populated in the form of a pledge with the selected donation items and its fund dimensions in Engage. 
 
@@ -52,7 +52,7 @@ Let us have a look at each field and its description for clarity.
 You can search for the created pledge via any search function in Engage.
 :::
 
-### Upload Donations Recieved from the Campaign into Donations Queue
+### Import Donations Recieved from the Campaign into Engage via Donations Queue
 
 **1.** When the campaign data is successfully imported in Engage, the second step is to import all the donations received via the LaunchGood platform campaign. On the **donation queue's detailed** screen, click the **Import Now** option and choose the **LaunchGood type CSV feed** to upload the donation data into.
 
