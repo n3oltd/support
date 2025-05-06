@@ -1,6 +1,6 @@
 ---
 title: Regular Giving
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 In this guide, let us look at how to import regular givings in Engage.

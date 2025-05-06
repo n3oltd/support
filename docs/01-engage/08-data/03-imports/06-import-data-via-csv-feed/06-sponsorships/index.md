@@ -1,6 +1,6 @@
 ---
 title: Sponsorships
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 In this guide, let us look at how to import sponsorships data in Engage.

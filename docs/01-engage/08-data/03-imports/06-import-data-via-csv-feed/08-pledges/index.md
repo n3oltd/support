@@ -1,6 +1,6 @@
 ---
 title: Pledges
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 In this guide, let us look at how to import pledge data in Engage.
