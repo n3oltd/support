@@ -1,6 +1,6 @@
 ---
 title: Feedbacks
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 The next part to look into under **Content** in the section menu is **Feedbacks**. Feedbacks in Engage are mini charitable projects, in which the donor receives updates after its completion. Such projects can range from constructing a water well or a classroom to building a clinic for the beneficiaries and more.
