@@ -1,6 +1,6 @@
 ---
 title: Reports
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 One of the most important part of **Engage Forms** under **Content** in the section menu is **Reports**. Generally, reports are structured documents that compile data and information to convey about a certain feature or buisness aspect. In Engage, reports are run, whether manually or automated, to update the charities after a certain period of time.

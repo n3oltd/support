@@ -1,6 +1,6 @@
 ---
 title: Finance
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 Another important part under **Content** in the section menu is **Finance**. Generally, finance involves integrating financial data and processes with a CRM's activities to provide a holistic view of customer interactions and financial transactions. 
