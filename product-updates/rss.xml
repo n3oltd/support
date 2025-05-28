@@ -4,10 +4,22 @@
         <title>N3O Support Blog</title>
         <link>https://support.n3o.ltd/product-updates</link>
         <description>N3O Support Blog</description>
-        <lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[May 2025 Update]]></title>
+            <link>https://support.n3o.ltd/product-updates/2025-05-update</link>
+            <guid>https://support.n3o.ltd/product-updates/2025-05-update</guid>
+            <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This May, we polished things up with more bug fixes and added/updated some new features.]]></description>
+            <content:encoded><![CDATA[<p>This May, we polished things up with more bug fixes and added/updated some new features.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h2><ul><li>Refining the layout and consistency of all donation tabs (regular giving, schedule giving &amp; pledges) to ensure a seamless donor experience </li><li>Adding new payment method: "Amanahfy" under type: Agency Income </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2><ul><li>Fixed: Two different organization accounts (having same address) auto merged in background received a validation error</li><li>Fixed: A certain website page in Umbraco is not showing the "Save and publish" option</li><li>Fixed: An error appears while trying to deactivate a beneficiary: "Error creating/ updating deactivation. Please try again"</li><li>Fixed: An error occurs while trying to generate an income accounting Sage file for month of April 2025  </li><li>Fixed: A certain web donation import is stuck in error and follows up with no amount or donation receipt </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="coming-up">Coming Up<a href="#coming-up" class="hash-link" aria-label="Direct link to Coming Up" title="Direct link to Coming Up">​</a></h2><ul><li>Tax Relief</li><li>Donation Widget</li></ul>]]></content:encoded>
+            <category>update</category>
+            <category>engage</category>
+            <category>tally</category>
+            <category>forms</category>
+        </item>
         <item>
             <title><![CDATA[April 2025 Update]]></title>
             <link>https://support.n3o.ltd/product-updates/2025-04-update</link>
