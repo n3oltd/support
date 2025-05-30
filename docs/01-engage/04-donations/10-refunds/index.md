@@ -1,9 +1,7 @@
 ---
 title: Refunds
-sidebar_position: 9
+sidebar_position: 10
 ---
-
-# Refunds
 
 Refunds within a CRM refer to the process of reimbursing a donor for a previous payment. It is essential in terms of:
 
