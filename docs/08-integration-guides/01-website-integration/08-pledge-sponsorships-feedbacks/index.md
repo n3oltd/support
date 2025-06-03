@@ -1,6 +1,6 @@
 ---
 title: Pledges (Sponsorships and Feedbacks)
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 For any pledge donation added via the website, you need to post data to the **Engage webhook endpoint**. This webhook is only used when your organization is using sponsorships and feedbacks as an additional functionality.

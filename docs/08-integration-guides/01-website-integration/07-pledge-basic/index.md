@@ -1,6 +1,6 @@
 ---
 title: Pledges (Basic)
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 A pledge is a formal promise or commitment made by an individual or organization to contribute a specified amount of money in support of a cause or charity. For pledges processed via websites, you need to post data to the **Engage Webhook endpoint**. This webhook is a standard one without any additional information like sponsorships and feedbacks and can be used for performing a basic pledge integration.
