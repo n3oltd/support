@@ -7,7 +7,7 @@ In Engage, a donor can donate towards a specific pledge anytime after its creati
 
 To make a donation towards a pledge, follow the steps defined.
 
-**1.** View an existing pledge from an account's giving profile by clicking the **pen icon** or <K2Link route="docs/engage/donations/allocations/pledges/search-pledge/" text="search for an existing pledge" isInternal/> and click the **Donate to this Pledge** option. 
+**1.** Select a pledge from an account's profile: **Giving** section, by clicking the **pen icon** under **Pledges** or <K2Link route="docs/engage/donations/allocations/pledges/search-pledge/" text="search for an existing pledge" isInternal /> and click the **Donate to this Pledge** option. 
 
 ![Donate to a Pledge](./donate-to-pledge.png)
 
