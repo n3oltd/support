@@ -1,13 +1,13 @@
 ---
 title: Cancel Existing Pledge
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 In Engage, you can cancel any existing pledge. Cancellation can occur due to many reasons e.g. an account that created a certain pledge got closed, the pledger had some financial issues or unanticipated events occurred like emergencies etc.  
 
 To cancel a pledge, follow the steps.
 
-**1.** View an existing pledge from an account's giving profile by clicking the **pen icon** or <K2Link route="docs/engage/donations/allocations/pledges/search-pledge/" text="search for an existing pledge" isInternal/> and click its reference.
+**1.** Select a pledge from an account's profile: **Giving** section, by clicking the **pen icon** under **Pledges** or <K2Link route="docs/engage/donations/allocations/pledges/search-pledge/" text="search for an existing pledge" isInternal /> and click its reference to land onto the pledge screen.
 
 ![Search pledge Gif](./search-pledge.gif)
 
