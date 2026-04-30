@@ -20,5 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # JetBrains Rider
-.idea/.claude
+.idea/
+.claude
 .vscode
